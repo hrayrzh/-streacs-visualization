@@ -2,7 +2,7 @@
 
 Interactive web application visualizing global electricity market evolution and Variable Renewable Energy (VRE) integration (1989-2024).
 
-🌐 **[Live Demo](#)** *(add your GitHub Pages link here)*
+🌐 **[Live Demo]([#](https://hrayrzh.github.io/-streacs-visualization/))**
 
 ---
 
