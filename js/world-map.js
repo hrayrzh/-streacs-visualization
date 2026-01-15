@@ -35,8 +35,10 @@ class WorldMap {
             'Solomon Is.': 'Solomon Islands',
             'Lao PDR': 'Laos',
             'Timor-Leste': 'Timor Leste',
-            'eSwatini': 'Eswatini (Swaziland)',
-            'W. Sahara': 'Western Sahara',
+            'eSwatini': 'Eswatini',
+            'Swaziland': 'Eswatini',
+            'W. Sahara': null,
+            'Western Sahara': null,
             'Antarctica': null,
             'Somaliland': null
         };
