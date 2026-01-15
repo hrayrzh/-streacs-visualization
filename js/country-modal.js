@@ -28,10 +28,16 @@ class CountryModal {
 
     show(countryName) {
         this.currentCountry = countryName;
-        this.loadCountryData(countryName);
+
+        // Show modal FIRST
         this.modal.classList.remove('hidden');
         this.modal.classList.add('active');
         document.body.style.overflow = 'hidden';
+
+        // Then load data (after modal is visible)
+        setTimeout(() => {
+            this.loadCountryData(countryName);
+        }, 50);
     }
 
     hide() {
@@ -183,7 +189,11 @@ class CountryModal {
 
     displayVREChart(countryName) {
         const canvas = document.getElementById('vre-chart');
-        const ctx = canvas.getContext('2d');
+
+        if (!canvas) {
+            console.warn('VRE chart canvas not found');
+            return;
+        }
 
         const vreData = dataLoader.getVREData(countryName);
 
@@ -191,6 +201,8 @@ class CountryModal {
             canvas.parentElement.innerHTML = '<p>No VRE data available for this country</p>';
             return;
         }
+
+        const ctx = canvas.getContext('2d');
 
         const years = vreData.map(d => d.Year);
         const values = vreData.map(d => d['Solar and wind - % electricity']);
