@@ -34,10 +34,10 @@ class CountryModal {
         this.modal.classList.add('active');
         document.body.style.overflow = 'hidden';
 
-        // Then load data (after modal is visible)
+        // Load data after modal is visible (300ms delay for CSS transition)
         setTimeout(() => {
             this.loadCountryData(countryName);
-        }, 50);
+        }, 300);
     }
 
     hide() {
@@ -195,21 +195,39 @@ class CountryModal {
             return;
         }
 
+        // Destroy previous chart if exists
+        if (this.vreChart) {
+            this.vreChart.destroy();
+            this.vreChart = null;
+        }
+
         const vreData = dataLoader.getVREData(countryName);
 
         if (!vreData || vreData.length === 0) {
-            canvas.parentElement.innerHTML = '<p>No VRE data available for this country</p>';
+            // Hide canvas and show message instead of destroying canvas
+            canvas.style.display = 'none';
+            let message = canvas.parentElement.querySelector('.no-vre-message');
+            if (!message) {
+                message = document.createElement('p');
+                message.className = 'no-vre-message';
+                message.textContent = 'No VRE data available for this country';
+                canvas.parentElement.appendChild(message);
+            }
+            message.style.display = 'block';
             return;
+        }
+
+        // Show canvas and hide message
+        canvas.style.display = 'block';
+        const message = canvas.parentElement.querySelector('.no-vre-message');
+        if (message) {
+            message.style.display = 'none';
         }
 
         const ctx = canvas.getContext('2d');
 
         const years = vreData.map(d => d.Year);
         const values = vreData.map(d => d['Solar and wind - % electricity']);
-
-        if (this.vreChart) {
-            this.vreChart.destroy();
-        }
 
         this.vreChart = new Chart(ctx, {
             type: 'line',
@@ -227,7 +245,7 @@ class CountryModal {
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 plugins: {
                     legend: {
                         display: true
@@ -249,6 +267,19 @@ class CountryModal {
                         title: {
                             display: true,
                             text: 'Year'
+                        },
+                        ticks: {
+                            autoSkip: true,
+                            maxRotation: 45,
+                            minRotation: 45,
+                            callback: function(value, index, values) {
+                                const year = this.getLabelForValue(value);
+                                // Show every 5th year
+                                if (year % 5 === 0) {
+                                    return year;
+                                }
+                                return null;
+                            }
                         }
                     }
                 }

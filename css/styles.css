@@ -285,11 +285,18 @@ body {
     background: var(--background);
     border-radius: 8px;
     border-left: 4px solid var(--secondary-color);
+    overflow: hidden;
 }
 
 .detail-section h3 {
     color: var(--primary-color);
     margin-bottom: 12px;
+}
+
+.detail-section canvas {
+    max-height: 300px;
+    width: 100% !important;
+    height: 300px !important;
 }
 
 /* Armenia Analysis */
