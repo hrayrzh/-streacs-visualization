@@ -3,6 +3,9 @@ prompt.txt
 files/
 DEPLOY.md
 QUICK_START.md
+parse-all-data.py
+parse-all-data.js
+DOCUMENTATION.md
 
 # Системные файлы
 .DS_Store

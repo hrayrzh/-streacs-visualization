@@ -9,6 +9,37 @@ class WorldMap {
         this.currentYear = 2024;
         this.playing = false;
         this.playInterval = null;
+
+        // Map TopoJSON country names to our data names
+        this.nameMapping = {
+            'United States of America': 'United States',
+            'USA': 'United States',
+            'Czechia': 'Czech Republic',
+            'Czech Rep.': 'Czech Republic',
+            'Bosnia and Herz.': 'Bosnia and Herzegovina',
+            'Bosnia-Herzegovina': 'Bosnia and Herzegovina',
+            'North Macedonia': 'Republic of North Macedonia',
+            'Macedonia': 'Republic of North Macedonia',
+            'Turkey': 'Turkiye',
+            'Dem. Rep. Congo': 'Democratic Republic of the Congo',
+            'Democratic Republic of Congo': 'Democratic Republic of the Congo',
+            'Congo': 'Congo',
+            'Republic of Congo': 'Congo',
+            'Republic of the Congo': 'Congo',
+            'Côte d\'Ivoire': 'Ivory Coast',
+            'Cote d\'Ivoire': 'Ivory Coast',
+            'Dominican Rep.': 'Dominican Republic',
+            'Eq. Guinea': 'Equatorial Guinea',
+            'Central African Rep.': 'Central African Republic',
+            'S. Sudan': 'South Sudan',
+            'Solomon Is.': 'Solomon Islands',
+            'Lao PDR': 'Laos',
+            'Timor-Leste': 'Timor Leste',
+            'eSwatini': 'Eswatini (Swaziland)',
+            'W. Sahara': 'Western Sahara',
+            'Antarctica': null,
+            'Somaliland': null
+        };
     }
 
     async initialize() {
@@ -83,24 +114,54 @@ class WorldMap {
         }
     }
 
+    normalizeName(countryName) {
+        // Map TopoJSON names to our data names
+        if (countryName in this.nameMapping) {
+            return this.nameMapping[countryName]; // Can be null for Antarctica
+        }
+        return countryName;
+    }
+
     getCountryColor(countryName, year) {
-        const code = dataLoader.getMarketCode(countryName, year);
+        const normalizedName = this.normalizeName(countryName);
+        if (!normalizedName) {
+            return CONFIG.marketColors['none']; // Gray for territories without data
+        }
+        const code = dataLoader.getMarketCode(normalizedName, year);
         return HELPERS.getMarketColor(code);
     }
 
     getCountryTooltip(countryName, year) {
-        const code = dataLoader.getMarketCode(countryName, year);
+        const normalizedName = this.normalizeName(countryName);
+        if (!normalizedName) {
+            return `${countryName}\nNo data available`;
+        }
+        const code = dataLoader.getMarketCode(normalizedName, year);
         const label = HELPERS.getMarketLabel(code);
         return `${countryName}\n${year}: ${label}`;
     }
 
     onCountryClick(countryData) {
         const countryName = countryData.properties.name;
-        console.log('Country clicked:', countryName);
+        const normalizedName = this.normalizeName(countryName);
+        console.log('Country clicked:', countryName, '->', normalizedName);
+
+        // Skip if no data (e.g., Antarctica, Somaliland)
+        if (!normalizedName || normalizedName === null) {
+            console.log('No data available for this territory:', countryName);
+            return;
+        }
+
+        // Check if country has data
+        const hasData = dataLoader.getMarketCode(normalizedName, this.currentYear);
+        if (!hasData) {
+            console.log('No market data for:', normalizedName);
+            return;
+        }
 
         // Open country modal
         if (window.countryModal) {
-            window.countryModal.show(countryName);
+            window.countryModal.show(normalizedName);
         }
     }
 

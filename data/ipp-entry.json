@@ -1,62 +1,1382 @@
 {
-  "Armenia": {
-    "yearFirstIPP": "2003",
-    "yearFirstPrivateIPP": "2011",
+  "Afghanistan": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "Several PPAs with IPPs signed but none operational, e.g. Mazdar CCGT"
+  },
+  "Albania": {
+    "yearFirstIPP": "2012",
+    "yearFirstPrivateIPP": "2012",
+    "typeOperational": "1",
+    "notes": "\"Ashta is a 52.9MW hydro power project. It is located on Drin river/basin in Shkoder, Albania. The project is currently active. It has been developed in multiple phases. The project construction commenced in 2009 and subsequently entered into commercial operation in 2012. The project was developed by ENERGJI ASHTA. The project is co-owned by EVN and Verbund, with their respective ownership stake of 50% each. Ashta is a run-of-river project. The project generated 242 GWh of electricity.\" (https://www.power-technology.com/marketdata/ashta-albania/)"
+  },
+  "Algeria": {
+    "yearFirstIPP": "2005",
+    "yearFirstPrivateIPP": "2005",
     "typeOperational": "4",
-    "notes": "Hrazdan Thermal Power Plant (gas fired) was acquired by Russian state-owned Rosneftegaz in 2003, then sold to Tashir Group in 2011"
+    "notes": "The earliest IPP that became operational I could find was the Kahrama IPP. It became operational  in 2005 and started selling to GRTE.Spa the single buyer."
+  },
+  "American Samoa": {
+    "yearFirstIPP": "2015",
+    "yearFirstPrivateIPP": "2015",
+    "typeOperational": "3",
+    "notes": "\"Sun Pacific Energy Limited (SPEL) is an independent power producer (IPP) that holds a valid business license in Samoa. The IPP currently sells power to the Electric Power Corporation (EPC), Samoa’s state-owned power utility, through a 20-year power purchase agreement (PPA) that was signed in June 2015. The existing obligation is for SPEL to generate 3.5 million kilowatthours (kWh) a year that are sold at ST0.55 per kWh.  The PPA allows for a shortfall in offtaking volume of 5% after which the IPP must pay a penalty to EPC for the shortfall volume. The charge for the shortfall is based on EPC’s avoided diesel generation cost per kWh that is computed monthly. The penalty is capped at 20% of EPC’s monthly Fuel Charge. EPC is also committed to purchase up to 5% of the energy output in excess of the agreed 3.5 million kWh.\" (https://www.adb.org/sites/default/files/linked-documents/49339-001-dia.pdf)"
+  },
+  "Andorra": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating"
+  },
+  "Angola": {
+    "yearFirstIPP": "2015",
+    "yearFirstPrivateIPP": "2015",
+    "typeOperational": "7",
+    "notes": "Biocom is the first IPP. It has been a mix of self consumption and selling to the grid from the start \"Part of the energy we generate is consumed by Biocom during the processing and production stages, but we also generate a surplus, which we make available to the Rede Nacional de Transmissão de Eletricidade (RNT), the country’s electricity offtaker. During harvest, we consume around 30-40% of the energy we produce. The surplus, which is 60-70%, is made available to the national network. This generation of surplus energy is by design and was planned at the company’s conception since the project has always seen Biocom as an IPP company.\" (https://theenergyyear.com/articles/reducing-angolas-reliance-on-food-imports/) Became operational in 2015 (https://www.biofuelsdigest.com/bdigest/tag/biocom/) (https://www.biofuelsdigest.com/bdigest/2015/05/26/biocom-project-to-be-commissioned-in-june-one-year-late-and-50-above-budget/)"
+  },
+  "Anguilla": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating"
+  },
+  "Antigua and Barbuda": {
+    "yearFirstIPP": "1996",
+    "yearFirstPrivateIPP": "1996",
+    "typeOperational": "6",
+    "notes": "\"The Antigua Power  Company (APC)  is  an  independent power  producer  (IPP)  that  has  supplied  power  to  the APUA  grid  since  1996  (Antigua  Public  Utilities  Authority  2004).\" http://www.oas.org/en/sedi/dsd/Energy/Doc/11._Energy_Policy_and_Sector_Analysis_in_the_Caribbean_2010-2011.pdf"
   },
   "Argentina": {
     "yearFirstIPP": "1992",
     "yearFirstPrivateIPP": "1992",
     "typeOperational": "1",
-    "notes": "Major privatizations occurred in 1992 when IPPs entered the country"
+    "notes": "Major privatizations occur in 1992 when IPPs enter the country \"During the period 1992-2000, from the initial privatization until the recent national crisis, IPPs for the most part thrived in a strong market overseen by a stable regulatory regime\" (https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/Argentina.pdf)"
+  },
+  "Armenia": {
+    "yearFirstIPP": "2003",
+    "yearFirstPrivateIPP": "2011",
+    "typeOperational": "4",
+    "notes": "Hrazdan Thermal Power Plant (gas fired) was acquired by Russian state-owned holding company Rosneftegaz and then in 2011 sold to Tashir Group. Hrazdan Thermal Power Plant HTPP: \"In 2003, the Hrazdan Thermal Power Plant HTPP was passed to Russian Federation to pay off the Armenian debt which was approximately US$31 million. The shares of the Hrazdan Energy Company went to the Federal Agency for State Property Management of Russia. In July 2009, all stocks minus one share were acquired by the Russian state-owned holding company Rosneftegaz. In May 2011, all shares were bought by Inter RAO UES\" (https://en.wikipedia.org/wiki/Hrazdan_Thermal_Power_Plant)"
+  },
+  "Aruba": {
+    "yearFirstIPP": "2009",
+    "yearFirstPrivateIPP": "2009",
+    "typeOperational": "2",
+    "notes": "Vader Piet is a 30MW onshore wind power project selling under PPA to WEB Aruba since 2009."
   },
   "Australia": {
     "yearFirstIPP": "1880",
     "yearFirstPrivateIPP": "1880",
     "typeOperational": "5",
-    "notes": "Pre 1989 had IPPs operating in certain parts, Victoria had IPPs since 1880 - thermal coal plants"
+    "notes": "Pre 1989 had IPPs operating in certain parts of the country, victoria had IPPs since 1880 (https://www.ewh.ieee.org/r10/nsw/subpages/history/electricity_in_australia.pdf), these were thermal plants, I am coding as coal based"
   },
-  "Germany": {
-    "yearFirstIPP": "1998",
-    "yearFirstPrivateIPP": "1998",
+  "Austria": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "Power sector is dominated by integrated utilities (Verbund owns both generation and distribution assets). I was unable to find a sole private power producer in the market."
+  },
+  "Azerbaijan": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "Azerenergy a state-owned VIU dominates the generation segement.  As the largest electricity provider, Azerenergy owns and operates most generation assets including gas-fired, oil-fired and hydro plants, and is the transmission system operator (TSO). Azerishiq OJSC is the 100% state-owned distribution company. There are no IPPs currently operating but several are being constructed and likely to come online in the next 1-2 years."
+  },
+  "Bahamas": {
+    "yearFirstIPP": "Under consideration",
+    "yearFirstPrivateIPP": "Under consideration",
+    "typeOperational": "0",
+    "notes": "In 2020, Shell was awarded an IPP license to develop a gas-to-power plant under a PPA that will run till 2035 with the BPL (state-owned VIU). I could not find further information on this project, it does not seem to have been developed yet. In May 2023, Grand Bahama Power Company announced it was signing a Power Purchase Agreement (PPA) with the Independent Power Producer (IPP) Bahamas Solar and Renewables. The agreement will see one of the largest renewable energy plants built on the island. \"The new solar plant will provide an approximate capacity of five megawatts of clean renewable energy...Construction on the renewable energy plant is expected to begin later this year and is expected to be completed before the summer of 2024. \" (https://znsbahamas.com/bahamas-solar-and-renewables-ppa-with-grand-bahama-power-company/)"
+  },
+  "Bahrain": {
+    "yearFirstIPP": "2006",
+    "yearFirstPrivateIPP": "2006",
+    "typeOperational": "4",
+    "notes": "2006 first IPP becomes operational. Now majority of generation are IPPs \"The kingdom awarded its first IPP contract, for the Al Ezzel power plant, in 2004. The first 470-MW phase came on-line in 2006, followed by a second, 480-MW phase in 2007.\" (https://oxfordbusinessgroup.com/overview/new-lease-life-major-hydrocarbons-find-and-efforts-bolster-existing-reserves-increase-production#:~:text=Independent%20Power%20Producers&text=The%20kingdom%20awarded%20its%20first,480%2DMW%20phase%20in%202007.) This is a gas fired CCGT plant (https://www.power-technology.com/marketdata/al-ezzel-combined-cycle-power-plant-bahrain/)"
+  },
+  "Bangladesh": {
+    "yearFirstIPP": "2003",
+    "yearFirstPrivateIPP": "2003",
+    "typeOperational": "4",
+    "notes": "Summit Power IPP start operations in 2003. Madhabdi Power Plant Unit I of Summit IPP becomes operational. First IPP selling to the grid.  (https://summitpowerinternational.com/madhabdi-power-plant-i) This is a gas fired power plant"
+  },
+  "Barbados": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "Though BL&P’s operating license is non-exclusive and independent power producers (IPPs) are permitted under the Electric Light and Power Act, there have been no other market entrants in energy generation or delivery to date (https://www.nrel.gov/docs/fy15osti/64118.pdf) There does not seem to be a large scale IPP operating in the country. There is a total 25 MW of distributed customer-owned rooftop solar photo-voltaics that produce power and can sell to BL&P. (https://www.blpc.com.bb/index.php/company/how-we-serve-you/how-we-generate-electricity) In November 2023, Jurchen Technology, a German-based manufacturer of solar power plants, in partnership with Blue Circle Energy, a renewable energy developer based in Barbados, signed a Memorandum of Understanding (MOU) for the construction of a 60 MW portfolio of solar generation projects across Barbados’ 11 parishes. The project is expected to include battery storage alongside PV. \"Discussions around tariff rates for the portfolio’s BESS are still ongoing, and a decision needs to be reached before construction of the project begins.\" (https://pv-magazine-usa.com/2023/11/15/barbados-finalizes-plans-to-construct-a-60-mw-portfolio-of-community-solar-gardens/) Barbados is also looking to build an IPP wind farm. In December 2023, \"government of Barbados has selected International Finance Corporation (IFC) as a lead transaction adviser as the Caribbean country is looking to build its first utility-scale onshore wind farm with a projected capacity of 30-50 MW...The Lamberts project, to be located in the northeastern part of the island, will be structured as a public-private partnership (PPP). Barbados will seek to attract a private sector sponsor as a majority owner of the asset through a competitive tender process. \" (https://renewablesnow.com/news/barbados-hires-ifc-to-advise-on-first-utility-scale-wind-project-842232/)"
+  },
+  "Belarus": {
+    "yearFirstIPP": "2017",
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "From the information I was able to find, there are no purely private IPPs. Belenergy solar IPP is owned by state oil company."
+  },
+  "Belgium": {
+    "yearFirstIPP": "2011",
+    "yearFirstPrivateIPP": "2011",
+    "typeOperational": "4",
+    "notes": "\"T-Power was founded in 2005, with Tessenderlo Group as one of its original three shareholders. After completion of the development program, the T-Power 425 MW gas-fired combined cycle power plant (CCGT) located in Tessenderlo was built and commissioned in 2011. Thanks to its high efficiency and flexibility, the T-Power power plant is one of the most competitive gas-fired power plants in Belgium and the broader interconnected electricity trading area. T-Power operates as a project-financed Independent Power Producer and we get our revenues through a 15-year gas-to-electricity tolling agreement with the RWE group. After several changes in shareholding over the years, Tessenderlo Group acquired 100% of T-Power in October 2018 by purchasing the shares held by the remaining shareholders.\" (https://www.tessenderlo.com/en/our-activities/t-power)"
+  },
+  "Belize": {
+    "yearFirstIPP": "2003",
+    "yearFirstPrivateIPP": "2003",
+    "typeOperational": "1",
+    "notes": "Hydro Maya Limited (HML) was granted a license as an IPP in 1998, PPA with BEL becomes operational in September 2003."
+  },
+  "Benin": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "As of March 2024, I could not find any IPPs operating in the country but there are several solar IPPs being developed. Likely to transition to 2a in the coming years."
+  },
+  "Bermuda": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I cannot find any IPPs operating in the country"
+  },
+  "Bhutan": {
+    "yearFirstIPP": "2002",
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I cannot find any private IPPs in the country. In 2002 unbundle the VIU to create separate state owned transmission company. There is now a single state owned generation company. Druk Green Power Corporation Limited (DGPC), a subsidiary of Druk Holding and Investments Limited, is the only generation utility in Bhutan. It was formed in December 2007 to develop and manage Bhutan’s hydropower resources and assets. (https://www.drukgreen.bt/en/)"
+  },
+  "Bolivia": {
+    "yearFirstIPP": "1995",
+    "yearFirstPrivateIPP": "1995",
+    "typeOperational": "4",
+    "notes": "Private IPPs start in 1995 previouly (pre-1989) there was private VIU operating in the country and also captive generators. First privatized power plant was Guaracachi power station (Central Eléctrica Guaracachi) which is a 269-megawatt (MW) operating gas-fired power station in Santa Cruz de la Sierra, Santa Cruz, Bolivia. (https://www.gem.wiki/Guaracachi_power_station)"
+  },
+  "Bosnia and Herzegovina": {
+    "yearFirstIPP": "2022 IPP PPA signed",
+    "yearFirstPrivateIPP": "2022 IPP PPA signed",
+    "typeOperational": "0",
+    "notes": "I could not find independent power producers currently operating in the company. The power generators seem to be vertically integrated with distribution. There could be IPPs entering the country in the coming years especially for renewables.  December 2022: \"The Ministry of Energy and Mining in the Republic of Srpska, also known as the Serb Republic, has awarded 2 concession agreements with B&B sunce vjetar for an 80 MW solar power plant and a 39.6 MW wind project, after completing a competitive auction\" (https://renewablesnow.com/news/bosnias-serb-republic-invites-bids-for-construction-of-80-mw-solar-plant-788275/)"
+  },
+  "Botswana": {
+    "yearFirstIPP": "2009",
+    "yearFirstPrivateIPP": "2009",
+    "typeOperational": "6",
+    "notes": "In 2009 the first IPP starts operations. APR Energy operates a 70 MW diesel emergency power plant at Matshelagabedi. (https://www.africanpowerplatform.org/resources/power-projects/user-item/728-admin/915-matshelagabedi-power-plant.html)  Since 2020, the government awarded 3 IPP licenses for coal based power generators. These include the Morupule IPP. Botswana Power Corporation (BPC), signed a Power Purchase Agreement (PPA) with the Independent Power Producer (IPP) Jindal Steel and Power Ltd. on 25 July 2023. (https://energycentral.com/news/jindal-breaks-ground-kickstart-600mw-coal-power-plant) None these are yet operational."
+  },
+  "Brazil": {
+    "yearFirstIPP": "1997",
+    "yearFirstPrivateIPP": "1997",
+    "typeOperational": "1",
+    "notes": "There were private power plants operating from 1930s, nationalization led to most being owned by the state in 1985. In 1995 start restructuring the sector and allowing IPP participation. I could not find definitively when the first IPP entered during 1994-1998 period but was able to confirm that there were 17 IPPs operating in 2000. I did find that the \"First privatization of generation company (Cachoeira Dourada)\" was in 1997 which was a hydropower plant. I am coding based on this power plant."
+  },
+  "British Virgin Islands": {
+    "yearFirstIPP": "Being constructed",
+    "yearFirstPrivateIPP": "Being constructed",
+    "typeOperational": "0",
+    "notes": "Solar/battery project is under construction by an IPP. In 2019 the government announced it would issue RE tenders to introduce IPP participation in the sector. One project has advanced, a battery storage/solar project is under construction. The project was initially expected to be operational in November 2023 and owned by US private company Power52. However, the company went into bankruptcy in July 2023 (https://www.bvibeacon.com/with-power52-boss-in-bankruptcy-anegada-solar-farms-future-unclear/). It is unclear at this stage when the solar project will become operational. It is currently around 40% completed (as of December 2023) and may come online in 2024. (https://bvinews.com/anegada-renewable-energy-plant-is-40-complete/)"
+  },
+  "Brunei": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I could not find any IPPs operating in the country"
+  },
+  "Bulgaria": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2002",
+    "typeOperational": "5",
+    "notes": "In 2000 unbundle national VIU (NEK). Kozloduy NPP, Rousse East TPP and Maritsa East 1 TPP were set up as independent electricity producer but they remain state owned."
+  },
+  "Burkina Faso": {
+    "yearFirstIPP": "2022",
+    "yearFirstPrivateIPP": "2022",
+    "typeOperational": "3",
+    "notes": "In 2022: \"GreenYellow has inaugurated its 30M Wp Nagréongo PV power plant in Burkina Faso, making them the first independent power producer in the country. This project responds to the energy challenge facing Burkina Faso which possesses one of the weakest electricity networks in Sub-Saharan Africa but a high energy demand. The inauguration of the 30M Wp power plant was driven by the Société de Production d’Energie Solaire de Ouagadougou (SPES), a subsidiary of GreenYellow and the result of a shareholding pact with the local SME Africa Energy Corporation (AEC). This project is part of a public-private partnership signed with the Burkinabè government in 2019. All the electricity produced by the solar power plant will be sold to the national company SONABEL. The project was entirely developed, financed and built by GreenYellow, which will also operate and maintain the installation of this plant. A loan of ~$21.3 M (€21 M) was granted by the Dutch development bank FMO to GreenYellow for the construction of this solar power plant.\" (https://transformers-magazine.com/tm-news/burkina-fasos-first-ipp-inaugurates-30-mwp-pv-solar-plant/)"
+  },
+  "Burundi": {
+    "yearFirstIPP": "2017",
+    "yearFirstPrivateIPP": "2017",
+    "typeOperational": "4",
+    "notes": "To-date, there is one IPP operating a gas-fired plant of 30 MW in Bujumbura, and in 2021 solar IPP Gigawatt for 7.5 MW solar PV-based became operational. (https://documents1.worldbank.org/curated/en/729191565283179350/pdf/Concept-Project-Information-Document-PID-Burundi-Access-to-Sustainable-Energy-P164435.pdf)"
+  },
+  "Cape Verde": {
+    "yearFirstIPP": "2011",
+    "yearFirstPrivateIPP": "2011",
     "typeOperational": "2",
-    "notes": "Market liberalization in 1998 enabled private generators, primarily wind"
+    "notes": "2011 - 1 MW wind farm in Santo Antao become operational April 2011"
   },
-  "Spain": {
-    "yearFirstIPP": "1998",
-    "yearFirstPrivateIPP": "1998",
+  "Cambodia": {
+    "yearFirstIPP": "2005",
+    "yearFirstPrivateIPP": "2005",
+    "typeOperational": "6",
+    "notes": "Cambodian IPP investor, Khmer Electrical Power Company, operates a 30-MW diesel power plant in Phnom Penh. The plant has been operating since March 2005."
+  },
+  "Cameroon": {
+    "yearFirstIPP": "2009",
+    "yearFirstPrivateIPP": "2009",
+    "typeOperational": "6",
+    "notes": "44 MW of the Dibamba plant started producing in August 2009, while the remainder came online in 2011. AES Sonel was awarded the right to develop an 88 MW heavy fuel- oil based thermal power plant on an emergency basis to meet critical energy shortages."
+  },
+  "Canada": {
+    "yearFirstIPP": "1885",
+    "yearFirstPrivateIPP": "1885",
+    "typeOperational": "1",
+    "notes": "1878 - The American Electric and Illuminating Company was formed in Montreal. This was the first record of an electric utility company in Canada. (https://www.electricity.ca/knowledge-centre/about-the-electricity-sector/history-of-electricity/)"
+  },
+  "Cayman Islands": {
+    "yearFirstIPP": "2017",
+    "yearFirstPrivateIPP": "2017",
+    "typeOperational": "3",
+    "notes": "The 5MW Solar Farm is the first commercial solar project in the Cayman Islands. It was completed and commissioned in June 2017 and is located on a 20-acre site in Bodden Town, Grand Cayman. The Farm comprises 21,690 poly-crystalline photovoltaic (solar) modules each with a DC-rated capacity of 305 watts. (https://www.cuc-cayman.com/renewable-energy/5mw-solar-farm/#:~:text=The%205MW%20Solar%20Farm%20is,rated%20capacity%20of%20305%20watts.) This solar farm was also the first Independent Power Producer (IPP) in Grand Cayman, selling electricity to CUC through a Power Purchase Agreement (PPA). (https://caymanresident.com/live/being-green/solar-systems-in-cayman)"
+  },
+  "Central African Republic": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are some captive generators operating but I could not find any IPP in existence."
+  },
+  "Chad": {
+    "yearFirstIPP": "None operational but a solar IPP under development expected in 2025",
+    "yearFirstPrivateIPP": "None operational but a solar IPP under development expected in 2025",
+    "typeOperational": "0",
+    "notes": "new IPP is expected to become operational in 2025"
+  },
+  "Channel Islands": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I could not find any IPPs operating in the country."
+  },
+  "Chile": {
+    "yearFirstIPP": "1986",
+    "yearFirstPrivateIPP": "1987",
+    "typeOperational": "1",
+    "notes": "Government start privatizations in 1986. Chilgener the state owned electricity company was privatized in 1987, majority of generation assets were hydro. (for details see: https://repositories.lib.utexas.edu/bitstream/handle/2152/10347/9306.pdf?sequence=2)"
+  },
+  "China": {
+    "yearFirstIPP": "1994",
+    "yearFirstPrivateIPP": "2004",
+    "typeOperational": "5",
+    "notes": "Based on my research, Huaneng Power International, Inc. (Huaneng Power) was the earliest IPP established in 1994.  It was part of state owned enterpriseC hina Huaneng Group, one of the five largest power producers in China. So it was not a private IPP. (https://en.wikipedia.org/wiki/Huaneng_Power_International)"
+  },
+  "Colombia": {
+    "yearFirstIPP": "1994",
+    "yearFirstPrivateIPP": "2000",
+    "typeOperational": "1",
+    "notes": "1994: unbundle VIUs to create IPPs, I think at this stage these were state/municipal owned generation companies."
+  },
+  "Comoros": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I could not find any IPPs operating in the country."
+  },
+  "Democratic Republic of the Congo": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are a few off-grid private generation companies operating but none are grid connected. But there appear to be some solar IPP projects in the pipeline."
+  },
+  "Congo": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I could not find any IPPs operating in the country."
+  },
+  "Cook Islands": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Costa Rica": {
+    "yearFirstIPP": "2006",
+    "yearFirstPrivateIPP": "2006",
+    "typeOperational": "1",
+    "notes": "\"La Joya began operating on 9 June 2006; the plant uses the turbinated water from the Cachí hydropower plant owned by the Costa Rica Electricity Institute. Global Power Generation launched operations in Costa Rica with this power plant, it being the first BOT implemented by a foreign company in this Central American country.\" (https://www.globalpower-generation.com/projects/costa-rica/)"
+  },
+  "Ivory Coast": {
+    "yearFirstIPP": "1995",
+    "yearFirstPrivateIPP": "1995",
+    "typeOperational": "4",
+    "notes": "The first IPP project Compagnie Ivoirienne de Production d’Electricité (CIPREL) first phase was operational in 1995 and second phase in 1997. The projecet was signed in 1994. It was followed by Azito IPP in 1998.  Vridi thermal power plant is an Ivorian gas-fired thermal power plant that entered into service on March 1 , 1995, and producing electricity using natural gas ."
+  },
+  "Croatia": {
+    "yearFirstIPP": "2002",
+    "yearFirstPrivateIPP": "2012",
+    "typeOperational": "4",
+    "notes": "\"IPP Jertovec is the first facility in Croatia to be built by an independent power producer (IPP) under BOOT scheme – Enron Europe Ltd. The plant will be built on the BOOT principle (Build - Own - Operate - Transfer). The Croatian power utility Hrvatska Elektroprivreda (HEP) would buy electricity from the plant at agreed rates, take over the power plant after the period agreed and proceed with operating the plant until its service life is over.\" (https://www.ebrd.com/english/pages/project/eia/jertovec.pdf). Plant is reported to start operation in 2012 (https://www.gem.wiki/Jertovec_power_station).  This is a CCGT plant."
+  },
+  "Cuba": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Curaçao": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Cyprus": {
+    "yearFirstIPP": "2011",
+    "yearFirstPrivateIPP": "2011",
     "typeOperational": "2",
-    "notes": "Market liberalization enabled IPPs, strong wind development"
+    "notes": "First IPP wind farms (Orites, Alexigros, Agia Anna wind farms) start operations and sell to VIU in 2011. All three have different private owners from each other. As of January 2024, there are six solar IPPs, with portfolios that correspond to about 8% of electricity generated in the country. \"Interestingly, private suppliers sell electricity to large consumers about 10% cheaper than the EAC does.\" (https://www.pv-magazine.com/2024/03/09/weekend-read-upstart-vs-incumbent/)"
   },
-  "Poland": {
+  "Czech Republic": {
     "yearFirstIPP": "2000",
     "yearFirstPrivateIPP": "2000",
     "typeOperational": "5",
-    "notes": "IPPs entered after market reforms in 2000"
+    "notes": "Energy Center Kladno project is the first independent power producer (IPP) project to be financed in the Czech Republic (https://www.osti.gov/biblio/20006787) it is a coal fired power plant the first unit of 135 MW became operational in 2000 (https://www.gem.wiki/Kladno_power_station)"
   },
-  "Romania": {
-    "yearFirstIPP": "2000",
-    "yearFirstPrivateIPP": "2000",
-    "typeOperational": "1",
-    "notes": "IPPs entered after market reforms"
+  "Denmark": {
+    "yearFirstIPP": "2001",
+    "yearFirstPrivateIPP": "2001",
+    "typeOperational": "4",
+    "notes": "By 1997 there were some small scale CHP and wind operators selling to the two VIUs but these seem very small scale so I am not considering them IPPs. \"Almost four-fifths of Danish generating capacity is controlled by Elsam or Elkraft. Industrial autoproduction accounted for only 300 MW (less than 3% of the total) in 1997... Wind turbines have relatively dispersed ownership: A bit over 80% of the total installed capacity is not owned by utilities. Wind accounts for about 8% of annual generation.\" (https://www.oecd.org/regreform/sectors/2497351.pdf)"
   },
-  "Georgia": {
+  "Djibouti": {
+    "yearFirstIPP": "2023",
+    "yearFirstPrivateIPP": "2023",
+    "typeOperational": "2",
+    "notes": "Red Sea Power Project become operational on September 10, 2023. This is a 60 MW Wind Farm."
+  },
+  "Dominica": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I could not find any IPPs operating in the country."
+  },
+  "Dominican Republic": {
     "yearFirstIPP": "1999",
     "yearFirstPrivateIPP": "1999",
     "typeOperational": "1",
-    "notes": "Hydro IPPs after privatization"
+    "notes": "In 1999 the state owned VIU was unbundled creating several state owned IPPs including Egehid which is still to this day (2023) a hydropower IPP managing 27 hydropower plants (see:https://www.bnamericas.com/en/company-profile/empresa-de-generacion-hidroelectrica-dominicana#:~:text=Egehid%20was%20founded%20in%202001,Legal%2C%20Financial%20and%20Insurance%20industries.)"
   },
-  "Denmark": {
+  "Ecuador": {
+    "yearFirstIPP": "1999 but renationalized in 2009",
+    "yearFirstPrivateIPP": "1999 but most private sector is reduced to small RE operators by 2010",
+    "typeOperational": "1",
+    "notes": "In 1999 unbundle and privatize the state owned VIU INCELEC. Hidroagoyan is one of the generation companies formed from the unbundling it operates as an IPP till 2010 when it is brought under the state owned VIU CELEC. Private generation is mainly composed of small renewable generators. In March 2023, the first private solar PV project in Ecuador entered operations with the inauguration of the KFC Ecuador’s Group 1.5MW plant. The government launched its first FiT programme in 2011 under Regulation 004/11. A second FiT was launched under Regulation 001/13.In March 2023, Solarpack signed an agreement with the Ecuador's Ministry of Energy and Non-Renewable Natural Resources (MERNNR) to develop the 200MW El Aromo solar farm. The 20-year concession also includes a power-purchase agreement associated"
+  },
+  "Egypt": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2002",
+    "typeOperational": "4",
+    "notes": "In 2000, unbundling of the  state owned VIU created state owned generation companies. In 2002 first private IPP becomes operational"
+  },
+  "El Salvador": {
+    "yearFirstIPP": "1998 (state generator created geothermal)",
+    "yearFirstPrivateIPP": "2017",
+    "typeOperational": "3",
+    "notes": "\"The government restructured the public electricity utility CEL in 1998, and its distribution and systems operations were privatized. Geothermal energy production was separated from CEL and reborn in a public company called LaGeo, still owned by CEL, which today runs two power plants and supplies some 25 percent of the nation’s power.'"
+  },
+  "Equatorial Guinea": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "No IPPs are currently operational or being planned at this stage."
+  },
+  "Eritrea": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "No IPPs are currently operational or being planned at this stage."
+  },
+  "Estonia": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2000",
+    "typeOperational": "6",
+    "notes": "2000 privatize oil-shale power plants: \"There are two large oil-shale fired electric power plants -- the Estonian Power Station (Eesti Elekrijaam) and the Baltic Power Station (Balti Elektrijaam). Estonia has now privatized these two power plants. There had been negotiations since 1996 with NRG Energy Inc., a subsidiary of Minnesota-based Northern States Power, and Estonia concluded the deal with NRG Energy in June 2000. NRG bought 49% of the Narva Power Plants for $70.5 million, which breaks down to $65.5 million as the price of the power plants and a $5 million payment into a social fund to help Ida-Virumaa county where the Narva power plant is located. The deal includes a renovation by NRG of the Narva Power Plants. In June 2001, NRG agreed to pay an additional $27.6 million for its share in Eesti Polevkivi to complete the deal, but in January 2002, Estonia canceled the deal, claiming that NRG had missed an end-of-2001 deadline for obtaining financing. NRG then filed a lawsuit, seeking $100 million from Eesti Energia as compensation for the reversal in privatization for the Narva facility.\" (http://www.geni.org/globalenergy/library/national_energy_grid/estonia/EnergyOverviewofEstonia.shtml)"
+  },
+  "Eswatini": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "The government launched a solar tender in 2019 and several (around 5) IPPs are currently being developed under the tender. The first one Balekane Solar being developed by Globelec is expected to be operational in 2024. Solar IPP is under construction as of January 2024. It is expected to become operational during 2024."
+  },
+  "Ethiopia": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Faroe Islands": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Fiji": {
+    "yearFirstIPP": "2014",
+    "yearFirstPrivateIPP": "2014",
+    "typeOperational": "7",
+    "notes": "There are 2 small IPPs operating, Tropik Wood Industries Limited and Fiji Sugar Corporation, both of which use biomass as fuel stock. They account for 2% of generation. I was not able to find the exact date they started selling exceess power to the grid but it seems to be around 2014. There are no large scale IPPs in the country currently."
+  },
+  "Finland": {
+    "yearFirstIPP": "1943",
+    "yearFirstPrivateIPP": "1943",
+    "typeOperational": "1",
+    "notes": "TVO is a multi-municipality owned IPP founded in 1969 \"TVO is a limited liability company founded in 1969. The nuclear power plant operated by TVO in Olkiluoto in the municipality of Eurajoki has produced electricity for Finnish consumption for 40 years in autumn 2018. The Olkiluoto 1 and 2 plant units were constructed to satisfy the growing electricity demand of the Finnish energy-intensive industries. Over the past few decades, TVO has developed from an industrial resource to a base load power producer that benefits society as a whole. Today, the Olkiluoto power plant produces approximately one sixth of Finland’s total electricity consumption. Through its direct owners, TVO’s nuclear electricity brings well-being to 131 Finnish municipalities. These municipalities are shareholders in more than 50 energy companies that serve as a route for distributing electricity from Olkiluoto throughout Finland. TVO's biggest shareholder is Pohjolan Voima Oy with a 58.5 percent shareholding in TVO.\" (https://www.tvo.fi/en/index/company.html)"
+  },
+  "France": {
+    "yearFirstIPP": "2009",
+    "yearFirstPrivateIPP": "2009",
+    "typeOperational": "2",
+    "notes": "Power sector is dominated by EDF (80% of generation capacity is owned by EDF) and other integrated utilities (engie, endesa) that own both generation and distribution assets. It was difficult to find information on purely generation companies. Voltalia was amongst the first. It was created in 2005 to develop renewable generation. In 2009 its first plant in France, a 10 MW wind farm, started operations. I am treating this as the first IPP. (https://www.voltalia.com/about)"
+  },
+  "French Guiana": {
+    "yearFirstIPP": "2010",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "3",
+    "notes": "Albioma is the leading producer of photovoltaic energy in Overseas France. They have been operating in French Guiana since 2010."
+  },
+  "French Polynesia": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Gabon": {
+    "yearFirstIPP": "Being developed",
+    "yearFirstPrivateIPP": "Being developed",
+    "typeOperational": "0",
+    "notes": "In January 2022 the country officially withdrew the exclusivity of the services granted to the state owned VIU concessionaire, opening the possibility for other players to enter the power sector. Currently there is a hydropower IPP (Kinguélé Aval Hydropower Project) led by the private sector being developed as an IPP under a BOT 30 year concession. This will be the first IPP in the country. As of March 2024, the project remains under construction."
+  },
+  "Gambia": {
+    "yearFirstIPP": "2006",
+    "yearFirstPrivateIPP": "2006",
+    "typeOperational": "6",
+    "notes": "The 25 megawatts Brikama power plant is the first independent power project undertaken by a private company. It is a Diesel and Heavy Fuel plant (http://www.globalpowersystems.eu/en/project-detail/brikama-power-plant-ipp-phase-1-2006-2007/)"
+  },
+  "Georgia": {
+    "yearFirstIPP": "1996",
+    "yearFirstPrivateIPP": "2006",
+    "typeOperational": "1",
+    "notes": "Sakenergo Generation created as a state owned generation company in 1996 when the VIU was unbundled. It functions as a state owned IPP from that date selling to the single buyer."
+  },
+  "Germany": {
+    "yearFirstIPP": "2016",
+    "yearFirstPrivateIPP": "2016",
+    "typeOperational": "4",
+    "notes": "In Germany since unbundling in 1998 and liberalization most of the power sector is operated through integrated utilities (generation & distribution). The only pure IPP structures I was able to find were smaller scale renewable energy plants. RWE, E.ON, Energie Baden-Wuerttemburg (EnBW), Vattenfall, Uniper and Innogy control the largest share of Germany's electricity generation capacity (approximately 80% between them) and half of the retail electricity market. E.ON, EnBW, Vattenfall and RWE Innogy also operate Germany's national transmission grid, as there is no unified operator for the entire country."
+  },
+  "Ghana": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "4",
+    "notes": "In 2000 first IPP plant becomes operational selling the VRA under a 25 year PPA, but it has state presence: \"Takoradi 2-TICO Power Station is a 330MW dual-fuel fired power project. It is located in Western, Ghana. The project is currently active. It has been developed in multiple phases. Post completion of construction, the project got commissioned in March 2000. The project was developed by CMS Energy and Volta River Authority. Abu Dhabi National Energy and Volta River Authority are currently owning the project having ownership stake of 90% and 10% respectively. It is a Combined Cycle Gas Turbine (CCGT) power plant. The power plant run on dual-fuel. The primary fuel being used to power the plant is natural gas. In case of shortage of natural gas the plant can also run on Light Crude Oil. The fuel is procured from Volta River Authority. The project got commissioned in March 2000. The power generated from the project is sold to Volta River Authority under a power purchase agreement for a period of 25 years.\" (https://www.power-technology.com/marketdata/takoradi-2-tico-power-station-ghana)"
+  },
+  "Gibraltar": {
     "yearFirstIPP": "1990",
     "yearFirstPrivateIPP": "1990",
-    "typeOperational": "2",
-    "notes": "Early wind power development with private producers"
+    "typeOperational": "6",
+    "notes": "\"As a result of Gibraltar’s development and economic growth, in 1989 the Government of Gibraltar entered into an agreement to purchase Electricity from a privately owned company; the Ormrod Electricity Supply Company Limited, better known as OESCO Limited. Consequently, a power station equipped with diesel engines was commissioned and operated by OESCO Limited, with the first diesel engine coming into operation on the 9th June 1990.\" (https://www.gibelec.gi/gea/business-divisions/generation) The original owner of the diesel plant OEDAS BOOT reaches end of its contract in 2013 and is handed back to the government. Government then hands to contract to Bodenas another private company."
   },
-  "Chile": {
-    "yearFirstIPP": "1982",
-    "yearFirstPrivateIPP": "1982",
+  "Greece": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2000",
+    "typeOperational": "2",
+    "notes": "\"Terna IPP's first wind park entered into operation in 2000, with an installed capacity of 11.22 MW. In the following years, the installed capacity of our wind parks increased rapidly as we continued to expand our wind park portfolio in Greece. Sell to PPC\" (https://www.terna-energy.com/about/history-about/)"
+  },
+  "Greenland": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I could not find any IPPs operating."
+  },
+  "Grenada": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "No IPPs are operational or being planned at this stage."
+  },
+  "Guadeloupe": {
+    "yearFirstIPP": "1997",
+    "yearFirstPrivateIPP": "1997",
+    "typeOperational": "2",
+    "notes": "\"The Petite Place wind farm, originally installed in 1997, to deliver a higher amount of energy in the Guadeloupe Region for its key customer Eole Marie Galante.\" (https://w3.windfair.net/wind-energy/news/20792-guadeloupe-vergnet-repowers-petite-place-wind-farm)"
+  },
+  "Guam": {
+    "yearFirstIPP": "1999",
+    "yearFirstPrivateIPP": "1999",
+    "typeOperational": "6",
+    "notes": "Around 1999 IPPs start operations. These were mainly diesel units."
+  },
+  "Guatemala": {
+    "yearFirstIPP": "1993",
+    "yearFirstPrivateIPP": "1993",
+    "typeOperational": "6",
+    "notes": "In 1992 the government signed PPAs with several IPPs under BOO terms. The first one was on January 13, 1992 with the company Puerto Quetzal Power LLC, a firm with foreign and national shareholders (Enron held 38% of the ownership of the company, Globeleq 25% and the remaining 37% was in the hands of local investors). This was a bunker fuel oil power plant. I searched extensively on this power plant, I think this plant is now retired, I was not able to find a lot of details about it. It seems to have started operations in 1993 (https://www.gem.wiki/Puerto_Quetzal_Power_(PQP)_power_station). Post electricity restructuring period, I think the first private IPPs became operational in 2003. Two private power generation companies start operating, both are hydropower: Las Vacas (45 MW) and El Canada (47 MW)."
+  },
+  "Guernsey": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Guinea": {
+    "yearFirstIPP": "2015",
+    "yearFirstPrivateIPP": "2015",
+    "typeOperational": "6",
+    "notes": "Since 2015 there are some IPPs operating. The first IPPs were primarily HFO and diesel plants."
+  },
+  "Guinea-Bissau": {
+    "yearFirstIPP": "2019",
+    "yearFirstPrivateIPP": "2019",
+    "typeOperational": "6",
+    "notes": "Since 2019, there is a PPA with 30 MW heavy-fuel oil power ship (Karpower), wherein a private operator supplies electricity under a power purchase agreement (PPA)."
+  },
+  "Guyana": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are some private captive power plants but no IPPs."
+  },
+  "Haiti": {
+    "yearFirstIPP": "2004",
+    "yearFirstPrivateIPP": "2004",
+    "typeOperational": "6",
+    "notes": "Sogener has been operating two power plants in Port au Prince starting in 2004. These are diesel based power plants."
+  },
+  "Honduras": {
+    "yearFirstIPP": "1995",
+    "yearFirstPrivateIPP": "1995",
+    "typeOperational": "6",
+    "notes": "3 IPPs became operational in 1995: private operations (ELCOSA, EMCE and LUFASSA) came online, electricity production from thermal sources increased. Primarily diesel based generation."
+  },
+  "Hong Kong": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "No IPPs are operational or being planned at this stage"
+  },
+  "Hungary": {
+    "yearFirstIPP": "1995",
+    "yearFirstPrivateIPP": "1995",
+    "typeOperational": "5",
+    "notes": "2 power plants privatized in 1995:"
+  },
+  "Iceland": {
+    "yearFirstIPP": "2008",
+    "yearFirstPrivateIPP": "2008",
+    "typeOperational": "8",
+    "notes": "2008 IPP: \"Hitaveita Suðurnesja became the first Icelandic energy company to be privatised. Following changes to electricity legislation in 2008, stipulating the separation between competitive operations and concession operations in energy companies, Hitaveita Suðurnesja hf. was divided up into HS Veitur hf. and HS Orka hf.HS Orka is Iceland’s third largest energy company, with approximately 8% of all electricity produced.\" (https://www.hsorka.is/en/about-hs-orka/the-business/the-history/#:~:text=Hitaveita%20Su%C3%B0urnesja%20(HS%20Orka)%20was,in%20the%20area%20owned%2060%25.) First privatization of generation company, creating first IPP in 2008 when the company was split to create a separate generaiton company, it is now the third largest power producer in the country all geothermal assets: \"Hitaveita Suðurnesja became the first Icelandic energy company to be privatised in 2000. Following changes to electricity legislation in 2008, stipulating the separation between competitive operations and concession operations in energy companies, Hitaveita Suðurnesja hf. was divided up into HS Veitur hf. and HS Orka hf.\" https://www.hsorka.is/en/about-hs-orka/the-business/the-history/#:~:text=Hitaveita%20Su%C3%B0urnesja%20(HS%20Orka)%20was,in%20the%20area%20owned%2060%25."
+  },
+  "India": {
+    "yearFirstIPP": "1996",
+    "yearFirstPrivateIPP": "1997",
+    "typeOperational": "4",
+    "notes": "In 1996 Odisha state unbunle its VIU creating separate generation companies which sold to the separate transmission company. The companies were privatized in the following years. \"The Orissa Electricity Reform Act took effect on April 1, 1996. Under this Act, the OSEB was divided into the Orissa Hydro Power Corporation (OHPC) and GRIDCO. \" (https://frontline.thehindu.com/the-nation/article30160164.ece) Odisha Power Generation Company (OPGC) \"As a part of the reform in the energy sector of the state, 49% of the equity was divested in favour of a Private investor ( American Company) i.e. AES Corporation, USA in early 1999. After exit of AES in December 2020, Govt. of Odisha (GoO) acquired the 49% equity held by AES through another subsidiary of GoO Odisha Hydro Power Corporation Ltd. (OHPC). Thus OPGC became a fully owned company of the Government of Odisha w.e.f. 10th December 2020.\" (https://www.opgc.co.in/abt/a.asp)"
+  },
+  "Indonesia": {
+    "yearFirstIPP": "1994",
+    "yearFirstPrivateIPP": "1994",
+    "typeOperational": "5",
+    "notes": "The first IPP was Paiton-1 which became operational in 1994. This is a coal fired power plant."
+  },
+  "Iran": {
+    "yearFirstIPP": "2009",
+    "yearFirstPrivateIPP": "2009",
+    "typeOperational": "4",
+    "notes": "First private sector generator starts selling to the grid in 2009: In June 2009, Iran's first build-operate-transfer (BOT) power plant became fully operational when the last of six 159 MW open-cycle gas turbine generating sets in the Chehelsotun power plant in South Isfahan were brought online. The 950MW gas-fired plant - the first to be completed in Iran under a BOT agreement - was developed by a 50:50 joint venture between Iran-based investment house IHAG and local power contractor Mapna."
+  },
+  "Iraq": {
+    "yearFirstIPP": "2006 & 2017",
+    "yearFirstPrivateIPP": "2006 & 2017",
+    "typeOperational": "4",
+    "notes": "In Kurdistan provice first IPP becomes operational in 2006"
+  },
+  "Ireland": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2000",
+    "typeOperational": "4",
+    "notes": "\"Ireland's first fully independent power station started commercial operations today in Huntstown, Co Dublin. The gas-fired power plant is owned by Huntstown Power, a subsidiary of Northern Ireland-based energy supplier Viridian. It can deliver 343 megawatts of power into the national grid, accounting for up to 10 per cent of the State's annual electricity requirement. The power station was formally taken over by Huntstown Power's chief executive, Mr David de Casseres, 14 days ahead of programme. Building on site began in December 2000, with Siemens as the lead contractor on the €255 million project.\" (https://www.irishtimes.com/news/state-s-first-private-power-station-opens-1.448856)"
+  },
+  "Isle of Man": {
+    "yearFirstIPP": "potentially 2024",
+    "yearFirstPrivateIPP": "potentially 2024",
+    "typeOperational": "0",
+    "notes": "Peel Cubico Renewables is planning to build first solar power plant on the island, it would sell to the VIU. The project would be operational by 2024 and could power up to 7,700 homes. (https://www.bbc.com/news/world-europe-isle-of-man-63343692)"
+  },
+  "Israel": {
+    "yearFirstIPP": "2014",
+    "yearFirstPrivateIPP": "2014",
+    "typeOperational": "4",
+    "notes": "2014 first IPP selling to grid become operational: \"In November 2010, Dorad Energy achieved financial closing and in March 2011 started constructing the largest private power plant in Israel, and the first to sell primarily to end-users. The construction works ended with the commencement of commercial operation in May 2014 and the company was on its way as an IPP – an Independent Power Producer. The main impetus for the new wave of private electricity companies in Israel was the discovery of large quantities of natural gas along the coast of Israel, which enabled IPPs to set up combined-cycle power stations, fueled primarily on natural gas\" (https://dorad.co.il/about/?lang=en)"
+  },
+  "Italy": {
+    "yearFirstIPP": "1993",
+    "yearFirstPrivateIPP": "1993",
+    "typeOperational": "7",
+    "notes": "In 1991 allow IPPs legally to sell to ENEL, target mainly RE (including biomass, waste), in 1992 establish FiT for ENEL to pay the IPPs. I am coding as 1993 when first IPP becomse operational, I was unable to find when exactly the first plant under this scheme became operational but by 1996 15% of generation was from IPPs and autoproducers. The CIP6 program initiated biogas generation in the country, with an increase from nearly zero before 1992 to some 400 GW h in 1997, almost completely from landfills (Tricase and Lombardi, 2009). (see:https://www.sciencedirect.com/science/article/pii/S0301421514005059) Since the scheme targeted RE production mainly from waste and biogas I am coding as biomass/biogas as the technology for first IPPs. In 2000, the Italian government forced Enel to sell 27% of its generating capacity, and - to that end - Enel created three new, independent generating companies: Elettrogen, Eurogen and Interpower. Along with removing Enel's monopoly on electricity generation, transmission and distribution, the Italian government began divesting its holdings in the company."
+  },
+  "Jamaica": {
+    "yearFirstIPP": "1995",
+    "yearFirstPrivateIPP": "1995",
+    "typeOperational": "6",
+    "notes": "Established in 1995, the Doctor Bird Power Station (DBPS) is the island's first IPP, followed by JPPC in 1996. DBPS and JPPC came online, under special provisions, with 74MW and 60MW, respectively, in response to the Government's need for emergency capacity in 1995. (https://www.jamaicaobserver.com/columns/the-role-of-independent-power-providers-in-jamaica/) \"The barge is provided with all necessary ancillary equipment for independent operation, including treatment plant for the heavy fuel oil used by the engines and a 138 kV electrical substation.\" (https://www.wartsila.com/energy/learn-more/references/ipps/dr-bird-i-and-ii-jamaica) These are HFO plants."
+  },
+  "Japan": {
+    "yearFirstIPP": "1999",
+    "yearFirstPrivateIPP": "1999",
+    "typeOperational": "5",
+    "notes": "1999 first IPP (coal fired) operational: \"Kansai Electric called for tenders in 1996 and 1997 for companies to supply electricity. By utilizing the existing infrastructure of its steelworks as well as its coal procurement and in-house generation experience, Kobe Steel proposed building a 1400 MW power station consisting of two 700 MW power plants, which was accepted by Kansai Electric. Following the completion of environmental assessments, construction of the first power plant began in March 1999 in the western section of Kobe Works. The Shinko Kobe Power Station covers 300,000 square meters of Kobe Works’ 1.07 million-square-meter area. In April 2002, the first power plant began commercial operation. Work began on the second power plant in February 2001 with trial runs starting in July 2003. \" (https://www.power-eng.com/coal/japans-largest-ipp-starts-up/#gref)"
+  },
+  "Jersey": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating."
+  },
+  "Jordan": {
+    "yearFirstIPP": "2009",
+    "yearFirstPrivateIPP": "2009",
+    "typeOperational": "4",
+    "notes": "Amman East Power Plant is a combined cycle gas-fired power plant in Al Manakher, Jordan. It was the first independent power plant in Jordan. The plant is operated by AES Jordan PSC, a subsidiary of AES Corporation and Mitsui & Co.[3] Construction started in 2007 and the plant was commissioned in 2009. (https://en.wikipedia.org/wiki/Amman_East_Power_Plant#:~:text=Amman%20East%20Power%20Plant%20is,independent%20power%20plant%20in%20Jordan.)"
+  },
+  "Kazakhstan": {
+    "yearFirstIPP": "1997 (privatization)",
+    "yearFirstPrivateIPP": "1997 (privatization)",
+    "typeOperational": "3",
+    "notes": "Privatization - First one I could find is AES purchase 1996/97 of generation assets, coal fired power plants: First privatization of generation assets, the first one I could find is 1996/97 purchase by AES of certain generation assets \"We started our activities here in 1996 by purchasing the Ekibastuz-1 State District Power Plant, one of the largest coal-fired electric power plants in the world. We obtained a licence to operate the Ust-Kamenogorsk and Shulbinsk Hydroelectric Power Plants and bought the Ust-Kamenogorsk and Sogrinsk Thermal Electric Power Plants. Finally, in 2002, in order to ensure uninterrupted coal supply to our facilities, we purchased the Maikuben Coal Mine in the Pavlodar region.\" (http://investkz.com/en/journals/44/40.html)"
+  },
+  "Kenya": {
+    "yearFirstIPP": "1997",
+    "yearFirstPrivateIPP": "1997",
+    "typeOperational": "6",
+    "notes": "\"A first wave of reform commenced in 1996, thawing a donor-coordinated five-year freeze on sector funding. To meet the conditions of the new funding agreements, generation was split from transmission and distribution, the first two independent power producers (IPPs) began operation under seven-year contracts, and tenders for two larger 20-year IPPs were floated. In addition, the Electric Power Act of 1997 was passed, an independent Electricity Regulatory Board (ERB) established, and tariffs adjusted to 75 percent of long-run marginal cost.\" (https://openknowledge.worldbank.org/bitstream/handle/10986/31561/WPS8819.pdf?sequence=4&isAllowed=y also see https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/Kenya_IPP_Experience_.pdf)"
+  },
+  "Kiribati": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "All generation is owned by state owned VIU. There are no IPPs currently."
+  },
+  "North Korea": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "South Korea": {
+    "yearFirstIPP": "1972",
+    "yearFirstPrivateIPP": "1972",
+    "typeOperational": "6",
+    "notes": "IPPs have been selling to the state owned VIU KEPCO since 1980s. First IPP was operational in 1972. Hanhwa IPP built the Gyeongin Energy refinery and power plant (oil based generation)."
+  },
+  "Kosovo": {
+    "yearFirstIPP": "2006 (state owned generator)",
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "2006 unbundling of state owned VIU created state owned generation company KEK. KEK now operates the two coal power plants and the coal mine."
+  },
+  "Kuwait": {
+    "yearFirstIPP": "2016",
+    "yearFirstPrivateIPP": "2016",
+    "typeOperational": "4",
+    "notes": "Az-Zour North Independent Water and Power Project was the first IPP. It became operational in 2016."
+  },
+  "Kyrgyzstan": {
+    "yearFirstIPP": "2002 (state owned)",
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "State owned IPPs, no private IPPs yet (as of March 2024)"
+  },
+  "Laos": {
+    "yearFirstIPP": "1998",
+    "yearFirstPrivateIPP": "1998",
     "typeOperational": "1",
-    "notes": "Early market liberalization allowed IPPs since 1982"
+    "notes": "On 31 March 1998 the first IPP reach commercial operation following the government decision in 1989 to open the hydropower sector to foreign investors. THPC project mainly exports to Thailand but also sells to the VIU in Laos. (https://www.mrcmekong.org/assets/Events/Mekong2Rio/1.3d-THPC-History-Kay.pdf)"
+  },
+  "Latvia": {
+    "yearFirstIPP": "2013",
+    "yearFirstPrivateIPP": "2013",
+    "typeOperational": "7",
+    "notes": "Only unbundled transmission from the VIU so Latvaenergo still owns distribution and generation assets."
+  },
+  "Lebanon": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Lesotho": {
+    "yearFirstIPP": "None, but first IPP being built expected in 2024",
+    "yearFirstPrivateIPP": "None, but first IPP being built expected in 2024",
+    "typeOperational": "0",
+    "notes": "None, but first IPP is expected in 2025.  There are currently no operating IPPs but in 2021 Scatec signed the first IPP PPA with LEC. There is another solar plant being built Hafeteng Ha Ramarothole Solar PV Park is a 70MW solar PV power project. It is planned in Mafeteng, Lesotho. It will be developed in multiple phases. The project construction is likely to commence in 2024 and is expected to enter into commercial operation in 2025. The project is being developed and currently owned by TBEA Xinjiang New Energy.(https://www.power-technology.com/marketdata/power-plant-profile-mafeteng-ha-ramarothole-solar-pv-park-lesotho/)"
+  },
+  "Liberia": {
+    "yearFirstIPP": "None (solar IPP under construction)",
+    "yearFirstPrivateIPP": "None (solar IPP under construction)",
+    "typeOperational": "0",
+    "notes": "Currently there are no IPPs but the government is exploring solar IPPs. In August 2023, \"government of Liberia and national utility LEC have launched a search for consultants to oversee the development of a 15 MW solar power plant. The project will be linked to a 10 MWh battery storage system.\" (https://www.pv-magazine.com/2023/08/22/liberia-plans-15-mw-10-mwh-solar-plus-storage-project/)"
+  },
+  "Libya": {
+    "yearFirstIPP": "None (solar IPP under development)",
+    "yearFirstPrivateIPP": "None (solar IPP under development)",
+    "typeOperational": "0",
+    "notes": "General Electricity Company of Libya (GECOL) state owned VIU sole operator in the country, no IPPs yet. But in January 2022, granted license for an IPP (AG Energy an Irish private developer) license to build 200MW solar plant, this would be the first IPP in the country."
+  },
+  "Liechtenstein": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I was not able to find any information on IPPs operating in the country. Generation seems to be provided by the VIU and imports from neighbors."
+  },
+  "Lithuania": {
+    "yearFirstIPP": "2002  (state)",
+    "yearFirstPrivateIPP": "2013 (private IPP)",
+    "typeOperational": "7",
+    "notes": "In 2002 unbundle the VIU to create 2 state-owned IPPs \"On the 1st of January 2002 vertically integrated monopoly Lietuvos Energija AB was reorganized and divided into two companies producing electricity Lietuvos Elektrine AB and Mazeikiai Thermal Power Plant AB, one transmission system operator also acting as a market operator Lietuvos Energija AB and two distribution network companies Rytu Skirstomieji Tinklai AB and VST AB (The National Control Commission for Prices and Energy, 2005).\" (https://inzeko.ktu.lt/index.php/EE/article/view/11630/6312)"
+  },
+  "Luxembourg": {
+    "yearFirstIPP": "2001 (privatization)",
+    "yearFirstPrivateIPP": "2001 (privatization)",
+    "typeOperational": "1",
+    "notes": "Soler IPP created when privatize hydropower generators in 2001, the company now also operates wind power plants. \"As part of the liberalization of the electricity market, the operation of the hydroelectric power plants of the State of Luxembourg was privatized and taken over by Soler. These are the Esch-Sauer, Rosport and Ettelbruck power plants. Soler has been operating the power plant in Ettelbrück since July 1, 2001 and the Esch-Sauer power plant since March 1, 2003. The Rosport power plant has been out of service since the July 2021 floods.\" (https://www.soler.lu/unsere-aktivitaten/)"
+  },
+  "Macau": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating currently."
+  },
+  "Madagascar": {
+    "yearFirstIPP": "2010",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "6",
+    "notes": "Based on a November 2022 Government document, JIRAMA is the VIU buys from IPPs/rentals since around 2010. In this document it mentions a new law that is seeking to unbundle the sector and introduce competition. From the information I found the early IPPs were diesel based power plants, I am marking as 2010 first year of IPP selling to grid but it maybe slightly earlier but this is the best estimate I found when they really started buying power from IPPs (see: http://www.mef.gov.mg/assets/vendor/ckeditor/plugins/kcfinder/upload/files/ARCEB/Etude%20Secteur%20Energie%20Rapport%20Final%20_%20Version%20finale%20Novembre%202022.pdf)"
+  },
+  "Malawi": {
+    "yearFirstIPP": "2016 (state owned)",
+    "yearFirstPrivateIPP": "2021 (private IPP)",
+    "typeOperational": "3",
+    "notes": "Electricity Generation Company Malawi Limited (Egenco) was created as a state owned generation company through unbundling of the VIU in 2016."
+  },
+  "Malaysia": {
+    "yearFirstIPP": "1995",
+    "yearFirstPrivateIPP": "1995",
+    "typeOperational": "4",
+    "notes": "In 1995 first IPP becomes operational. YTL Power International is Malaysia's first Independent Power Producer (IPP). \"In 1993, our wholly-owned subsidiary, YTL Power Generation Sdn Bhd, was awarded Malaysia's first IPP licence for the Paka and Pasir Gudang Power Stations following the Malaysian Government's decision to privatise the country's power industry.\" (https://www.ytlpowerinternational.com/about_us/milestones.asp?catName=about_us#:~:text=YTL%20Power%20International%20is%20Malaysia's,privatise%20the%20country's%20power%20industry.) These plants are listed as becoming operational in 1995 on GEM (https://www.gem.wiki/Pasir_Gudang_(YTL)_power_station)"
+  },
+  "Maldives": {
+    "yearFirstIPP": "2018",
+    "yearFirstPrivateIPP": "2018",
+    "typeOperational": "3",
+    "notes": "First IPP: \"1.5 MW of rooftop solar PV in Hulhumale’ has been operational since March 2018. A private sector developer was awarded through an international competitive tendering to be an independent power producer (IPP). It sells electricity generated from the rooftop solar PV to STELCO under a 20-year power purchase agreement (PPA) at a fixed price of 21 US cents/kWh, which is lower than the all-in cost of diesel-based power generation in the Maldives. US$3.3 million of private capital has been mobilized for the first sub-project.\"(https://documents1.worldbank.org/curated/en/939571581994906489/text/Maldives-Accelerating-Sustainable-Private-Investments-in-Renewable-Energy-ASPIRE-Project-Supplement-to-the-Project-Appraisal-Document.txt)"
+  },
+  "Mali": {
+    "yearFirstIPP": "2018",
+    "yearFirstPrivateIPP": "2018",
+    "typeOperational": "6",
+    "notes": "First IPP start operation 31 October 2018."
+  },
+  "Malta": {
+    "yearFirstIPP": "2017 (privatization)",
+    "yearFirstPrivateIPP": "2017 (privatization)",
+    "typeOperational": "4",
+    "notes": "2017 IPP entry by Delimara power station. The plant was retrofitted from HFO to gas by an IPP that acquired the plant in 2014."
+  },
+  "Marshall Islands": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Martinique": {
+    "yearFirstIPP": "2011",
+    "yearFirstPrivateIPP": "2011",
+    "typeOperational": "4",
+    "notes": "\"In 2011, EDF awarded APR Energy a 20 MW contract for the rapid installation and operation of a single FT8® MOBILEPAC® gas turbine. This state-of-the-art technology offers advantages over other fast power sources due to its ability to meet the lower emissions and noise levels required by Martinique's environmental regulations. Just seven days after the equipment arrived on site, the MOBILEPAC© was fully operational, providing 20 MW of available electrical capacity to serve the island's grid via the Martinique EDF transmission network at the Pointe des Carrières power station. The plant successfully met the island's peak demands and provided EDF with the energy needed to fill the gap between supply and demand while working to restore service and maintain existing facilities. In 2012, EDF exercised an option to extend the APR Energy contract, ensuring that it had the necessary capacity throughout the following peak season to switch to long-term permanent energy solutions. In 2013, APR Energy worked alongside EDF to relocate the plant to the Bellefontaine plant to meet the customer's changing energy needs.\"  (https://www.aprenergy.com/case-study/martinique/)"
+  },
+  "Mauritania": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Mauritius": {
+    "yearFirstIPP": "1993",
+    "yearFirstPrivateIPP": "1993",
+    "typeOperational": "7",
+    "notes": "In 1993  sugar estates start selling to CEB under PPAs accounting for close to 10% of electricity generation"
+  },
+  "Mayotte": {
+    "yearFirstIPP": "2022",
+    "yearFirstPrivateIPP": "2022",
+    "typeOperational": "9",
+    "notes": "There seems to be an IPP on the island since 2019 operating small scale RE but it is not selling to the grid. However the IPP now has a contract to supply batery storage to the grid. The battery became operational in November 2022."
+  },
+  "Mexico": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2000",
+    "typeOperational": "4",
+    "notes": "In 2000 AES's power plant \"Merida III\" started operations. It was a 505MW CCGT that sold power to the VIU under a PPA. (https://www.gem.wiki/M%C3%A9rida_III_power_station)"
+  },
+  "Federated States of Micronesia": {
+    "yearFirstIPP": "None, but first IPP a solar plant under construction",
+    "yearFirstPrivateIPP": "None, but first IPP a solar plant under construction",
+    "typeOperational": "0",
+    "notes": "each of the 4 states in Micronesia has their state owned VIU: CPUC = Chuuk Public Utility Corporation; YSPSC = Yap State Public Service Corporation; PUC = Pohnpei Utilities Corporation; KUA = Kosrae Utilities Authority. One of the them seems to be moving towards accepting IPP power \"a solar PV project in Pohnpei, structured as an independent power producer, has been accepted by PUC....A 3 MW solar PV Plant is already under way in Pohnpei under a private PPA.\" As far as I could find this power plant is not yet operational so listing as 1a still in the future these states may move to 2a type structure with RE IPPs.(see:https://www.pacificpartnership.org/our-focus/signature-projects/pohnpei-solar-power/) (https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/68069/Yota%20Pacifico%20Oue%20-%20Fall%202022%20EPC%20Capstone%20Thesis.pdf?sequence=1)"
+  },
+  "Moldova": {
+    "yearFirstIPP": "2005",
+    "yearFirstPrivateIPP": "2005",
+    "typeOperational": "4",
+    "notes": "\"The Cuciurgan power station (Romanian: Termocentrala de la Cuciurgan, Russian: Молдавская ГРЭС, romanized: Moldavskaya GRES) is the largest power station of Moldova, located in Dnestrovsc, Transnistria, on the shores of the Cuciurgan Reservoir bordering Ukraine. It was commissioned on 26 September 1964 and produces about 83% of Moldova's electricity. The power stations has installed capacity of 2,520 MW. It is fueled by natural gas, fuel oil and coal.[1] The plant produces some 75% of Moldova's electricity needs.[2] 51% owned by Inter RAO UES since 2005\" (https://en.wikipedia.org/wiki/Cuciurgan_power_station)"
+  },
+  "Monaco": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Mongolia": {
+    "yearFirstIPP": "2002 (state owned)",
+    "yearFirstPrivateIPP": "2013 (private IPP)",
+    "typeOperational": "2",
+    "notes": "2002 unbundling of the VIU creates several state owned power generation companies"
+  },
+  "Montenegro": {
+    "yearFirstIPP": "2017",
+    "yearFirstPrivateIPP": "2017",
+    "typeOperational": "2",
+    "notes": "Krnovo wind farm starts operations in 2017. \"Wind power plant in Krnovo, Montenegro, launched trial electricity production on 5 out of 26 wind turbines installed. Wind park has MW 72 of installed power and it is one of the largest facility of that type in the region....Krnovo wind power plant is the first capital investment in the energy sector in decades. The construction, worth about EUR 120 million. The project is realized by the Ivicom company from Austria and Akuo Energy from France, which registered the joint Krnovo Green Energy company. Along with EBRD, the project was financed by the German development bank (KfW) and the French investment company for the promotion of economic cooperation Proparco.\" (https://balkangreenenergynews.com/krnovo-wind-park-started-trial-electricity-production/)"
+  },
+  "Montserrat": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Morocco": {
+    "yearFirstIPP": "1997",
+    "yearFirstPrivateIPP": "1997",
+    "typeOperational": "5",
+    "notes": "Jorf Lasfar Energy Company (JLEC)  first PPA signed 1996. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/rego.12488)"
+  },
+  "Mozambique": {
+    "yearFirstIPP": "2007 (state)",
+    "yearFirstPrivateIPP": "2019 (private)",
+    "typeOperational": "3",
+    "notes": "There is a large hydropower plant that has operated as an IPP, majority is state owned, it became a Mozambique IPP in 2007 \"In November 2017 - on the 10-year anniversary of the announcement of the reversion of the ownership of Hidroeléctrica de Cahora Bassa (SA) or HCB to Mozambique – it was announced that Mozambicans would be offered the opportunity to own shares in the company. This marked the first step in the realisation of the phrase “Cahora Bassa é Nossa” (Cahora Bassa is Ours). The Mozambican State owns the majority of HCB and the remainder is owned by Portuguese company, Redes Energéticas Nacionais, S.A. (REN). 7,5% of the capital stock held by HCB has been allocated for distribution to Mozambicans and of this 2,5% is being made available through the first offer launched on 20 May 2019.\" (https://www.hcb.co.mz/invest/) (also see: https://www.hcb.co.mz/about-us/#timeline)"
+  },
+  "Myanmar": {
+    "yearFirstIPP": "2008",
+    "yearFirstPrivateIPP": "2008",
+    "typeOperational": "1",
+    "notes": "Hydro IPPs since 2008: \"shweli I is a 600MW hydro power project. It is located on Shweli river/basin in Shan, Myanmar. The project got commissioned in 2008.Yunnan United Power Development and Ministry of Electricity and Energy, Myanmar are currently owning the project having ownership stake of 80% and 20% respectively.\" (https://www.power-technology.com/marketdata/power-plant-profile-shweli-i-myanmar/)"
+  },
+  "Namibia": {
+    "yearFirstIPP": "2015",
+    "yearFirstPrivateIPP": "2015",
+    "typeOperational": "3",
+    "notes": "In 2015 first IPP comes online and starts selling to the VIU: \"With ample sunshine and wind resources (on the coast), Namibia has the capability to generate significant energy from renewable sources.  The government, the ECB, and NamPower have all expressed interest in grid-connected solar and wind renewable solutions, and in May 2015, Namibia inaugurated its first-ever solar power plant – a 4.5 MW plant – which represents one percent of the country’s current production of energy.  The plant was built by InnoSun, a French-Namibian company that specializes in renewable energy.  It was also the first local IPP with which NamPower signed a power purchasing agreement\". (https://www.trade.gov/country-commercial-guides/namibia-energy)"
+  },
+  "Nauru": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Nepal": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2000",
+    "typeOperational": "1",
+    "notes": "\"Khimti I Hydropower Plant is built with private sector funding as a “BOOT” agreement (Build, Own, Operate, and Transfer) with GON. Construction commenced on 26th June 1996 and Commercial Operation commenced on 11th July 2000. HPL operates the plant and sells electricity to Nepal Electricity Authority (NEA). The plant will be transferred to GON at the end of the 50 year license period. At the end of the first Power Purchase Agreement NEA will purchase a 50% share in the Khimti Power Plant for a nominal fee. The plant is a “run of the river” hydro-electric power generation plant designed for an installed generating capacity of 60,000 kilowatts and annual production of 350 million kilowatt-hours of electrical energy (350 GWh).\" (https://hpl.com.np/projects/khimti-power-plant/)"
+  },
+  "Netherlands": {
+    "yearFirstIPP": "1973 (state)",
+    "yearFirstPrivateIPP": "2009 (private IPP)",
+    "typeOperational": "5",
+    "notes": "State/municipal owned IPPs were in existence 1970s. EPZ one of the biggest ones opearting coal and nuclear plants, it was owned by municipal state governments until 2011 when RZE purchased it \"The 'Elektriciteits Produktiemaatschappij Zuid-Nederland (EPZ), or Electricity Production Company South-Netherlands is the operator of the coal- and nuclear power plants located in Borssele in the Netherlands. Borssele nuclear power plant is the only operational nuclear power plant in the Netherlands. EPZ is 70% owned by Delta and 30% owned by Energy Resources Holding (ERH).[1] ERH was property of several local governments in the Netherlands, but was acquired in 2011 by RWE as part of the deal to take over the Dutch energy company\" (https://en.wikipedia.org/wiki/Elektriciteits_Produktiemaatschappij_Zuid-Nederland)"
+  },
+  "New Caledonia": {
+    "yearFirstIPP": "2004",
+    "yearFirstPrivateIPP": "2004",
+    "typeOperational": "2",
+    "notes": "\"The Prony Wind Power project was commissioned as part of a renewable energy development plan in French Overseas Territory in 2004. Around 80% of New Caledonia’s energy was being supplied through fossil fuel. Being a small island nation in the middle of the South Pacific, this country is especially susceptible to the effects of global warming, and so action was needed. \" (https://www.our-trace.com/projects/prony-wind-power-new-caledonia)"
+  },
+  "New Zealand": {
+    "yearFirstIPP": "1999",
+    "yearFirstPrivateIPP": "1999",
+    "typeOperational": "1",
+    "notes": "\"In 1999, the remainder of ECNZ was further split into three SOEs and Contact Energy was privatised. TrustPower also entered the market as a generator-retailer in 1998 (it existed as a distribution company and retailer before the electricity reforms) when it sold its lines business and acquired generation assets from ECNZ and some of the distribution companies who had to sell their generation assets. In 1998, government-mandated ownership separation of distribution from the competitive segments of the industry (e.g. retail and generation) was completed.\" (https://iea.blob.core.windows.net/assets/43df9822-008a-40e6-8036-961596abe83d/newzealand2006.pdf)"
+  },
+  "Nicaragua": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2000",
+    "typeOperational": "5",
+    "notes": "Privatizations - \"In October 2000, the Nicaraguan government privatized the distribution companies of the Nicaraguan State Energy Company (ENEL). The two energy distribution companies, Disnorte and Dissur, were privatized, along with a number of energy generators. (The private sector had already bought some generators.) Union Fenosa, a Spanish multinational company, bought both distribution companies; a number of other multinationals such as Enron, Coastal International, and Isrealí Ormat International bought the generators. Moreover, Nicaragua continued to liberalize its energy sector, allowing an inflow of foreign capital to invest. In the end, up to 90% of the Nicaraguan energy sector fell into private hands\" (https://onlinelibrary.wiley.com/doi/10.1111/j.2041-7373.2010.00007.x)"
+  },
+  "Niger": {
+    "yearFirstIPP": "None - MOU for wind/solar IPP signed",
+    "yearFirstPrivateIPP": "None - MOU for wind/solar IPP signed",
+    "typeOperational": "0",
+    "notes": "In 2022 and 2023 an IPP contract signed an MOU with the government to install solar and wind power plants. However, these are not yet operational. In 2023 the wind IPP announced it had completed the ESIA and grid connection studies. The project is expected to be operational in 2025. (https://www.africa-energy.com/live-data/article/niger-savannah-points-progress-tarka-wind-project)"
+  },
+  "Nigeria": {
+    "yearFirstIPP": "2010 (state)",
+    "yearFirstPrivateIPP": "2017 (private)",
+    "typeOperational": "4",
+    "notes": "State owned IPPs created from unbundling in 2010: \"The unbundling of the National Electric Power Authority (NEPA) into a number of successor companies, comprising Power Holding Company of Nigeria (PHCN) Power Holding Company of Nigeria, occurred (i.e. that is, before complete commercialization), with full licenses in effect from January 2010, upon payment of license fee. Thus the previously vertically integrated state-owned utility was reconfigured as separate generation companies, a transmission company and 11 distinct distribution companies.\" (https://www.reeep.org/nigeria-2014)"
+  },
+  "Niue": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Republic of North Macedonia": {
+    "yearFirstIPP": "2005 (state)",
+    "yearFirstPrivateIPP": "2022",
+    "typeOperational": "3",
+    "notes": "State IPP: \"In 2005, the single company “AD Power Supply Company of Macedonia” split into three companies: \"AD ELEM\" operating in power generation, \"AD MEPSO\" responsible for power transmission, and “ESM AD” dealing with power Distribution. According to the Sales and Purchase Contract of April 2006, \"ESM AD” was acquired by the concern EVN AG from Austria and following the rebranding in 2008, the company got its current name - EVN Macedonia AD Skopje.\" (https://www.evn.mk/AboutUs/History.aspx?lang=en-gb)"
+  },
+  "Northern Mariana Islands": {
+    "yearFirstIPP": "1997",
+    "yearFirstPrivateIPP": "1997",
+    "typeOperational": "6",
+    "notes": "\"Telesource only IPP selling to VIU since 1997, in 2022 government extend their contract: The Commonwealth Utilities Corp. has extended for two more years Telesource CNMI Inc.’s contract to run CUC’s power plant on Tinian, according to CUC executive director Gary P. Camacho yesterday. Camacho said the two-year contract took effect last April 1 and will end on April 1, 2022. Telesource’s 20-megawatt diesel power plant generates an average of 1.9 megawatt per day. Telesource’s $21.6-million-contract to build and operate the power plant started in 1997.\"(https://www.saipantribune.com/index.php/telesource-get-2-more-years-to-run-tinian-power-plant/)"
+  },
+  "Norway": {
+    "yearFirstIPP": "1992 (state)",
+    "yearFirstPrivateIPP": "1986 (private)",
+    "typeOperational": "1",
+    "notes": "1992 deregulation lead to forming Statkraft state owned generation company: \"From the state's first waterfall acquisition in 1895 to the formation of the Norwegian Water Resources and Energy Directorate (NVE) in 1921 and then Statkraftverkene in 1986, power generation and transmission were organised as one public utility. A new energy law in 1990 paved the way for a free power market and competition in the sale of power, while power transmission remained a monopoly. As a consequence of the new energy law, Statkraft was divided into two state-owned enterprises in 1992. The new Statkraft was made responsible for production and sales, while Statnett took care of distribution. Norway became a pioneer in the liberalised power markets, with state-owned Statkraft taking a leading role.\" (https://www.statkraft.com/about-statkraft/our-history/#1992-2000/1992)"
+  },
+  "Oman": {
+    "yearFirstIPP": "1996",
+    "yearFirstPrivateIPP": "1996",
+    "typeOperational": "4",
+    "notes": "\"In 1996, Oman became the first Arab country to turn exclusively to the private sector under BOO scheme with a major power project in Manah\" (https://www.researchgate.net/publication/328601766_RESTRUCTURING_POWER_MARKET_IN_OMAN/download) \"Al Manah Power Plant is a 270MW gas fired power project. It is located in Ad Dakhiliyah, Oman....Post completion of construction, the project got commissioned in May 1996. The project is currently owned by United Power Company SAOG with a stake of 40%.The power generated from the project is sold to Oman Power and Water Procurement under a power purchase agreement for a period of 20 years, starting from 2000.\" (https://www.power-technology.com/marketdata/power-plant-profile-al-manah-power-plant-oman/)"
+  },
+  "Pakistan": {
+    "yearFirstIPP": "1997",
+    "yearFirstPrivateIPP": "1997",
+    "typeOperational": "6",
+    "notes": "Pakistan’s first IPP contract for the largest power sector project was with the Hub Power Company in 1992 (https://www.pide.org.pk/pdfpdr/1998/811-823.pdf)"
+  },
+  "Palau": {
+    "yearFirstIPP": "2023",
+    "yearFirstPrivateIPP": "2023",
+    "typeOperational": "3, 9",
+    "notes": "First IPP became operational in 2023: \"Philippine renewable energy firm Alternergy and its subsidiary Solar Pacific Energy Corporation (SPEC) have recently launched the Republic of Palau's first solar and battery energy storage system (BESS) project in Ngatpang state on Babeldoab island. With a capacity of 15.3 MWp solar PV and 12.9 MWh BESS, the project is claimed as the largest of its kind in the Western Pacific region, also making it one of the most significant foreign direct investments in the island nation.\" (https://www.alternergy.com/post/alternergy-installs-palau-s-largest-solar-and-battery-energy-storage-system)"
+  },
+  "Panama": {
+    "yearFirstIPP": "1998 (privatization)",
+    "yearFirstPrivateIPP": "1998 (privatization)",
+    "typeOperational": "1",
+    "notes": "1998 via privatization. Unbundled generation companies sold to private companies in November 1998: \"Two months later, strategic stakes in the four generation companies were sold for a total of $302 million: 49 percent of the shares of Fortuna were awarded to a consortium formed by Coastal Power and Hydro-Quebec for $118 million, 49 percent of Bayano and Chiriqui were sold to AES Corporation for $92 million, and 51 percent of Bahia las Minas was awarded to Enron International for $92 million. Ten percent of the shares of Bahia las Minas and 2 percent of the shares of the generation companies were set aside for employee purchase at a 6 percent discount.\" \"In 1997, the utility, Instituto de Recursos Hidráulicos y de Electrificación (IRHE), had 920 megawatts (MW) of installed capacity—two-thirds hydroelectric and one-third thermal\" (https://www.ifc.org/wps/wcm/connect/f5963f82-fe66-4205-a5ce-d7cb3e772732/PPPStories_Panama_IRHE.pdf?MOD=AJPERES&CVID=lHId7IN)"
+  },
+  "Papua New Guinea": {
+    "yearFirstIPP": "2013",
+    "yearFirstPrivateIPP": "2013",
+    "typeOperational": "1",
+    "notes": "\"Operating both the oldest and the newest hydro power stations in the country, PNGFP Hydro is a major Independent Power Producer (IPP) operating three hydro power stations with a combined installed capacity of 14.9MW at Baiune near Bulolo. Our Lower Baiune power station has operated continuously since it was recommissioned in 1947 and still operates at nameplate capacity. PNGFP operates as the power supply authority in Bulolo supplying power to local businesses and domestic consumers. Commissioned in January 2013, the 9.4MW Upper Baiune power station was built for the sole purpose of supplying power to the Ramu Grid, making it the only hydro power station built by an IPP for the sole purpose of supplying power to PNG Power. A fourth 11.4MW hydro power station is currently under development at Baime to increase our supply to PNG Power. This will grow our Hydro Power capacity to 26MW.\" (https://www.pngfp.com/hydro.html)"
+  },
+  "Paraguay": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "State owned VIU seems to be operating all the power plants in the country."
+  },
+  "Peru": {
+    "yearFirstIPP": "1994 (state owned)",
+    "yearFirstPrivateIPP": "1995 (privatization)",
+    "typeOperational": "1",
+    "notes": "1994 unbundling Lima VIU creates state owned generators that were then privatized - \"Privatization started in 1994 with distribution companies that served the Peruvian capital city. Before reforms, Electrolima was a vertically integrated, state-owned power utility serving metropolitan Lima. Its distribution network served metropolitan Lima, which in 1992 had a population of 7.5 million. Electrolima was restructured into three separate companies: one generation company, Edegel, and two distribution companies, Edelnor and Edelsur (later renamed Luz del Sur). The sale of the Lima distribution companies was successfully completed in August 1994.\" (https://documents1.worldbank.org/curated/en/099940002022237939/pdf/P15737604d9b750c20bfba03a6bc3c4b955.pdf)"
+  },
+  "Philippines": {
+    "yearFirstIPP": "1991",
+    "yearFirstPrivateIPP": "1991",
+    "typeOperational": "4",
+    "notes": "First IPP in 1991: \"Only one firm, Hopewell Holdings Ltd of Hong Kong has succeeded in signing a contract with the NPC, which resulted in the 200 MW gas-fired plant located in Navotas that became fully operational in January 1991.\" (https://core.ac.uk/download/pdf/4430641.pdf)"
+  },
+  "Poland": {
+    "yearFirstIPP": "1993 (state owned)",
+    "yearFirstPrivateIPP": "2000 (private)",
+    "typeOperational": "5",
+    "notes": "Unbundling creates state owned generators: \"Sector unbundling effectively began in 1993 with the passage of a law that enabled the Ministry of Industry and Trade to carry out the “commercialization” of the electricity and coal sectors. All 19 of Poland’s existing combined heat and power (CHP) plants were registered as JSCs, and district heat distribution companies were transferred to the local governments. The most significant development was the emergence of PSE as a key sector participant. In addition to its grid management responsibilities, it became the single buyer of electricity\" (https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/poland_ipp.pdf)"
+  },
+  "Portugal": {
+    "yearFirstIPP": "1995",
+    "yearFirstPrivateIPP": "1995",
+    "typeOperational": "5",
+    "notes": "In 1995 Pego Power station (628 MW coal plant) becomes operational, this is the first IPP I am able to find"
+  },
+  "Puerto Rico": {
+    "yearFirstIPP": "2016",
+    "yearFirstPrivateIPP": "2016",
+    "typeOperational": "3",
+    "notes": "\"ISABELA, Puerto Rico – Oriana Energy LLC, a subsidiary of Sonnedix Group, in partnership with Yarotek, announced it has commenced energization of the Oriana Solar Farm, a 45MW AC (58MWp) solar power plant.\" (https://www.sonnedix.com/news/the-largest-solar-power-plant-in-the-caribbean-begins-producing-energy)"
+  },
+  "Qatar": {
+    "yearFirstIPP": "2000 (state)",
+    "yearFirstPrivateIPP": "2006 (private)",
+    "typeOperational": "4",
+    "notes": "State generation company formed in 2000 following unbundling: \"The power sector was reformed in 2000 by separating power generation and water production from transmission and distribution. Currently, power generation and water production are carried out by Qatar Electricity and Water Company (QEWC) and some independent power and water producers. The transmission and distribution of electricity and water are the sole responsibility of the government corporation: Qatar General Electricity and Water Corporation (QGEWC), which is also known as KAHRAMAA.\" (August 2017: Transitioning to Liberalized Energy Markets)"
+  },
+  "Réunion": {
+    "yearFirstIPP": "1995",
+    "yearFirstPrivateIPP": "1995",
+    "typeOperational": "7",
+    "notes": "Albion energy IPP start operating power plant on the island in addition to EDF (SOE of France, since Reunion is official French territory I am consiering it as 1a). In 1992, at the Bois-Rouge site, Albioma commissioned the first thermal power plant in France that was able to transform bagasse into renewable energy. This innovative model, which is based on a partnership agreed with the sugar industry, has been successfully replicated both on an international scale and in Réunion Island, where a second cogeneration unit was opened in Le Gol in 1995. (https://www.albioma.com/en/site/reunion-island/)"
+  },
+  "Romania": {
+    "yearFirstIPP": "1998 (state owned)",
+    "yearFirstPrivateIPP": "2000 (private)",
+    "typeOperational": "5",
+    "notes": "Unbundling in 1998 creates separate state owned generation companies: The government unbundled the VIU Renel into Conel in September 1998 creating subsidiearies: thermal generation (Termoelectrica), hydro generation (Hidroelectrica), transmission company (Transelectrica), distribution (Electrica) (for details see: https://www.imf.org/external/pubs/ft/pdp/2003/pdp02.pdf)"
+  },
+  "Russia": {
+    "yearFirstIPP": "2007",
+    "yearFirstPrivateIPP": "2007",
+    "typeOperational": "4",
+    "notes": "Between 2003 and 2008 there was entry of foreign utilities/strategic investors in electricity infrastructure including E.ON (Germany), Enel (Italy) and Fortum (Finland). these seem to have been gas/coal power plants. (https://www.apec.org/docs/default-source/Publications/2011/1/The-Impacts-and-Benefits-of-Structural-Reforms-in-Transport-Energy-and-Telecommunications-Sectors/TOC/Electricity-in-Russia.pdf) In 2007 subsidiary generating companies, WGC-5 and TGC-5, were individually spun off from the parent RAO UES. Wholesale Generation Company WGC-5 and Territorial Generation Company TGC-5 were spun off, successfully issuing additional shares that allowed them to attract strategic investors. (https://factsanddetails.com/russia/Education_Health_Transportation_Energy/sub9_6c/entry-5153.html)"
+  },
+  "Rwanda": {
+    "yearFirstIPP": "2016",
+    "yearFirstPrivateIPP": "2016",
+    "typeOperational": "4",
+    "notes": "\"KivuWatt Power Station is a 26 MW (35,000 hp) methane gas-fired thermal power plant in Rwanda. The first phase of this project is powering three gensets to produce 26 MW of electricity for the local grid. The next phase of this project will deploy nine additional gensets at 75 MW to create a total capacity of over 100 MW for this high-growth country. (https://www.contourglobal.com/asset/kivuwatt) Construction concluded in November 2015 and the power station was under testing and calibration from November 2015 until commissioning in June 2016. The KivuWatt power plant was inaugurated by Rwanda's president Paul Kagame on 16 May 2016 \" (https://en.wikipedia.org/wiki/KivuWatt_Power_Station)"
+  },
+  "Samoa": {
+    "yearFirstIPP": "2015",
+    "yearFirstPrivateIPP": "2015",
+    "typeOperational": "3",
+    "notes": "\"2.2MW solar farm that has been in operation since April 2015. The existing facility was completed in December 2015.\" (https://ewsdata.rightsindevelopment.org/files/documents/01/ADB-49339-001.pdf)"
+  },
+  "San Marino": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "São Tomé and Príncipe": {
+    "yearFirstIPP": "none but one IPP under construction",
+    "yearFirstPrivateIPP": "none but one IPP under construction",
+    "typeOperational": "0",
+    "notes": "IPP being developed: \"In November 2022 Cleanwatts, a leading climate tech scaleup, has signed a contract with the Government of São Tomé and Príncipe for the production and sale of affordable clean energy. Working with the country’s public utility, the Power & Water Company (EMAE), the project will install photovoltaic plants across the country.The first phase of the project began with the installation of photovoltaic plants at the country’s national airport in São Tomé, as well as on the island of Príncipe. Clean energy produced by the installations will be injected directly into the grid; parties expect this project to revolutionize Sao Tome and Principe’s relationship with energy by addressing gaps in affordability and security of supply.\" (https://www.businesswire.com/news/home/20221103005087/en/Cleanwatts-Signs-Affordable-Clean-Energy-Contract-With-the-Government-of-S%C3%A3o-Tom%C3%A9-and-Pr%C3%ADncipe)"
+  },
+  "Saudi Arabia": {
+    "yearFirstIPP": "2015",
+    "yearFirstPrivateIPP": "2015",
+    "typeOperational": "4",
+    "notes": "\"Hajr IPP, a greenfield project, is developed on a BOO (build, own, operate) basis located on the eastern coast of Saudi Arabia with a net generation capacity of 3,927 MW. The design production capacity forms the largest IPP combined cycle gas-fired power plant in the world. COMMERCIAL OPERATIONAL DATE Q1 2015\" (https://acwapower.com/en/projects/hajr-ipp/)"
+  },
+  "Senegal": {
+    "yearFirstIPP": "2008",
+    "yearFirstPrivateIPP": "2008",
+    "typeOperational": "6",
+    "notes": "\"Kounoune Power plant was inaugurated and launched on Januray 22, 2008. Kounoune Power SA, a subsidiary of Melec PowerGen Inc, developed, built and operates a 67.5 Megawatt heavy fuel power plant in Senegal, based on a 15-years BOO contract with the local utility Senelec. The project benefits from a long term financing package by international institutions lead by the International Finance Corporation (World Bank Group) and the African Development Bank. It is the first infrastructure project in Senegal carried out by private investors.The Kounoune power station is an oil-fired power station in Senegal. It is located in Kounoune, 23 kilometres (14 mi) east of Dakar. The plant consists of 9 diesel gensets of 7.5MW each completed with all auxiliary equipment, 90kV substation, fuel storage and pipeline.\" (https://www.kounounepower.com/)"
+  },
+  "Serbia": {
+    "yearFirstIPP": "2005 (state owned generators created when EPS is unbundled)",
+    "yearFirstPrivateIPP": "2019 (private)",
+    "typeOperational": "2",
+    "notes": "EPS includes as subsidiaries five legally unbundled generators (HPP erdap llc, HPP Drinsko-Limske llc, TPP Nikola Tesla llc, TPP Kostolac llc, CHP Panonske llc.) - there is no private generation until 2019 when private wind power plant Cibuk 1 becomes operational."
+  },
+  "Seychelles": {
+    "yearFirstIPP": "[2023] first IPP being constructed",
+    "yearFirstPrivateIPP": "[2023] first IPP being constructed",
+    "typeOperational": "0",
+    "notes": "The first IPP is being built, a floating solar plant expected to be online soon. As of March 2024 the project was not yet operational."
+  },
+  "Sierra Leone": {
+    "yearFirstIPP": "2018",
+    "yearFirstPrivateIPP": "2018",
+    "typeOperational": "6",
+    "notes": "2018 Karpowership rental PPA: \"In June 2018, Karpowership signed a contract with Sierra Leone national utility company, Electricity Distribution and Supply Authority (EDSA), Ministry of Energy (MOE) and Ministry of Finance (MOF) to deploy a Powership to supply 30 MW for 7 months (dry season) and 15 MW for 5 months (wet season) for a period of 2 years. The First Powership “Karadeniz Powership Doğan Bey” has been in operation in Kroo Town Bay / Freetown since June 2018. In December 2018, an Addendum Agreement was signed to increase the capacity to 50 MW for 7 months and 30 MW for 5 months. The Second Powership “Karadeniz Powership Göktay Bey” is deployed to Cline Town Bay area in Freetown for the same period of the contract signed in June 2018. The Second Powership started operation in Cline Town Bay in March 2019. Karpowership is supplying 80% of Sierra Leone’s total electricity needs. In June 2020, a new agreement was signed with EDSA, MOE and MOF to extend the contract for 5 more years, with 65 MW capacity during dry season and 25 MW capacity during wet season\" (https://karpowership.com/en/sierra-leone)"
+  },
+  "Singapore": {
+    "yearFirstIPP": "2000 (state)",
+    "yearFirstPrivateIPP": "2001 (private)",
+    "typeOperational": "4",
+    "notes": "\"As a result, SP divested its two power generation subsidiaries, PowerSeraya and PowerSenoko to its parent company, Temasek Holdings.\" (https://www.sciencedirect.com/science/article/pii/S0301421504002587)"
+  },
+  "Sint Maarten": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Slovakia": {
+    "yearFirstIPP": "2010",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "7",
+    "notes": "From the information I was able to find Veolia's biomass plant seems to be the first IPP, it starts operating in 2010. (see:https://vesr.sk/sites/default/files/informacne_tabule_vrable_2015.pdf and https://cepconsult.com/wp-content/uploads/2021/02/sk-energy-market_electricity-production_022021.pdf)"
+  },
+  "Slovenia": {
+    "yearFirstIPP": "2001 (state owned generator created from unbundling)",
+    "yearFirstPrivateIPP": "None (a private wind IPP in 2023 received planning approval)",
+    "typeOperational": "0",
+    "notes": "Holding Slovenske elektrarne (HSE) is a state-owned power generation company in Slovenia. It is the largest company in Slovenia and was established by a government decision on 26 July 2001. The company consists of hydroelectric plants based on the Drava, Sava, and Soča rivers and coal-fired power plants in Brestanica, Šoštanj, and Velenje. (https://en.wikipedia.org/wiki/Holding_Slovenske_elektrarne)"
+  },
+  "Solomon Islands": {
+    "yearFirstIPP": "None - one PPP being built",
+    "yearFirstPrivateIPP": "None - one PPP being built",
+    "typeOperational": "0",
+    "notes": "Tina River Hydropower is the first large-scale PPP in the Solomon Islands is under construction. As of March 2024 it is not yet operational."
+  },
+  "Somalia": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country. Mainly private energy service providers since 1991 providing power through mini-grids."
+  },
+  "South Africa": {
+    "yearFirstIPP": "2013",
+    "yearFirstPrivateIPP": "2013",
+    "typeOperational": "2",
+    "notes": "2013 some of the wind/solar awarded under REIPP become operational"
+  },
+  "South Sudan": {
+    "yearFirstIPP": "2013",
+    "yearFirstPrivateIPP": "2019",
+    "typeOperational": "6",
+    "notes": "Ezra Juba Power: \"Ezra Juba Power – part of the privately-owned Juba-based Ezra Group – is an Independent Power Producer (IPP) that currently operates the only functional power plant in Juba, a 33MW diesel plant launched as an IPP in 2019 following signature of an Implementation Agreement (IA) and a Power Purchase Agreement (PPA) with GoSS in August 2017. The term of the PPA is 17 years at an average tariff of USD 0.373 / kWh for a total contract value of USD $290 million, after which ownership will be transferred to the government. The agreement calls for a total of 100MW fossil fuelbased plant to be built and operated four phases of 30MW, 30MW, 20MW, and 20MW. Currently, the first phase is the only one in operation.\" (https://rise.esmap.org/data/files/library/south-sudan/Electricity%20Access/South%20Sudan_Electricity%20Sector%20Diagnostic_2021.pdf)"
+  },
+  "Spain": {
+    "yearFirstIPP": "1992",
+    "yearFirstPrivateIPP": "1992",
+    "typeOperational": "1",
+    "notes": "\"Iberdrola was created on November 1, 1992, from the merger between Hidroeléctrica Española and Iberduero.Hidroeléctrica Española, also known as Hidrola, had started in 1907, while Iberduero arose from the merger between Hidroeléctrica Ibérica and Saltos del Duero in 1944. As of 2011 and with the integration of ScottishPower and Energy East, now renamed Iberdrola USA, the company has become a major multinational group.\"(https://en.wikipedia.org/wiki/Iberdrola#:~:text=As%20of%202023%2C%20the%20largest,Iberdrola%2C%20S.A.&text=Iberdrola%20is%20the%20biggest%20producer,electricity%20utility%20by%20market%20capitalisation.)"
+  },
+  "Sri Lanka": {
+    "yearFirstIPP": "1998",
+    "yearFirstPrivateIPP": "1998",
+    "typeOperational": "6",
+    "notes": "\"The Asia Power Sapugaskanda Power Station (also sometimes referred to as Asia Power Station) is a 51 MW thermal power station in Sapugaskanda, Sri Lanka. Planning for the fuel oil-run power station dated back to 1994, when the Ceylon Electricity Board issued a tender for an IPP project for 50 megawatts. Construction of the plant began in 1996 and was commissioned in June 1998, with a PPA of 20-years. The power station utilizes eight Deutz 16V BVM 640 generating units\" (https://en.wikipedia.org/wiki/Asia_Power_Sapugaskanda_Power_Station#:~:text=The%20Asia%20Power%20Sapugaskanda%20Power,IPP%20project%20for%2050%20megawatts.) (https://ppi.worldbank.org/en/snapshots/project/sapugaskanda-power-station-156)"
+  },
+  "Saint Kitts and Nevis": {
+    "yearFirstIPP": "2010",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "2",
+    "notes": "In 2010, Windwatt Nevis Ltd. (a private developer) installed a 2.2 MW wind park at Maddens Estate. The Maddens Wind Park, which consist of 8  Vergnet 275 kW wind turbines, supplies energy into Nevlec’s 11kV distribution grid.  Nevlec is obligated to purchase up to 1.6 MW of energy from the wind park according to the Power Purchase Agreement (PPA) between the two companies."
+  },
+  "Saint Lucia": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Collectivity of Saint Martin": {
+    "yearFirstIPP": "2010",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "6",
+    "notes": "\"ContourGlobal acquired this plant along with another thermal power plant in Guadeloupe in 2010 to serve as baseload facilities for Electricité de France (EDF), the electricity distributor to both islands. The plant consists of 13.8 MW 3 Wärtsilä 12V32 Engines (4.6 MW each) diesel engines operating with light fuel oil and it is long term contract with EDF for its total output until 2023.\" (https://www.contourglobal.com/asset/energies-saint-martin)"
+  },
+  "Saint Vincent and the Grenadines": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Sudan": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Suriname": {
+    "yearFirstIPP": "1932 but later nationalized, no IPPs currently",
+    "yearFirstPrivateIPP": "1933 but later nationalized, no IPPs currently",
+    "typeOperational": "6",
+    "notes": "\"On February 1, 1932, the Nederlands-Indische Gas Maatschappij (NIGM), founded in 1863 and active in Suriname since 1908, officially commissioned the first power plant in Paramaribo . It was a small power plant equipped with three diesel engines . In 1950 the company's name was changed to Overseas Gas and Electricity Company (OGEM). From January 1968 the company trades under the name NV EnergieBebedrijven Suriname (EBS). On January 1, 1972, the Surinamese State bought a 60% interest in EBS, with management remaining with OGEM. [2] In 1974 the State also wanted to buy the remaining shares, but because no agreement was reached on the price, the shares were nationalized in 1982 , entitling OGEM to compensation.\" (https://nl.wikipedia.org/wiki/EnergieBedrijven_Suriname)"
+  },
+  "Sweden": {
+    "yearFirstIPP": "1992 (state owned generator created from unbundling)",
+    "yearFirstPrivateIPP": "1996",
+    "typeOperational": "1",
+    "notes": "State owned IPP: In 1992, Vattenfall was reformed as the limited liability company Vattenfall AB. At the same time, the transmission grid (220 kV and 400 kV lines) was transferred to the newly formed state agency Svenska kraftnät, which also became responsible for the operation of the national power system. (https://en.wikipedia.org/wiki/Vattenfall)"
+  },
+  "Switzerland": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "I was unable to find a pure IPP. All the players seem to be integrated utilties that owne generation and distribution assets."
+  },
+  "Syria": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country."
+  },
+  "Taiwan": {
+    "yearFirstIPP": "1999",
+    "yearFirstPrivateIPP": "1999",
+    "typeOperational": "5",
+    "notes": "In 1999 first IPP (coal-fired Mailiao plant owned by Formosa Plastics) start commercial operations and sells to Taipower VIU. There was also a proposal this year to privatize Taipower as well as unbunlde it."
+  },
+  "Tajikistan": {
+    "yearFirstIPP": "2010",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "1",
+    "notes": "2 hydro IPPs start selling power to Barki Tojik. The IPPs are 25% owned by Tajik government and rest is split between Russian companies and Russian state ownership."
+  },
+  "Tanzania": {
+    "yearFirstIPP": "2002",
+    "yearFirstPrivateIPP": "2002",
+    "typeOperational": "6",
+    "notes": "In 2000 start operating 100 MW Independent Tanzania Power Plant (ITPL) IPP, the first IPP start generating power and selling to the grid. This is a diesel-fired power plant."
+  },
+  "Thailand": {
+    "yearFirstIPP": "1992 (state)",
+    "yearFirstPrivateIPP": "1999 (private)",
+    "typeOperational": "4",
+    "notes": "\"In 1992, Electricity Generating Public Company Limited was established. It sold its shares in the stock market and purchased Rayong and Kanom power plants from EGAT, that is why they are regarded as the first private power plants in Thailand.\" (https://www.egat.co.th/home/en/history-thai-electricity/) \"EGAT’s partial ‘privatization’ began in May 1992, when it created a whollyowned subsidiary, the Electricity Generating Company Limited (“EGCO”), to establish a vehicle to raise funds on capital markets and introduce competition to EGAT in the power generation business.13 EGAT’s stake in EGCO was reduced to 40.7 % when it was first offered to the public in 1995, then further reduced when it was offered to strategic investors in 1997—Hong Kong’s China Light & Power won this bid with an offer reported to have been extremely aggressive. Later in 2000, Ratchaburi Electricity Generating Holding Public Co., Ltd. was established as a subsidiary of EGAT to hold generation assets and raise capital through capital markets listing—in which a major strategic stake was acquired by local coal supplier, Banpu Coal Company. In 2005, EGAT retains residual stakes of 25% in EGCO and 45% in Ratchaburi. \" (https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/Thailand_Country_Study.pdf)"
+  },
+  "Timor-Leste": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country currently."
+  },
+  "Togo": {
+    "yearFirstIPP": "2010",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "6",
+    "notes": "\"The process of procuring a thermal power plant started in October 2006 with the signing of a 25-year concession agreement between Togo and ContourGlobal Togo SA. This was followed by a power purchase agreement concluded with CEET on 5 June 2007. Financial papers were signed on 6 May 2009, thereby rendering effective the concession agreement and the power purchase contract. The Plant activities started on 15 October 2010. The 100MW thermal power plant has an annual capacity of 780 GWh. These agreements culminated in a Take-or-Pay contract; in other words, even without consuming, CEET pays ContourGlobal a fixed annual amount for a duration of 25 years.\" (https://www.afdb.org/en/documents/document/west-africa-policy-notes-note-3-septembre-2015-83848)"
+  },
+  "Tonga": {
+    "yearFirstIPP": "2022",
+    "yearFirstPrivateIPP": "2022",
+    "typeOperational": "3",
+    "notes": "Tonga Power Limited is SOE VIU, in August 2022 first solar IPP project came online selling the Tonga Power so moving to 2a."
+  },
+  "Trinidad and Tobago": {
+    "yearFirstIPP": "1994 (majority state)",
+    "yearFirstPrivateIPP": "1999",
+    "typeOperational": "4",
+    "notes": "Powergen IPP: \"In 1994, T&TEC divested its generation assets to Powergen, a company whose ownership structure at the time was led by T&TEC with a 51 per cent shareholding, followed by Southern Electric International with 39 per cent and Amoco with 10 per cent. T&TEC has retained its majority shareholding up to the present time, and there have been five occasions where the ownership structure changed hands, as follows: In 1998, BP Amoco replaced Amoco; in 2000, BP replaced BP Amoco; in 2001, the Mirant Corporation of the USA replaced Southern Electric International, in 2007, Marubeni Corporation replaced the Mirant Corporation and in 2013, National Enterprises Ltd Power Holdings Ltd replaced BP. Powergen operates three major power generation plants at Point Lisas, Port of Spain and Penal. The largest plant is located at Point Lisas.\" (https://www.energy.gov.tt/our-business/electric-power/)"
+  },
+  "Tunisia": {
+    "yearFirstIPP": "2002",
+    "yearFirstPrivateIPP": "2002",
+    "typeOperational": "4",
+    "notes": "\"Until 2002, Tunisia’s sole supplier of electricity generation, transmission, and distribution was Société Tunisienne de l’Electricité et du Gaz (STEG), a state-owned, vertically integrated monopoly. The Tunisian government terminated STEG’s monopoly over power generation in 1996 to encourage private power generation (April 1, 1996, Decree no. 96-27). The first IPP in Tunisia was the 471 MW combined-cycle plant at Rades (Rades II), which commenced operation in 2002. The second IPP followed shortly thereafter, commencing operation in 2004. STEG continues to maintain control over distribution, but the Tunisian government is seeking to encourage further private investment in power generation. STEG and the two IPPs are the main participants in Tunisia’s power sector today.\" (http://documents.worldbank.org/curated/en/415281468059650302/pdf/ACS71240ESW0WH0I0and0II000Final0PDF.pdf)"
+  },
+  "Turkiye": {
+    "yearFirstIPP": "1985 (autoproducers)",
+    "yearFirstPrivateIPP": "1985 (autoproducers)",
+    "typeOperational": "4",
+    "notes": "1984 law - autoproducers start selling to the grid but small scale: \"in 1984 with the enactment of a law granting authorization to institutions other than the Turkish Electricity Authority (TEK) for generation, transmission, distribution, and trade of electricity under build-operate-transfer (BOT), transfer of operational rights (TOOR), and autoproduction models. Originally established in 1970 as an integrated authority for electricity generation, transmission, and rural electrification, TEK effectively became a monopoly in 1982 with the consolidation of municipal distribution activities into TEK. However, the 1984 Law ended TEK’s effective monopoly position and TEK was corporatized into a state-owned enterprise.\" (https://documents1.worldbank.org/curated/en/249831468189270397/pdf/ACS14951-REVISED-Box393232B-PUBLIC-EnergyVeryFinalEN.pdf)"
+  },
+  "Turkmenistan": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country currently."
+  },
+  "Turks and Caicos Islands": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country currently."
+  },
+  "Tuvalu": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country currently."
+  },
+  "Uganda": {
+    "yearFirstIPP": "2001 (state owned generator created from unbundling)",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "6",
+    "notes": "State owned generation company created in 2001: The Uganda Electricity Generation Company Limited (UEGCL) is a parastatal company whose primary purpose is to generate electric power for use in Uganda and for sale to neighboring countries. UEGCL was incorporated by the Uganda Ministry of Finance, Planning and Economic Development in 2001, following the break-up of the Uganda Electricity Board. UEGCL is responsible for the operation, maintenance, and improvement of the power stations owned by the Ugandan government"
+  },
+  "Ukraine": {
+    "yearFirstIPP": "1997 (state owned generator created from unbundling)",
+    "yearFirstPrivateIPP": "2005",
+    "typeOperational": "5",
+    "notes": "Unbundling around 1997 created fourteen thermal power plants which were owned and operated by 4 joint stock generation companies. Two joint stock companies owned and operated 11 hydropower stations and a nuclear generation company (Energoatom) owned and operated 5 nuclear plants). The state owned majority of the shares of the thermal power companies and 100% of the hydropower and nuclear companies (for detail see: https://openknowledge.worldbank.org/server/api/core/bitstreams/c3d477d8-b594-5891-b98a-7fe1ad2ac38a/content)"
+  },
+  "United Arab Emirates": {
+    "yearFirstIPP": "2001",
+    "yearFirstPrivateIPP": "2001",
+    "typeOperational": "4",
+    "notes": "\"Taweelah A2 is the first independent water and power project in Abu Dhabi under the government privatization policy. In response to the Abu Dhabi Water and Electricity Authority (ADWEA) request for proposals, CMS Energy prepared and submitted their offer in April 1998. Following clarifications, the Power and Water Purchase Agreement was signed on 3 October 1998. CMS appointed Mott MacDonald as their technical advisers for the tender and project phases. The Taweelah A2 plant will comprise a 720 MW combined cycle power plant and 50 migd MSF desalination plant.\" (https://www.lenntech.com/abstracts/351/the-taweelah-a2-independent-water-and-power-project.html#ixzz7xvRxglN1)"
+  },
+  "United Kingdom": {
+    "yearFirstIPP": "1990",
+    "yearFirstPrivateIPP": "1990",
+    "typeOperational": "4",
+    "notes": "Unbundling in 1990 and privatization of RECs: \"The RECs were privatised in December 1990, and the industry's conventional power stations in March 1991.\" (https://www.sciencedirect.com/science/article/pii/S0301421599000555)"
+  },
+  "United States": {
+    "yearFirstIPP": "1998",
+    "yearFirstPrivateIPP": "1998",
+    "typeOperational": "5",
+    "notes": "\"Merchant power plant development began in the United States in 1998 with fossil fuel generation projects.\" (https://en.wikipedia.org/wiki/Merchant_wind_power#:~:text=The%2011MW%20wind%20farm%20in,of%20PG%26E%20by%20Laura%20Walker.)"
+  },
+  "Uruguay": {
+    "yearFirstIPP": "2014",
+    "yearFirstPrivateIPP": "2014",
+    "typeOperational": "2",
+    "notes": "First solar IPP start selling to UTE under a 30 year PPA, the plant start operations in 2014, this is the first operational IPP I was able to find."
+  },
+  "Uzbekistan": {
+    "yearFirstIPP": "2021",
+    "yearFirstPrivateIPP": "2021",
+    "typeOperational": "3",
+    "notes": "Navoi solar IPP starts operations: \"Nur Navoi Solar powerplant had a winning bid of just under 2.7 U.S. cents per kilowatt hour – one of the lowest tariffs in developing countries at the time. The project was awarded to Masdar in 2019 and came on stream in 2021, adding 100 megawatts to Uzbekistan’s electricity generation capacity.\" (https://www.ifc.org/wps/wcm/connect/news_ext_content/ifc_external_corporate_site/news+and+events/news/uzbekistan-solar-power#:~:text=To%20create%20an%20investor%2Dfriendly,of%20the%20state%2Downed%20Uzbekenergo.)"
+  },
+  "Vanuatu": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country currently."
+  },
+  "Venezuela": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "Historically there were integrated (generation & distribution) private companies which were in 2007 nationalized. But I could not find any instance of an independent power producer."
+  },
+  "Vietnam": {
+    "yearFirstIPP": "2005",
+    "yearFirstPrivateIPP": "2005",
+    "typeOperational": "4",
+    "notes": "First IPP project (Phú Mỹ 2–2) start operations and selling electricity to EVN. As of 2021 the plant is still IPP \"The project was developed by Mekong Energy. EDF Energy Holdings, Sumitomo and JERA are currently owning the project having ownership stake of 56.25%, 28.12% and 15.62% respectively.\" (https://www.power-technology.com/marketdata/phu-my-2-2-combined-cycle-power-plant-vietnam/) This year the energy regulator is also established."
+  },
+  "United States Virgin Islands": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country currently."
+  },
+  "Wallis and Futuna": {
+    "yearFirstIPP": null,
+    "yearFirstPrivateIPP": null,
+    "typeOperational": "0",
+    "notes": "There are no IPPs operating in the country currently."
+  },
+  "Palestinian National Authority": {
+    "yearFirstIPP": "2004",
+    "yearFirstPrivateIPP": "2004",
+    "typeOperational": "6",
+    "notes": "\"The Gaza Power Plant (GPP) provides the only significant domestic generation capacity in the Palestinian energy portfolio, and it has been plagued with difficulties. GPP is owned by the Gaza Power Generation Company, which is in turn owned by the Greek- Lebanese construction company Consolidated Contractors Company. The plant entered into commercial operation on March 15, 2004, under a 20-year Power Purchase Agreement (PPA) contract, which requires that the Palestinian Authority cover take-or-pay capacity charges of NIS 0.096 (US$0.026) for the full 140 MW capacity of the plant. This capacity charge is paid to the owners of GPP regardless of the level of the plant’s actual production and output. In addition, the Palestinian Authority must cover the cost of fuel, which, depending on the level of fuel taxes and exemptions applied, can range from NIS 0.74 to NIS 1.3 (US$0.20–0.40) per kWh for the diesel fuel alone. Although the plant has a rated capacity of 140 MW, it normally operates at less than 50 percent of its capability due to the inability of the Palestinian institutions to pay the high costs of diesel fuel.\" (https://www.worldbank.org/en/country/westbankandgaza/brief/securing-energy-for-development-in-west-bank-and-gaza-brief)"
+  },
+  "Yemen": {
+    "yearFirstIPP": "2010",
+    "yearFirstPrivateIPP": "2010",
+    "typeOperational": "6",
+    "notes": "\"Hadramout Investment Power Company Ltd \"is the first Independent Power Producer (IPP) in Yemen with its first ever biggest private Power Plants of 75 MW, Heavy Fuel oil (HFO) based (capable of conversion to gas) commissioned in the month of June, Year 2010 at Mukalla (Al Harshiyat), Republic of Yemen and ever since is under commercial operation for supply to Public Electricity Corporation under the Ministry of Electricity and Energy. Initial Operations began in June 2010 on a temporary basis at 11kV voltage level followed by full scale Operations from 12th August 2010 at 33kV voltage level. Initial contracted capacity with PEC is 25 MW followed by 40 MW this year, 2011 and is further set to increase in near future. \" (http://hipc-ye.com/about.html)"
+  },
+  "Zambia": {
+    "yearFirstIPP": "2001",
+    "yearFirstPrivateIPP": "2001",
+    "typeOperational": "1",
+    "notes": "\"Lunsemfwa Hydro Power Company Limited (LHPC) is the first independent power producer in Zambia. LHPC operates two hydropower plants, Lunsemfwa and Mulungushi, in Central District in Zambia with a total installed capacity of 56 MW. LHPC is committed to contribute to improving Zambia’s and the regions power deficit via renewable power production. LHPC has strategic plans to increase the installed capacity with a combination of new investments and upgrades at existing power plants and optimising via solar expansion at our sites and construct the large Muchinga project downstream of Lunsemfwa which has a potential up to 1,000 MW. LHPC is a full member of the Sothern Africa Power Pool and parts of the production is sold on this exchange. The remaining part of electricity is sold on long term PPAs. We are connected to the national and regional grid through 3 main transmission lines that we own. LHPC is a subsidiary of Agua Imara (51 %), a Norfund company and Wanda Gorge Investments (49 %), a Zambian entity.\" (https://lunsemfwahydro.com.zm/about/)"
+  },
+  "Zimbabwe": {
+    "yearFirstIPP": "None but solar IPPs announced in 2022",
+    "yearFirstPrivateIPP": "None but solar IPPs announced in 2022",
+    "typeOperational": "0",
+    "notes": "December 2022 - IPP development: \"The Zimbabwean government has agreed to guarantee viable power tariffs to 27 solar projects by independent power producers (IPPs). Developers are set to build 997.9 MW of capacity, with a total investment of around $1 billion. Zimbabwe has announced a government implementation agreement (GIA) to expedite the commissioning of 27 solar IPP installations. The 1 GW of projects range from 5 MW arrays to 100 MW solar parks and will cost about $1 billion in total.\" (https://www.pv-magazine.com/2022/12/30/zimbabwe-announces-incentives-for-1-gw-of-ipp-solar-projects/)"
   }
 }

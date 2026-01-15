@@ -1,62 +1,1382 @@
 {
-  "Armenia": {
-    "name": "Public Services Regulatory Commission (PSRC)",
-    "yearEstablished": "1997",
-    "website": "https://www.psrc.am/contents/page/history",
-    "notes": "Established on April 3, 1997 by decree of the President of the Republic of Armenia"
+  "Afghanistan": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator"
+  },
+  "Albania": {
+    "name": "Albanian Energy Regulator Authority",
+    "yearEstablished": "1995",
+    "website": "https://www.ere.gov.al/en/",
+    "notes": "Regulator: Albanian Energy Regulator Authority (ERE)  \"ERE is a public legal entity, independent from the energy industry interest and from government institutions. ERE is established on 1995 and operates based on Law no. 43/2015, of 30.04.2015 “For power sector” and Law no.102/2015 \"For natural gas sector\" (https://www.ere.gov.al/en/ere/what-is-ere)"
+  },
+  "Algeria": {
+    "name": "Electricity and Gas Regulatory Commission",
+    "yearEstablished": "2002",
+    "website": "www.creg.gov.dz",
+    "notes": "Regulator: Electricity and Gas Regulatory Commission (CREG) \"The main competencies and functions of CREG are: – Licencing – Demand Forecast/ Investment Planning – Remuneration of Operators and Tariffs – Access to Networks/ Markets – Quality Regulations/ Technical and Environmental Control – Consumer Protection\" (https://erranet.org/member/creg-algeria/)"
+  },
+  "American Samoa": {
+    "name": "The Office of the Regulator is Samoa’s Regulator for the telecommunications, broadcasting, postal and electricity sectors.",
+    "yearEstablished": "2010",
+    "website": "https://regulator.gov.ws/index.php/about-u",
+    "notes": "Regulator: The Office of the Regulator is Samoa’s Regulator for the telecommunications, broadcasting, postal and electricity sectors."
+  },
+  "Andorra": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator"
+  },
+  "Angola": {
+    "name": "IRSEA",
+    "yearEstablished": "2016",
+    "website": "http://www.irsea.gov.ao/irsea/",
+    "notes": "Regulator: IRSEA (Instituto Regulador dos Serviços de Electricidade e Águas) established in 2016 (http://www.irsea.gov.ao/wp-content/uploads/2019/12/Decreto-Presidencial-n%C2%BA-59-16-Estatuto-do-IRSEA.pdf) \"We are the Regulatory Institute for Electricity Services and Water Supply and Waste Water Sanitation, an Institute for the economic or productive sector, a legal person governed by public law, created by Presidential Decree No. 59/16, of March 16, under the supervision of the Ministry da Energia e Águas, endowed with legal personality, administrative, financial and patrimonial autonomy.\" (http://www.irsea.gov.ao/irsea/)"
+  },
+  "Anguilla": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator"
+  },
+  "Antigua and Barbuda": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator. Antigua Public Utilities Authority (APUA) is the VIU and also has regulatory powers. Since this is not an independent entity, I am not considering it as a regulator. \"The Antigua Public Utilities Authority is a tripartite government statutory agency set up under the Public Utilities Act No. 10 of 1973 (and subsequently as amended) to ensure that consumers receive the best possible value in Telecommunications (including mobile & internet), Electricity and Water services. Policy formulation and introduction of legislation as required to successfully fulfill APUA’s mission comes from the Minister with responsibility for Public Utilities, who is a member of the Cabinet of Antigua & Barbuda. The day-to-day operation of the organization is vested by the General Manager, who is assisted by a Management Team. Oversight is provided by the Board of Commissioners also appointed by Cabinet.\" (http://www.apua.ag/about/)"
   },
   "Argentina": {
-    "name": "National Electricity Regulator (ENRE)",
+    "name": "The Energy Secretariat",
     "yearEstablished": "1991",
     "website": "https://www.argentina.gob.ar/enre",
-    "notes": "Independent entity within the Energy Secretariat responsible for applying regulatory framework"
+    "notes": "Regulator: The Energy Secretariat (SENER) is responsible for policy setting, while the National Electricity Regulator (ENRE) is the independent entity within the Energy Secretariat responsible for applying the regulatory framework established by Law 26,046 of 1991."
+  },
+  "Armenia": {
+    "name": "Public Services Regulatory Commission",
+    "yearEstablished": "1997",
+    "website": "https://www.psrc.am/contents/page/history",
+    "notes": "Regulator: Public Services Regulatory Commission (PSRC) (https://www.psrc.am/) \"It was established on April 3, 1997 by the decree of the President of the Republic of Armenia as the Energy Commission of the Republic of Armenia.\" (https://www.psrc.am/contents/page/history)"
+  },
+  "Aruba": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator. \"WEB Aruba became an independent company in January 1992. WEB Aruba and N.V. ELMAR were incorporated as separate companies into Utilities Aruba NV, a holding company with the Government of Aruba as the sole shareholder.\" (https://webaruba.com/company/organization)"
   },
   "Australia": {
-    "name": "Australian Energy Market Commission (AEMC)",
+    "name": "Australian Energy Market Commission",
     "yearEstablished": "2005",
     "website": "https://www.aemc.gov.au/",
-    "notes": "AEMC was established in 2005. National Electricity Market was established in 1998"
+    "notes": "Regulator:  Australian Energy Market Commission (AEMC) was established in 2005."
   },
-  "Germany": {
-    "name": "Federal Network Agency (BNetzA)",
-    "yearEstablished": "2005",
-    "website": "https://www.bundesnetzagentur.de",
-    "notes": "Regulates electricity, gas, telecommunications, post and railway markets"
+  "Austria": {
+    "name": "Electricity-Control Commission",
+    "yearEstablished": "2001",
+    "website": "www.e-control.at",
+    "notes": "Regulator: Electricity-Control Commission (ECC) created in 2001 as the regulator"
   },
-  "Spain": {
-    "name": "National Commission on Markets and Competition (CNMC)",
-    "yearEstablished": "1998",
-    "website": "https://www.cnmc.es",
-    "notes": "Originally established as CNE in 1998, merged to form CNMC in 2013"
+  "Azerbaijan": {
+    "name": "\"The Azerbaijan Energy Regulatory Agency",
+    "yearEstablished": "2018",
+    "website": "https://regulator.gov.az/en/",
+    "notes": "Regulator: \"The Azerbaijan Energy Regulatory Agency (AERA) regulates and inspects issues related to electricity, gas and heat supply. Established with the Presidential Decree №1750 by the 22nd of December 2017, the Agency operates as a public legal entity under the Ministry of Energy. After liquidation of two state bodies under the Ministry of Energy  as the State Energy Control Administration and the State Gas Control Administration of the Ministry of Energy,  the assets and liabilities of the abolished bodies were passed to the Agency. In April 2018, the Agency started its business operations. AERA consists of the Management Board, departments, divisions and units operating in the headquarters of the Agency, as well as via its branches located in the regions of Azerbaijan. \" (https://regulator.gov.az/en/agentlik/haqqimizda)"
   },
-  "Poland": {
-    "name": "Energy Regulatory Office (URE)",
-    "yearEstablished": "1997",
-    "website": "https://www.ure.gov.pl",
-    "notes": "Established in 1997 to regulate energy sector"
+  "Bahamas": {
+    "name": "Utilities Regulation & Competition Authority",
+    "yearEstablished": "2015",
+    "website": "https://www.urcabahamas.bs",
+    "notes": "Regulator: Utilities Regulation & Competition Authority (https://www.urcabahamas.bs/) \"The Utilities Regulation and Competition Authority (URCA) is the independent regulatory authority with responsibility for the Electronic Communications Sector (ECS) and the Electricity Sector (ES) in The Bahamas. The ECS comprises fixed and mobile telephone services, spectrum and numbering, broadcasting including pay television and Internet services. As regulator of the ES, URCA remit covers all persons who generate, transmit, distribute or supply electricity to from or within The Bahamas."
   },
-  "Romania": {
-    "name": "Romanian Energy Regulatory Authority (ANRE)",
-    "yearEstablished": "1999",
-    "website": "https://www.anre.ro",
-    "notes": "Established in 1999 as independent authority"
+  "Bahrain": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Ministry of Electricity and Water Affair is in charge of the sector, there is no independent regulator"
   },
-  "Georgia": {
-    "name": "Georgian National Energy and Water Supply Regulatory Commission (GNERC)",
-    "yearEstablished": "1997",
-    "website": "https://www.gnerc.org",
-    "notes": "Established in 1997"
+  "Bangladesh": {
+    "name": "Bangladesh Energy Regulatory Commission or BERC was established in 2003. It is a regulatory agency that regulates the gas, electricity and petroleum products in Bangladesh and is located in Dhaka. Its duties entail the management, operation and tariff determination of the electricity, gas and petroleum sectors. BERC also governs all matters related to licensing, and is mandated to promote competition and  conflict resolution within the sectors it governs. Bangladesh. http://www.berc.org.bd/",
+    "yearEstablished": "2003",
+    "website": "http://www.berc.org.bd/",
+    "notes": "Regulator:  Bangladesh Energy Regulatory Commission or BERC was established in 2003. It is a regulatory agency that regulates the gas, electricity and petroleum products in Bangladesh and is located in Dhaka. Its duties entail the management, operation and tariff determination of the electricity, gas and petroleum sectors. BERC also governs all matters related to licensing, and is mandated to promote competition and  conflict resolution within the sectors it governs. Bangladesh. http://www.berc.org.bd/"
   },
-  "Denmark": {
-    "name": "Danish Utility Regulator",
+  "Barbados": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Ministry of Energy regulates the sector, there is no independent regulator."
+  },
+  "Belarus": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "In terms of energy sector regulation, there is no single independent body acting as an energy regulatory authority. Instead, residential energy tariffs are regulated by the Council of Ministers and approved by the president, while electricity and heat tariffs for all non-residential sectors, including tariffs for electricity and heat sales to industry and for electricity sale by independent power producers (IPPs), are regulated by the Ministry of Anti-Monopoly Regulation and Trade (MART)."
+  },
+  "Belgium": {
+    "name": "\"Regulatory responsibility over the Belgian electricity market is divided between the federal regulator, the Commission for Electricity and Gas Regulation",
     "yearEstablished": "2000",
-    "website": "https://forsyningstilsynet.dk",
-    "notes": "Established in 2000"
+    "website": "https://www.creg.be/en",
+    "notes": "Regulator: \"Regulatory responsibility over the Belgian electricity market is divided between the federal regulator, the Commission for Electricity and Gas Regulation (CREG), and the three regional regulators: the VREG in Flanders, the CWaPE in Wallonia and the Brugel in the Brussels-Capital Region. The regulatory authorities are independent, both from market players and from policy makers. The CREG is responsible for the electricity transmission system, including approval of transmission tariffs, and also advises the federal government on gas and electricity markets. The VREG, CWaPE and Brugel approve distribution tariffs and regulate electricity distribution and compliance with regional public service obligations. They also advise each regional government on the operation of the gas and electricity markets. The regional regulators monitor retail market competition in their respective regions, while the CREG monitors wholesale market competition\" (https://iea.blob.core.windows.net/assets/638cb377-ca57-4c16-847d-ea4d96218d35/Belgium2022_EnergyPolicyReview.pdf) (https://www.ampliz.com/company/creg-commission-for-electricity-and-gas-regulation-belgium/98129102)"
+  },
+  "Belize": {
+    "name": "The Ministry of Public Utilities, Energy and Logistics",
+    "yearEstablished": "2001",
+    "website": "https://www.puc.bz/",
+    "notes": "Regulator: The Ministry of Public Utilities, Energy and Logistics (MoPUEL) is responsible for the energy sector. The Public Utilities Commission (PUC) regulates all entities involved in the generation and supply of electricity and oversees rates and regulation. \"The Belize Public Utilities Commission (PUC) regulates the water, electricity, and telecommunication sectors in Belize ensuring that these services are accessible, of high quality, and affordable for consumers and that the sectors are viable and sustainable.\" \"The Public Utilities Commission was established in 2001 incorporating the traditional regulatory bodies, the Office of Electricity Supply and the Office of Telecommunications to regulate the electricity, water, and telecommunications sectors in Belize. These sectors are essential commodities for any economy therefore the work of the PUC is critical to Belize’s economy. The PUC’s mandate is legally obliged by the Public Utilities Commission Substantive Act Chapter 223 Revised Edition 2020.\"  (https://www.puc.bz/)"
+  },
+  "Benin": {
+    "name": "Autorité de Régulation de l'Électricité du Bénin:Electricity Regulatory Authority is an independent administrative authority, endowed with legal personality and financial autonomy, placed under the authority of the President of the Republic of Benin. It ensures compliance with legislative and regulatory texts by the various public and private players involved in the electricity sector. It is responsible for protecting the interests of public or private operators and consumers and for guaranteeing the continuity and quality of service, the financial balance of the sector and its harmonious development.",
+    "yearEstablished": "2015",
+    "website": "https://are.bj/",
+    "notes": "Regulator: Autorité de Régulation de l'Électricité du Bénin:Electricity Regulatory Authority is an independent administrative authority, endowed with legal personality and financial autonomy, placed under the authority of the President of the Republic of Benin. It ensures compliance with legislative and regulatory texts by the various public and private players involved in the electricity sector. It is responsible for protecting the interests of public or private operators and consumers and for guaranteeing the continuity and quality of service, the financial balance of the sector and its harmonious development. (https://are.bj/) From what I understood it was established in 2015."
+  },
+  "Bermuda": {
+    "name": "\"The RA is an independent regulator established under the Regulatory Authority Act 2011. The RA has the power to supervise, monitor and regulate any regulated industry sector in accordance with the Regulatory Authority Act 2011, sectoral legislation and any regulations or policies made by the Minister. The RA currently regulates the Electronic Communications, Electricity and Submarine Communication Cables sectors. Within its scope, the RA may make administrative determinations and has the power to issue adjudicative decisions and orders as appropriate.\"",
+    "yearEstablished": "2011",
+    "website": "https://www.ra.bm/",
+    "notes": "Regulator: \"The RA is an independent regulator established under the Regulatory Authority Act 2011. The RA has the power to supervise, monitor and regulate any regulated industry sector in accordance with the Regulatory Authority Act 2011, sectoral legislation and any regulations or policies made by the Minister. The RA currently regulates the Electronic Communications, Electricity and Submarine Communication Cables sectors. Within its scope, the RA may make administrative determinations and has the power to issue adjudicative decisions and orders as appropriate.\" (https://www.ra.bm/ )"
+  },
+  "Bhutan": {
+    "name": "\"The Electricity Act 2001 restructured the country’s electricity sector. Bhutan Electricity Authority was established as the regulatory body\"",
+    "yearEstablished": "2001",
+    "website": "http://bea.gov.bt/",
+    "notes": "Regulator: \"The Electricity Act 2001 restructured the country’s electricity sector. Bhutan Electricity Authority was established as the regulatory body\" (https://www.drukgreen.bt/wp-content/uploads/2020/06/Corporate-Profile-.pdf)"
+  },
+  "Bolivia": {
+    "name": "1994 regulation create regulator: The Superintendency of Electricity, an autonomous agency with an independent budget, is in charge of supervising compliance with sector regulation and of approving tariffs. In 1994 create energy regulator \"Superintendent of Electricity has oversight responsibility for the electricity sector.\"",
+    "yearEstablished": "1996",
+    "website": "https://www.cndc.bo/empresa/conformacion.php",
+    "notes": "Regulator: 1994 regulation create regulator: The Superintendency of Electricity, an autonomous agency with an independent budget, is in charge of supervising compliance with sector regulation and of approving tariffs. In 1994 create energy regulator \"Superintendent of Electricity has oversight responsibility for the electricity sector.\" (https://www.osti.gov/servlets/purl/821117) Authority of Fiscalisation and Social Control of Electricity (AE). The AE regulates activities carried out by operators providing electricity services in Bolivia, guaranteeing the interests and rights of consumers and users. CNDC is the regulator \"The establishment of the Superintendence of Electricity, which began its activity in January 1996;\" (https://www.cndc.bo/empresa/conformacion.php)"
+  },
+  "Bosnia and Herzegovina": {
+    "name": "In Federal BiH Federal Electricity Regulatory Comission is in charge of the electricity supply; in Republika Srpska Regulatory Commission for Energy Sprpska",
+    "yearEstablished": "2013",
+    "website": "https://www.ferk.ba/_en/",
+    "notes": "Regulator: In Federal BiH Federal Electricity Regulatory Comission is in charge of the electricity supply; in Republika Srpska Regulatory Commission for Energy Sprpska (RERS) is responsible. In Brcko District state level regulatory authority SERC is repsonsible. Under the Law on Electricity in Federation of Bosnia and Herzegovina of 2013, the Federal Ministry of Energy, Mining and Industry and the Federal Regulatory Commission for Energy (FERK) are the key institutions responsible for the functioning of the electricity sector in Federation of Bosnia and Herzegovina. Likewise, under the Law on Electricity in the Republic of Srpska of 2008 and the Energy Law in Republika Srpska of 2009, the two key institutions responsible for legal and regulatory framework in electricity sector of Republika Srpska are the Ministry of Industry, Energy and Mining and the Regulatory Commission for Energy of Republika Srpska (RERS)."
+  },
+  "Botswana": {
+    "name": "Botswana Energy Regulatory Authority is the energy regulator and a government parastatal of the Botswana government. The parastatal was founded after the Botswana Energy Regulatory Act was put in place in 2016 and started its operations on the 1st September, 2017.",
+    "yearEstablished": "2017",
+    "website": "https://www.bera.co.bw/",
+    "notes": "Regulator: Botswana Energy Regulatory Authority is the energy regulator and a government parastatal of the Botswana government. The parastatal was founded after the Botswana Energy Regulatory Act was put in place in 2016 and started its operations on the 1st September, 2017. (https://www.bera.co.bw/)"
+  },
+  "Brazil": {
+    "name": "ANEEL – Brazilian Electricity Regulatory Agency: It is the regulator and oversight of the sector that has been following the policies and guidelines of the Federal Government. The agency is responsible for auctioning the granting of generation and transmission, on behalf of the MME. The National Electric Power Agency",
+    "yearEstablished": "1996",
+    "website": "http://www2.aneel.gov.br/?idiomaAtual=1",
+    "notes": "Regulator: ANEEL – Brazilian Electricity Regulatory Agency: It is the regulator and oversight of the sector that has been following the policies and guidelines of the Federal Government. The agency is responsible for auctioning the granting of generation and transmission, on behalf of the MME. The National Electric Power Agency (ANEEL) is a special autarchy that regulates the electric power market in Brazil. It was created in 1996, amid efforts to decentralise executive powers in Brazil and generate independence, by Federal Law No. 9,427/1996, which further provides for the concession regime for the electric power system."
+  },
+  "British Virgin Islands": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Brunei": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Electricity sector in Brunei is regulated by the Department of Electrical Services (DES; Malay: Jabatan Perkhidmatan Elektrik) under the Ministry of Energy. (http://www.des.gov.bn/SitePages/about.aspx#brief-history-section)"
+  },
+  "Bulgaria": {
+    "name": "The functions of an independent regulator of the energy and water markets are served by the SEWRC. It was established in 1999 as the energy regulator but from the beginning of 2005 the water regulation was included in its functions.",
+    "yearEstablished": "1999",
+    "website": "https://www.dker.bg/en/home.html",
+    "notes": "Regulator: The functions of an independent regulator of the energy and water markets are served by the SEWRC. It was established in 1999 as the energy regulator but from the beginning of 2005 the water regulation was included in its functions."
+  },
+  "Burkina Faso": {
+    "name": "Electricity Regulatory Authority",
+    "yearEstablished": "2007",
+    "website": "https://www.arse.bf/",
+    "notes": "Regulator: Electricity Regulatory Authority (ARSE) \"The Energy Sector Regulatory Authority (ARSE) is an independent administrative authority with legal personality and financial and management autonomy. It ensures the regulation, control and monitoring of the activities of operators and operators in the energy sector. ARSE has its headquarters in Ouagadougou and can create decentralized structures if necessary.\" (Among the major institutional changes introduced by Law No. 027-2007 of November 20, 2007 is the creation of the Electricity Sub-sector Regulatory Authority (ARSE) having the status of an independent administrative authority attached to the Prime Ministry. and enjoying financial autonomy.\" (https://www.arse.bf/spip.php?article1)"
+  },
+  "Burundi": {
+    "name": "The Authority for Regulation of Water and Energy Sectors",
+    "yearEstablished": "2018",
+    "website": "http://areen.bi/",
+    "notes": "Regulator: The Authority for Regulation of Water and Energy Sectors (French: Autorité de Régulation des secteurs de l'Eau potable et de l’Energie (AREEN)) is an independent regulatory authority of Burundi mandated to provide for technical and economic regulation of electricity and water utilities."
+  },
+  "Cape Verde": {
+    "name": "Agência Reguladora Multissetorial da Economia",
+    "yearEstablished": "2018",
+    "website": "https://www.arme.cv/",
+    "notes": "Regulator: Agência Reguladora Multissetorial da Economia (ARME), a multi-sector regulatory authority, is tasked with economic and technical regulation of the electricity sector. Multisectoral Regulatory Agency for the Economy, created under Decree-Law No. 50/2018, of 20 September and as an administrative and independent authority, performs the administrative activity of technical and economic regulation of the communications, energy, water and public urban and interurban passenger transport."
+  },
+  "Cambodia": {
+    "name": "The Electricity Authority of Cambodia",
+    "yearEstablished": "2001",
+    "website": "https://www.eac.gov.kh/",
+    "notes": "Regulator: The Electricity Authority of Cambodia (EAC) was created under the Electricity Law of 2001 and is a legal public entity granted the right by the Royal Government to be an autonomous agency tasked with regulating the power sector. \"It is responsible for issuing rules, regulations, and procedures, and for monitoring, guiding, and coordinating operators in the power sector, as well as consumers, including requiring them to follow the policy, guidelines, and technical standards issued by the MME\" (https://media.vdb-loi.com/wp-content/uploads/2019/06/Cambodia-Power-Update-April-2018.pdf)"
+  },
+  "Cameroon": {
+    "name": "\"The Electricity Sector Regulatory Agency",
+    "yearEstablished": "1998",
+    "website": "www.arsel-cm.org",
+    "notes": "Regulator: \"The Electricity Sector Regulatory Agency (ARSEL) was created by Law N” 98/022 of 24th December, 1998 substituted by Law N°2011/022 of i4th December, 2011, to regulate the electricity sector In Cameroon. It has the status of a Public Administrative Institution Within the framework of Law N° 99/016 of 22nd December. 1999, on the general statute of public enterprises and enterprises of the public and para-public sectors.\" (https://erranet.org/member/arsel-cameroon/)"
+  },
+  "Canada": {
+    "name": "New regulator formed in 2019 replacing National Energy Board",
+    "yearEstablished": "1959",
+    "website": "https://www.cer-rec.gc.ca/en/",
+    "notes": "Regulator: New regulator formed in 2019 replacing National Energy Board (NEB). NEB was formed in 1959 so I am recording 1959 as the year regulatory body was formed for the energy sector."
+  },
+  "Cayman Islands": {
+    "name": "Currently OfReg is the Cayman Islands’ independent economic multi-sector regulator covering several sectors including energy. It was established in 2017 by consolidating 3 regulatory agencies including the Electricity Regulatory Authority",
+    "yearEstablished": "2010",
+    "website": "https://www.ofreg.ky/",
+    "notes": "Regulator: Currently OfReg is the Cayman Islands’ independent economic multi-sector regulator covering several sectors including energy. It was established in 2017 by consolidating 3 regulatory agencies including the Electricity Regulatory Authority (ERA) which was established by law in 2010 (see https://www.ofreg.ky/viewPDF/documents/energy/2021-12-15-09-42-15-Electricity-Regulatory-Authority-Law-2010-Revision.pdf). I am counting this 2010 authority as the first regulator."
+  },
+  "Central African Republic": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent energy regulator. The Ministry of Mining, Energy and Hydraulics is in charge of the energy sector. (https://wedocs.unep.org/bitstream/handle/20.500.11822/20497/Energy_profile_CentralAfricanRep.pdf?sequence=1&isAllowed=y#:~:text=The%20Ministry%20of%20Mining%2C%20Energy,charge%20of%20the%20energy%20sector.)"
+  },
+  "Chad": {
+    "name": "l'Autorité de Régulation du Secteur de l'Energie Électrique",
+    "yearEstablished": "2018",
+    "website": "No website found",
+    "notes": "Regulator: l'Autorité de Régulation du Secteur de l'Energie Électrique (ARSE): \"Chad has set up an Electricity Sector Regulatory Authority (ARSE). The law bearing its birth was voted on December 21, 2018 by the deputies within the framework of the law relating to the electric energy sector in Chad.\" (https://tchadinfos.com/energie-une-autorite-de-regulation-du-secteur-de-lenergie-electrique-est-creee/)  I could not find the regulator's website but seems to be operational. I found local news articles referencing it since 2020."
+  },
+  "Channel Islands": {
+    "name": "Guernsey Competition and Regulatory Authorities",
+    "yearEstablished": "2001",
+    "website": "https://www.gcra.gg/business-resources/electricity/",
+    "notes": "Regulator: Guernsey Competition and Regulatory Authorities (GCRA) is in charge of the sector."
   },
   "Chile": {
-    "name": "National Energy Commission (CNE)",
+    "name": "National Energy Commission",
     "yearEstablished": "1978",
-    "website": "https://www.cne.cl",
-    "notes": "Established in 1978, one of the oldest energy regulators"
+    "website": "https://www.sec.cl/?view_full_site=true",
+    "notes": "Regulator: National Energy Commission (CNE, Comisión Nacional de Energía) was created in 1978, it was a specialized instiution with regulatory and advisory roels on energy issues. CNE is in charge of controlling prices in the regulated segment of the electricity market. It also responsible for implementing the energy efficiency and renewable policies."
+  },
+  "China": {
+    "name": "State Electricity Regulatory Commission",
+    "yearEstablished": "2002",
+    "website": "http://www.serc.gov.cn/",
+    "notes": "Regulator: State Electricity Regulatory Commission (SERC) was set up in October 2002."
+  },
+  "Colombia": {
+    "name": "CREG—Regulatory Commission for Electricity and Gas was established in 1994.",
+    "yearEstablished": "1994",
+    "website": "https://www.creg.gov.co/node/8485",
+    "notes": "Regulator: CREG—Regulatory Commission for Electricity and Gas was established in 1994."
+  },
+  "Comoros": {
+    "name": null,
+    "yearEstablished": "None - to be established",
+    "website": null,
+    "notes": "Currently there is no energy regulator in Comoros but there are plans to establish one. \"Comoros is set to establish an autonomous energy regulator with support from the project on Enhancement of a Sustainable Regional Energy Market (ESREM) in the Eastern Africa, Southern Africa, and Indian Ocean (EA-SA-IO) Region.  Currently, the island country has no active energy regulator.\" (https://www.comesa.int/comoros-to-have-a-national-energy-regulation-board/)"
+  },
+  "Democratic Republic of the Congo": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Ministry of Mines, Energy and Hydrocarbons is in charge of the sector, there is no regulator present."
+  },
+  "Congo": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Cook Islands": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There doesn't appear to be an independent regulatory body, the sector seems to be under the purview of ministry of economy. ADB in 2021 launched a TA to support regulatory capacity in Pacific Islands \"Pacific DMCs have recognized the importance of regulation and many of them have established dedicated national regulatory bodies to perform regulatory functions. Other DMCs operate the regulatory framework through smaller units spread throughout several agencies or ministries, resulting in less efficient and effective reforms\" (https://www.adb.org/sites/default/files/project-documents/49450/49450-035-tar-en.pdf)"
+  },
+  "Costa Rica": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Water Office of the Environmental and Energy Ministry (MINAE) seems to be in charge of the sector, there is no separate regulatory authority."
+  },
+  "Ivory Coast": {
+    "name": "The Côte d’Ivoire Electricity sector Regulation National Authority",
+    "yearEstablished": "2014",
+    "website": "https://anare.ci/le-regulateur/",
+    "notes": "Regulator: The Côte d’Ivoire Electricity sector Regulation National Authority (ANARE-CI): the National Regulatory Agency, which monitors compliance with regulations and conventions in force, settles disputes, protects consumer interests, and advises and assists the Ivoirian government."
+  },
+  "Croatia": {
+    "name": "Croatian Energy Regulatory Agency",
+    "yearEstablished": "2004",
+    "website": "https://www.hera.hr/en/html/index.html",
+    "notes": "Regulator: Croatian Energy Regulatory Agency (HERA) was established in 2004."
+  },
+  "Cuba": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Curaçao": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Cyprus": {
+    "name": "The gas and power sectors share the same regulator in Cyprus",
+    "yearEstablished": "2003",
+    "website": "https://www.cera.org.cy/en-gb/home",
+    "notes": "Regulator: The gas and power sectors share the same regulator in Cyprus (CERA).\"The Cyprus Energy Regulatory Authority (CERA) has been established in 2003 in accordance with the European Union directives. According to the responsibilities and the authorization given by the law, it is the National Independent Regulatory Authority for Energy which is able, to oversee and regulate the market for the electricity and gas, ensure effective and fair competition, protect the interest of the consumers, ensure safety, quality, competence, continuity and reliability in the energy supply, as well as encouraging the use of RES.\" (https://www.cera.org.cy/en-gb/home)"
+  },
+  "Czech Republic": {
+    "name": "\"ERO was established in 2001 by the Energy Act, which also sets out its competences.\"",
+    "yearEstablished": "2001",
+    "website": "https://www.eru.cz/en",
+    "notes": "Regulator: \"ERO was established in 2001 by the Energy Act, which also sets out its competences.\" (https://www.eru.cz/en/about-ero)"
+  },
+  "Denmark": {
+    "name": "Since 1976 there is an energy agency whithin the ministry of energy. A separate independent regulator for utilities was established in 2018.",
+    "yearEstablished": "2018",
+    "website": "https://forsyningstilsynet.dk/about-us",
+    "notes": "Regulator: Since 1976 there is an energy agency whithin the ministry of energy. A separate independent regulator for utilities was established in 2018."
+  },
+  "Djibouti": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Dominica": {
+    "name": "\"Prior to the establishment of the Independent Regulatory Commission",
+    "yearEstablished": "2006",
+    "website": "https://www.ircdominica.org/",
+    "notes": "Regulator:  \"Prior to the establishment of the Independent Regulatory Commission (IRC) in 2006, the availability of electricity power in Dominica was a total mess. The Dominica Electric Power Company (DOMLEC), a privately-owned power company, provided electricity to consumers....The IRC was established under the Electricity Supply Act which was passed into law in October 2006. The commission was set up according to the dictates of the National Electric Power Policy which is aimed at a complete overhaul of electricity services in Dominica.\" (https://www.ircdominica.org/about-us/establishment-irc/)"
+  },
+  "Dominican Republic": {
+    "name": "The National Energy Commission",
+    "yearEstablished": "2002",
+    "website": "https://www.cne.gob.do/inicio/sobre-nosotros/historia/",
+    "notes": "Regulator: The National Energy Commission (CNE), an institution attached to the Ministry of Energy and Mines, is a public and decentralized body, with its own assets, created in accordance with article 7 of the General Electricity Law No. 125-01, in charge of managing operational energy policies and monitoring compliance with Law No. 57-07, on Incentives for the Development of Renewable Energy Sources and their Special Regimes. The 2001 Law and its supporting regulations from 2002 included the creation of an autonomous regulatory agency, the Electricity Superintendence (SIE). It also created the National Energy Commission (CNE) and a wholesale market under responsibility of a Coordinating Agency"
+  },
+  "Ecuador": {
+    "name": "\"Ecuadorian government passed the Act Establishing the Public Electric Power Service in 2015, which outlined the regulation of the Ecuadorian power sector. Under this act, CONELEC was rebranded as the Agencia de Regulación y Control de Electricidad",
+    "yearEstablished": "2015",
+    "website": "https://www.regulacionelectrica.gob.ec/",
+    "notes": "Regulator: \"Ecuadorian government passed the Act Establishing the Public Electric Power Service in 2015, which outlined the regulation of the Ecuadorian power sector. Under this act, CONELEC was rebranded as the Agencia de Regulación y Control de Electricidad (ARCONEL).\" (https://www.eia.gov/international/analysis/country/ECU/background)"
+  },
+  "Egypt": {
+    "name": "\"Despite the issuance of a presidential decree to institute a regulator as early as 1997, no progress was made. A second such decree was issued in 2000. Thereafter, a board of directors was formed and a managing director appointed in May 2001. Staffing of the Egyptian Electric Utility and Consumer Protection Regulatory Agency",
+    "yearEstablished": "2002",
+    "website": "http://www.egyptera.org/en/",
+    "notes": "Regulator: \"Despite the issuance of a presidential decree to institute a regulator as early as 1997, no progress was made. A second such decree was issued in 2000. Thereafter, a board of directors was formed and a managing director appointed in May 2001. Staffing of the Egyptian Electric Utility and Consumer Protection Regulatory Agency (ERA), with a grant from USAID, began in January 2002. Thus, the regulator came into force only after the IPP PPAs had been concluded and changes to EEA/EEHC had taken place as well.\" (https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/Egypt_IPP_Experience_.pdf)"
+  },
+  "El Salvador": {
+    "name": "The General Superintendency of Electricity and Telecommunications",
+    "yearEstablished": "1997",
+    "website": "https://www.siget.gob.sv/",
+    "notes": "Regulator: The General Superintendency of Electricity and Telecommunications (SIGET), is an autonomous non-profit public service institution, appointed to apply the norms contained in electricity and telecommunications international treaties, that have been in force in El Salvador since 1997.\" (https://gsacom.com/associate/siget-el-salvador/)"
+  },
+  "Equatorial Guinea": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Ministry of Mines, Industry, and Energy is in charge of the sector there is no independent regulator"
+  },
+  "Eritrea": {
+    "name": "Electricity Regulatory Committee was established within the Ministry of Energy in 2004, it is envisaged to become and independent regulator. As I understand it has not yet become a regulator. \"The Electricity Regulatory Committee",
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Regulator: Electricity Regulatory Committee was established within the Ministry of Energy in 2004, it is envisaged to become and independent regulator. As I understand it has not yet become a regulator. \"The Electricity Regulatory Committee (ERC) has been established by Proclamation No. 141/2004 in order to become an independent regulator. At the moment ERC operates under the mandate of the Department of Energy in the Ministry of Energy and Mines. Energy will be a focal area in the 11th EDF.\" \"Electricity Regulatory Committee (ERC) currently not an independent regulatory body but is established under the mandate of the Department of Energy in the Ministry of Energy and Mines. The establishing law foresees that ERC will become an independent regulator.\" (https://europa.eu/capacity4dev/file/30316/download?token=SjZauJGg#:~:text=The%20Electricity%20Regulatory%20Committee%20(ERC,Ministry%20of%20Energy%20and%20Mines.&text=Energy%20will%20be%20a%20focal%20area%20in%20the%2011th%20EDF.)"
+  },
+  "Estonia": {
+    "name": "Estonian Competition Authority",
+    "yearEstablished": "1999",
+    "website": "https://www.konkurentsiamet.ee/en/about-us-contacts/organization/activities-and-structure",
+    "notes": "Regulator: Estonian Competition Authority (ECA)  regulates the sector: \"The Estonian Competition Authority exercises state supervision in the fields of competition, electricity, natural gas, district heating, postal services, public water supply and sewerage, railways, and ports. In addition, the Authority resolves disputes and complaints related to airport and port charges and monitors unfair commercial practices. The Authority is in the area of government of the Ministry of Justice.\" (https://one.oecd.org/document/DAF/COMP/AR(2022)10/en/pdf)  I wasn't able to find the exact date it was established but seems to be around 1999 (https://ec.europa.eu/competition/sectors/media/documents/estonia.pdf)"
+  },
+  "Eswatini": {
+    "name": "Eswatini Energy Regulatory Authority",
+    "yearEstablished": "2007",
+    "website": "https://www.esera.org.sz/",
+    "notes": "Regulator: Eswatini Energy Regulatory Authority (ESERA): The Eswatini Energy Regulatory Authority, ESERA, is a category A public enterprise which was established in terms of the Energy Act of 2007. The Authority is mandated to: Administer the Electricity Act, 2007 (Act No.3 of 2007), with the primary and core responsibilities of exercising control over the electricity supply industry (ESI) and ensuring the security of supply of electricity through the issuance of licences and the regulation of electricity tariffs and quality of supply and services. Administer the Petroleum Act of 2020, through the licencing and inspection of downstream activities."
+  },
+  "Ethiopia": {
+    "name": "The EEA is the key regulator of the energy sector in Ethiopia and is accountable to MoWIE.The EEA has a Director General and the Energy Board",
+    "yearEstablished": "2013",
+    "website": "http://www.eea.gov.et/index.php?lang=en",
+    "notes": "Regulator: The EEA is the key regulator of the energy sector in Ethiopia and is accountable to MoWIE.The EEA has a Director General and the Energy Board (a high-level policy body chaired by the State Minister of Water, Energy and Irrigation). The main objectives of the EEA are to:"
+  },
+  "Faroe Islands": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Fiji": {
+    "name": "Electricity is regulated by the Fijian Competition and Consumer Commission \"Fijian Competition and Consumer Commission",
+    "yearEstablished": "2010",
+    "website": "https://fccc.gov.fj/electricity/",
+    "notes": "Regulator: Electricity is regulated by the Fijian Competition and Consumer Commission \"Fijian Competition and Consumer Commission (FCCC) is an independent statutory body established under section 7 of the Fijian Competition and Consumer Commission Act 2010. FCCC promotes effective competition and an informed market, encourages fair trade in markets and protects customers and businesses from restrictive practices. FCCC also controls and regulates prices of regulated industries and other markets where competition is lessened or limited, such as (but not limited to), electricity, telecommunications, posts, maritime and airport sectors. Our primary responsibility is to ensure compliance of consumer protection laws contained in Fijian Competition and Consumer Commission Act 2010.\" (https://fccc.gov.fj/about-fccc-2/)"
+  },
+  "Finland": {
+    "name": "The Energy Agency",
+    "yearEstablished": "1995",
+    "website": "https://energiavirasto.fi/en/frontpage",
+    "notes": "Regulator: The Energy Agency ( Swedish: Energimyndigheten ) is an expert agency belonging to the Ministry of Labor and the Economy . It was initially called Sähkömarkkinakeskus (SMK) when created in 1995 and before the latest name change Energy Market Agency (EMV).The tasks of the Energy Agency include monitoring the pricing of the electricity transmission network and the natural gas market and maintaining Finland's national emissions trading register . The agency also provides information on the price of electricity to consumers to support tendering for electricity suppliers. In addition, the Energy Agency supervises the realization of the guarantee of origin of electricity, i.e. that the energy corresponding to the amount of energy sold to consumers by the energy company as wind electricity, for example, has been produced by wind power. The Energy Agency also administers the renewable energy feed-in tariffs that entered into force in 2011 . (https://fi.wikipedia.org/wiki/Energiavirasto)"
+  },
+  "France": {
+    "name": "\"The CRE, an independent regulatory authority is responsible for monitoring access to electricity and gas transmission and distribution networks. Generally speaking, the CRE has to ensure that electricity and gas systems are operated and developed in a non-discriminatory manner. Several other functions have been conferred to it including tariffs, tender processes for renewable generation and regulating the access of EDF’s competitors to EDF’s nuclear energy \"",
+    "yearEstablished": "2000",
+    "website": "https://www.cre.fr/en/CRE/who-are-we",
+    "notes": "Regulator: \"The CRE, an independent regulatory authority is responsible for monitoring access to electricity and gas transmission and distribution networks. Generally speaking, the CRE has to ensure that electricity and gas systems are operated and developed in a non-discriminatory manner. Several other functions have been conferred to it including tariffs, tender processes for renewable generation and regulating the access of EDF’s competitors to EDF’s nuclear energy \" (https://cms.law/en/int/expert-guides/cms-expert-guide-to-electricity/france)"
+  },
+  "French Guiana": {
+    "name": "French Energy Regulation Commission",
+    "yearEstablished": "2000",
+    "website": "https://www.cre.fr/en/CRE/who-are-we",
+    "notes": "Regulator:  French Energy Regulation Commission (CRE) regulates the electricity sector as this is an overseas territory."
+  },
+  "French Polynesia": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Gabon": {
+    "name": "Agence de Régulation du Secteur de l’Eau Potable et de l’Energie Electrique or ARSEE formed in 2018. I was not able to find their website but they do have a facebook page",
+    "yearEstablished": "2018",
+    "website": "https://www.facebook.com/arseegabon/?locale=fr_FR",
+    "notes": "Regulator:  Agence de Régulation du Secteur de l’Eau Potable et de l’Energie Electrique or ARSEE formed in 2018. I was not able to find their website but they do have a facebook page (https://en.wikipedia.org/wiki/Authority_for_Regulation_of_Water_and_Energy_Sectors)"
+  },
+  "Gambia": {
+    "name": "\"PURA was initially created by The Gambia Public Utilities Regulatory Authority Act, 2001",
+    "yearEstablished": "2001",
+    "website": "https://pura.gm/",
+    "notes": "Regulator:  \"PURA was initially created by The Gambia Public Utilities Regulatory Authority Act, 2001 (the “PURA Act”) as an independent agency with the mandate to regulate certain “regulated public services”, which are defined in section 2(1) of the act as meaning “a communication service, a transport service, an energy service or a water service provided directly or indirectly to the public or to any section of the public”."
+  },
+  "Georgia": {
+    "name": "\"Georgian National Energy and Water Supply Regulatory Commission",
+    "yearEstablished": "1997",
+    "website": "https://gnerc.org/en/commission/",
+    "notes": "Regulator: \"Georgian National Energy and Water Supply Regulatory Commission (GNERC) celebrated its 16-year anniversary in 2013. The Commission has been regulating the electricity sphere since 1997, taking over the natural gas sector regulation in 1999 and water supply sector regulation in 2007 (as a result of legal changes). Initially, the Commission was established under the Ministry of Economy in August,1996 and its main function was to calculate wholesale and retail electricity tariffs.\" (https://gnerc.org/en/commission/commission-history/history)"
+  },
+  "Germany": {
+    "name": "The Energy Act assigned the task of regulating Germany's electricity and gas markets to the Bundesnetzagentur. The purpose of regulation is to establish fair and effective competition in the supply of electricity and gas. The responsibilities of the Bundesnetzagentur therefore include ensuring non-discriminatory third-party access to networks and policing the use-of-system charges levied by market players. \"Our authority was founded in 1998 as part of the process of liberalising the postal and telecommunications markets. Our task was to ensure fair and non-discriminatory competition for all market participants. Our success and our expertise in regulation led to the energy and rail sectors also being placed under our responsibility.\"",
+    "yearEstablished": "1998",
+    "website": "https://www.bundesnetzagentur.de/EN/Areas/Energy/start.html",
+    "notes": "Regulator: The Energy Act assigned the task of regulating Germany's electricity and gas markets to the Bundesnetzagentur. The purpose of regulation is to establish fair and effective competition in the supply of electricity and gas. The responsibilities of the Bundesnetzagentur therefore include ensuring non-discriminatory third-party access to networks and policing the use-of-system charges levied by market players. \"Our authority was founded in 1998 as part of the process of liberalising the postal and telecommunications markets. Our task was to ensure fair and non-discriminatory competition for all market participants. Our success and our expertise in regulation led to the energy and rail sectors also being placed under our responsibility.\""
+  },
+  "Ghana": {
+    "name": "Energy Commission & Public Utility Regulatory Commission",
+    "yearEstablished": "1997",
+    "website": "https://www.energycom.gov.gh/regulation",
+    "notes": "Regulator: Energy Commission & Public Utility Regulatory Commission"
+  },
+  "Gibraltar": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Greece": {
+    "name": "The Regulatory Authority for Energy",
+    "yearEstablished": "1999",
+    "website": "https://www.rae.gr/?lang=en",
+    "notes": "Regulator: The Regulatory Authority for Energy (RAE) is established, which, under control of the Minister of Development, is responsible to supervise the operation of the market and take all the necessary measures in order to protect the consumers and the compliance of the Laws \"Economic structural reforms promoted as part of EU membership and accelerated through the drive to join EMU have required the establishment of new or the remodelling of existing sectoral regulators. These regulators are designed to provide regulatory oversight in liberalised sectors. The most notable are the Capital Markets Commission established in 1996, the Energy Regulatory Authority established in 1999, and the National Telecommunications and Postal Services Commission established in 1998.\" (https://www.oecd.org/greece/2475366.pdf)"
+  },
+  "Greenland": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Grenada": {
+    "name": "The Public Utilities Regulatory Commission",
+    "yearEstablished": "2016",
+    "website": "https://purc.gd/",
+    "notes": "Regulator:  The Public Utilities Regulatory Commission (PURC) was established by the PURC Act No. 20 of 2016. The Act speaks generally to Public Utilities but currently only the Electricity Sector has come under the purview of the PURC. The objectives of the Commission include: building a strong and sustainable regulatory regime that supports the economic development of Grenada, Carriacou and Petite Martinique and protecting consumers’ interests."
+  },
+  "Guadeloupe": {
+    "name": "Guadeloupe is regulated by the Commission for Regulation of Energy",
+    "yearEstablished": "2000",
+    "website": "https://www.cre.fr/en/CRE/who-are-we",
+    "notes": "Regulator: Guadeloupe is regulated by the Commission for Regulation of Energy (CRE) of France since this is a French overseas territory."
+  },
+  "Guam": {
+    "name": "Consolidated Commission on Utilities",
+    "yearEstablished": "2019",
+    "website": "https://guamccu.org/v",
+    "notes": "Regulator:  Consolidated Commission on Utilities (CCU) established (https://law.justia.com/codes/guam/2019/title-12/division-2/chapter-79/)"
+  },
+  "Guatemala": {
+    "name": "Regional Commission of electric interconnection",
+    "yearEstablished": "1996",
+    "website": "https://crie.org.gt/",
+    "notes": "Regulator: Regional Commission of electric interconnection (CRIE, by its Spanish initials) which works as the regulator \"It was born with the creation of the Central American electricity market, signed on December 30, 1996, through the framework treaty established by the presidents of the six member countries and ratified by their respective legislative bodies. From said framework treaty, a first protocol was established, signed on July 11, 1997, and then a second protocol signed on April 10, 2007.\" (https://crie.org.gt/acerca-de-la-crie/0"
+  },
+  "Guernsey": {
+    "name": "Under The Electricity",
+    "yearEstablished": "2001",
+    "website": "https://www.gcra.gg/business-resources/electricity/",
+    "notes": "Regulator:  Under The Electricity (Guernsey) Law, 2001 the Guernsey Competition and Regulatory Authority has the power to license operators and oversee the introduction of competition within the electricity market. The regulated activities include generation, conveyance and supply of electricity."
+  },
+  "Guinea": {
+    "name": "Public Water and Electricity Services Regulatory Agency: The law establishing the independent regulator was adopted by the parliament on November 24, 2017. It is reported to have become operational in 2020. However, I was unable to find the website of the regulator.",
+    "yearEstablished": "2020",
+    "website": "No website found",
+    "notes": "Regulator:  Public Water and Electricity Services Regulatory Agency: The law establishing the independent regulator was adopted by the parliament on November 24, 2017. It is reported to have become operational in 2020. However, I was unable to find the website of the regulator."
+  },
+  "Guinea-Bissau": {
+    "name": "\"Guinea Bissau is at the last stage of finalizing arrangements to establish a national electricity regulatory authority, in compliance with a June 2013 Directive by ECOWAS Ministers of Energy. The disclosure was made on Sunday, 6th May 2018 in Bissau during a meeting of a visiting ECOWAS delegation to Guinea Bissau with the country’s Minister of Energy, Industry and Water Resources, Mr. Antonio Serifo Embalo and other top government officials\"",
+    "yearEstablished": "Planned",
+    "website": null,
+    "notes": "Regulator: \"Guinea Bissau is at the last stage of finalizing arrangements to establish a national electricity regulatory authority, in compliance with a June 2013 Directive by ECOWAS Ministers of Energy. The disclosure was made on Sunday, 6th May 2018 in Bissau during a meeting of a visiting ECOWAS delegation to Guinea Bissau with the country’s Minister of Energy, Industry and Water Resources, Mr. Antonio Serifo Embalo and other top government officials\" (https://www.erera.arrec.org/wp-content/uploads/2018/05/PR-National-Electricity-Regulatory-Commission-for-Guinea-Bissau-Soon.pdf)"
+  },
+  "Guyana": {
+    "name": "The Agency’s mandate is stated in the provisions of the Guyana Energy Agency Act 1997, Guyana Energy Agency",
+    "yearEstablished": "1997",
+    "website": "https://gea.gov.gy/",
+    "notes": "Regulator: The Agency’s mandate is stated in the provisions of the Guyana Energy Agency Act 1997, Guyana Energy Agency (Amendment) Act 2004, Guyana Energy Agency (Amendment) Act 2005 and the Petroleum and Petroleum Products Regulations 2004. The core functions listed in section 5 of the Act are as follows:"
+  },
+  "Haiti": {
+    "name": "Haiti’s energy regulator ANARSE National Regulatory Authority of the Energy Sector",
+    "yearEstablished": "2016",
+    "website": "https://anarse.gouv.ht/",
+    "notes": "Regulator: Haiti’s energy regulator ANARSE National Regulatory Authority of the Energy Sector (ANARSE) / Autorite Nationale de Regulation du Secteur de l'Energie (ANARSE) \"an autonomous administrative body created by the decree of February 3, 2016 and placed under the supervision of the Ministry of Public Works, Transport and Communications (MTPTC), the National Authority for the Regulation of the Energy Sector (ANARSE) ensures the promotion and development of the energy sector. by the regulation of the activities of production, exploitation, transport, distribution and marketing of electricity on all the extent of the national territory.\""
+  },
+  "Honduras": {
+    "name": "A regulatory agency, the Comisión Nacional de Energía",
+    "yearEstablished": "1994",
+    "website": "https://www.cree.gob.hn/",
+    "notes": "Regulator: A regulatory agency, the Comisión Nacional de Energía (CNE), was created under the Electricity Law of 1994  \"It is a Decentralized Body attached to the Presidency of the Republic, the Commission will act within the framework of its powers with functional and budgetary independence, with sufficient administrative powers to fulfill its objectives.\""
+  },
+  "Hong Kong": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator. The responsibility for the regulation of the electricity and gas sectors is shared between several departments: the Commerce and Economic Development Bureau, the Electrical and Mechanical Services Department (in particular the Gas Standards Office), the Treasury, and the Environmental Protection Department. (https://www.enerdata.net/estore/country-profiles/hong-kong.html)"
+  },
+  "Hungary": {
+    "name": "\"The Hungarian Energy and Public Utility Regulatory Authority",
+    "yearEstablished": "1994",
+    "website": "http://www.mekh.hu/home",
+    "notes": "Regulator: \"The Hungarian Energy and Public Utility Regulatory Authority (MEKH) is the regulatory body of the energy and public utility market, supervising the national economy’s sectors of strategic importance. MEKH, as an independent regulatory authority entrusted with legislative powers was established under Act XXII of 2013 as the successor of the Hungarian Energy Office (HEO), set up under Act XLI of 1994 on Gas Supply. Main areas of responsibility: electricity, natural gas, district heating, water utility services, waste management. Competences of MEKH include the following: licensing, supervision, price regulation, supporting competition, energy efficiency and renewable integration, tasks related to national energy statistics, market monitoring, customer protection.\""
+  },
+  "Iceland": {
+    "name": "National Energy Authority or NEA",
+    "yearEstablished": "1967",
+    "website": "https://orkustofnun.is/",
+    "notes": "Regulator: National Energy Authority or NEA (Orkustofnun) is the regulator was established in the Electricity Act of 1967 \"The office of Minister of Electricity was abolished, but a new organization, Orkustofnun, took over the role of the office, other than managing the operation of the Electricity Authority, which was made an independent organization. Jakob Gíslason was appointed energy commissioner as soon as the law came into effect.\""
+  },
+  "India": {
+    "name": "In 1998 Federal energy regulator created: \"CERC is a statutory body functioning under sec - 76 of the Electricity Act 2003",
+    "yearEstablished": "1998",
+    "website": "https://cercind.gov.in/",
+    "notes": "Regulator: In 1998 Federal energy regulator created: \"CERC is a statutory body functioning under sec - 76 of the Electricity Act 2003 (CERC was initially constituted under the Electricity Regulatory Commissions Act, 1998 on 24th July, 1998)\""
+  },
+  "Indonesia": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "The sector is regulated by the Ministry of Energy and Mineral Resources (MEMR). Currently there is no independent regulator."
+  },
+  "Iran": {
+    "name": "Ministry of Energy is in charge of the sector",
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No Regulator: Ministry of Energy is in charge of the sector"
+  },
+  "Iraq": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No Regulator \"The Ministry of Electricity of Iraq is the federal government ministry concerned with electricity. It is responsible for both the policymaking and the electricity supply throughout the country. The operational functions (power generation, transmission, load dispatch and distribution) are no longer autonomous corporatized entities, but were reorganized into 18 geographically based directorates within MoE.\" (https://www.linkedin.com/company/ministry-of-electricity#:~:text=The%20Ministry%20of%20Electricity%20of,electricity%20supply%20throughout%20the%20country.)"
+  },
+  "Ireland": {
+    "name": "The Commission for Regulation of Utilities",
+    "yearEstablished": "1999",
+    "website": "https://www.cru.ie/",
+    "notes": "Regulator: The Commission for Regulation of Utilities (CRU) is Ireland’s independent energy and water regulator. \"The CRU was established in 1999 and operates within a policy and statutory framework set by Government and has responsibility for economic regulation and customer protection in the energy and water sectors and regulation of energy safety.\" (https://www.cru.ie/about-us/what-we-do/)"
+  },
+  "Isle of Man": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent energy regulator - the Communications regulator in 2022 was given powers to regulate gas market (https://www.cura.im/) but as of yet does not regulate electricity."
+  },
+  "Israel": {
+    "name": "\"The Israel Public Utility Authority for Electricity is a government authority charged with providing utility services, setting tariffs, regulation and oversight of the electricity market in Israel. The Authority was established in 1996, concurrent with the expiration of the 70-year-old concession of the Israel Electric Corporation",
+    "yearEstablished": "1996",
+    "website": "https://www.gov.il/en/departments/the_electricity_authority/govil-landing-page",
+    "notes": "Regulator: \"The Israel Public Utility Authority for Electricity is a government authority charged with providing utility services, setting tariffs, regulation and oversight of the electricity market in Israel. The Authority was established in 1996, concurrent with the expiration of the 70-year-old concession of the Israel Electric Corporation (IEC), and pursuant to the Electricity Market Law of 1996. Prior to the establishment of the Electricity Authority, the Electric Corporation itself operated vis-a-vis the government of Israel in various fields related to regulation of the electricity system in Israel, such as the initiation of the construction of new power plants. The powers and tasks of the Authority, as well as the composition of the Authority's members and its manner of operation are defined in and based on the Electricity Market Law. The Electricity Authority serves as an independent professional regulator in matters concerning the electricity market in Israel, and is responsible for the regulation and oversight of the provision of public utilities in the field of electricity in Israel. The Authority is obligated to maintain a balance of interests between consumers, the Electric Corporation, electricity manufacturers, and the state. Part of the role of the Electricity Authority is the setting of the electricity tariffs in Israel, and the implementation of Israeli government decisions which have set a required level of power production by private producers and by renewable energy, through the encouragement and regulation of private power producers and producers of electricity from renewable energies, alongside the Electric Corporation.\" (https://en.wikipedia.org/wiki/Electricity_Authority_(Israel))"
+  },
+  "Italy": {
+    "name": "\"The Italian Regulatory Authority for Energy, Networks and Environment",
+    "yearEstablished": "1995",
+    "website": "https://www.arera.it/it/inglese/index.htm",
+    "notes": "Regulator: \"The Italian Regulatory Authority for Energy, Networks and Environment (ARERA) carries out regulatory and supervisory activities in the sectors of electricity, natural gas, water services, waste cycle and district heating. Established by Law No. 481 of 1995, ARERA is an independent administrative authority that operates to ensure the promotion of competition and efficiency in public utility services and protect the interests of users and consumers. These functions are performed by balancing operators' economic and financial objectives with general social objectives, for environmental protection and the efficient use of resources.\""
+  },
+  "Jamaica": {
+    "name": "The Office of Utilities Regulation",
+    "yearEstablished": "1997",
+    "website": "https://our.org.jm/sectors/electricity/",
+    "notes": "Regulator:  The Office of Utilities Regulation (OUR) was established by an Act of Parliament in 1995 to regulate the operations of utility companies. Operations began in January 1997. The Office of Utilities Regulation regulates the electricity sector in Jamaica, which includes the Jamaica Public Service Company Limited (JPS) and other Independent Power Producers (IPPs)."
+  },
+  "Japan": {
+    "name": "Regulator is under the ministry of energy: \"The Electricity and Gas Market Surveillance Commission",
+    "yearEstablished": "2015",
+    "website": "https://www.emsc.meti.go.jp/english/",
+    "notes": "Regulator: Regulator is under the ministry of energy: \"The Electricity and Gas Market Surveillance Commission (EGC) was established in Japan under the Ministry of Economy, Trade and Industry, in order to strengthen monitoring of the electricity, gas and heat power trading market for the liberalization of energy market reform....The EGC conducts appropriate monitoring of the electricity, gas and heat power market and enforces strict regulations to ensure neutrality of electricity and gas networks.\" (https://www.emsc.meti.go.jp/english/committee/)"
+  },
+  "Jersey": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Jordan": {
+    "name": "2001 ERC regulator created \"In 2001, the Jordan Electricity Regulatory Commission",
+    "yearEstablished": "2001",
+    "website": "http://www.emrc.gov.jo/",
+    "notes": "Regulator: 2001 ERC regulator created \"In 2001, the Jordan Electricity Regulatory Commission (ERC) was established, which is mandated to regulate the electricity sector based on free market economic principles and thereby create a level playing field for participation of all interested stakeholders.\" (https://www-pub.iaea.org/MTCD/publications/PDF/cnpp2017/countryprofiles/Jordan/Jordan.htm#:~:text=In%202001%2C%20the%20Jordan%20Electricity,participation%20of%20all%20interested%20stakeholders.)"
+  },
+  "Kazakhstan": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No independent regulator, ministry of energy is responsible for the sector \"Ministry of Energy is a key policymaking institution with regulatory authority over oil and gas extraction, oil refining, transportation of hydrocarbons, gas processing and distribution, power generation, coal production and nuclear energy.\" (https://www.iea.org/reports/kazakhstan-energy-profile)"
+  },
+  "Kenya": {
+    "name": "\"The power sector in Kenya has been undergoing restructuring and reform since the mid-1990s, culminating in the Energy Act 2006. In the 1990s, the Government of Kenya officially liberalized power generation as part of the power sector reforms in 1996. Among the first reforms to take place was the unbundling of the state utility in 1997. KenGen, which remained entirely state owned, became responsible for the generation assets while KPLC assumed responsibility for all distribution and transmission. The Electricity Regulatory Board was also established under the 1997 electric power Act as the sub sector regulator.\"",
+    "yearEstablished": "1997",
+    "website": "https://www.epra.go.ke/",
+    "notes": "Regulator: \"The power sector in Kenya has been undergoing restructuring and reform since the mid-1990s, culminating in the Energy Act 2006. In the 1990s, the Government of Kenya officially liberalized power generation as part of the power sector reforms in 1996. Among the first reforms to take place was the unbundling of the state utility in 1997. KenGen, which remained entirely state owned, became responsible for the generation assets while KPLC assumed responsibility for all distribution and transmission. The Electricity Regulatory Board was also established under the 1997 electric power Act as the sub sector regulator.\" (https://www.kenyaengineer.co.ke/the-past-present-and-future-of-kenya-s-power-sector/#:~:text=Kenya's%20power%20sector%20can%20be,formed%20in%20the%20same%20year.)"
+  },
+  "Kiribati": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "The Ministry of Public Works and Utilities (MPWU) is responsible for the planning, management and coordination of the energy sector. There is no independent regulator currently."
+  },
+  "North Korea": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "South Korea": {
+    "name": "\"The Government also established the KOREC on April 27, 2001 to regulate the restructured Korean electricity industry and to ensure fair competition.\"",
+    "yearEstablished": "2001",
+    "website": "https://www.korec.go.kr/intrcn/moveObjectiveAndStatus.do",
+    "notes": "Regulator: \"The Government also established the KOREC on April 27, 2001 to regulate the restructured Korean electricity industry and to ensure fair competition.\" (https://www.lawinsider.com/dictionary/korec)"
+  },
+  "Kosovo": {
+    "name": "\"The Energy Regulatory Office",
+    "yearEstablished": "2004",
+    "website": "http://www.ero-ks.org/zrre/en",
+    "notes": "Regulator: \"The Energy Regulatory Office (ERO) was established in June 2004, with the promulgation by the Assembly of Kosovo of the Law on Energy, the Law on Electricity and the Law on Energy Regulator. The Energy Regulatory Office is an independent body, which has the duty to regulate activities in the energy sector in Kosovo, including electricity, district heating and gas, in accordance with the obligations arising from the Energy Community Treaty (This treaty was signed by the European Union and nine partners from Southeast Europe in Athens in October 2005 to establish the legal framework for an integrated energy market).\" (http://www.ero-ks.org/zrre/en/per-ne)"
+  },
+  "Kuwait": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Regulation of the sector is under the purview of Ministry of Energy & Water."
+  },
+  "Kyrgyzstan": {
+    "name": "\"Establishment of the State Agency for the Regulation of the Fuel and Power Complex under the Government of the Kyrgyz Republic",
+    "yearEstablished": "2014",
+    "website": "No website found",
+    "notes": "Regulator: \"Establishment of the State Agency for the Regulation of the Fuel and Power Complex under the Government of the Kyrgyz Republic (SARFPC) in 2014 for the purpose of economic regulation of the energy sector\" (https://unece.org/fileadmin/DAM/project-monitoring/unda/16_17X/A2.1_Implement_Natl_CS/KGZ-EnergySectorReview_e.pdf)"
+  },
+  "Laos": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "The Ministry of Energy and Mines (MEM) is responsible for the sector, it works with the government to set electricity tariffs for the power market. There is currently no independent electricity regulator. The pricing of electricity traded, IPPs and EDL is determined by negotiations between the various entities. The retail tariff structure is then finalised by the MEM."
+  },
+  "Latvia": {
+    "name": "Established in 2001 \"s a multi-sector regulator overseeing electricity, natural gas, district heating, electronic communications and post, water management and waste disposal and deposit system. It is responsible for licensing/ registration, tariffs, monitoring the activity of utilities, including the quality of service, protecting consumer interests, developing and approving the secondary legislation, promoting competition, resolving disputes.\"",
+    "yearEstablished": "2001",
+    "website": "https://sprk.gov.lv/en/content/about-us",
+    "notes": "Regulator: Established in 2001 \"s a multi-sector regulator overseeing electricity, natural gas, district heating, electronic communications and post, water management and waste disposal and deposit system. It is responsible for licensing/ registration, tariffs, monitoring the activity of utilities, including the quality of service, protecting consumer interests, developing and approving the secondary legislation, promoting competition, resolving disputes.\" (https://erranet.org/member/puc-latvia/)"
+  },
+  "Lebanon": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Ministry of Energy and Water (MOEW) is responsible for the sector, no independent regulator"
+  },
+  "Lesotho": {
+    "name": "\"The Authority began its journey in 2004 as the Lesotho Electricity Authority",
+    "yearEstablished": "2004",
+    "website": "https://www.lewa.org.ls/#",
+    "notes": "Regulator: \"The Authority began its journey in 2004 as the Lesotho Electricity Authority (LEA). This followed the restructuring of the electricity industry, which needed a regulatory body to regulate the sector in the interests of all electricity sector stakeholders. The Authority became a multi-sector regulator in 2011, following the Act’s amendment to extend the LEA mandate to regulate the subsector of urban water and sewerage services. Hence the change of the name from LEA to LEWA. The LEWA was established to regulate the Electricity Supply Industry (ESI) and Urban Water and Sewerage Services (UWSS) subsector, where services are not supplied competitively.\" (https://www.lewa.org.ls/overview/)"
+  },
+  "Liberia": {
+    "name": "In 2017, the Liberia Electricity Regulatory Commission commenced operations with funding from the Millennium Challenge Corporation",
+    "yearEstablished": "2017",
+    "website": "https://lerc.gov.lr/",
+    "notes": "Regulator: In 2017, the Liberia Electricity Regulatory Commission commenced operations with funding from the Millennium Challenge Corporation (MCC). (https://lerc.gov.lr/page_info.php?&7d5f44532cbfc489b8db9e12e44eb820=Mzgx)"
+  },
+  "Libya": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator.  \"The General Electricity Company of Libya (GECOL) is a vertically integrated monopoly with control and ownership over all electricity generation, transmission, and distribution in Libya. The GECOL reports to the General Peoples Committee for Electricity, Water and Gas, which is responsible for policy, planning, and regulation of Libya’s electricity sector. Therefore, Libya’s power sector does not have an independent regulatory authority.\" (http://documents.worldbank.org/curated/en/415281468059650302/pdf/ACS71240ESW0WH0I0and0II000Final0PDF.pdf)"
+  },
+  "Liechtenstein": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "From what I was able to find there are two commissions within the Ministry of Energy but they are not independent regulators."
+  },
+  "Lithuania": {
+    "name": "established in 1997",
+    "yearEstablished": "1997",
+    "website": "https://www.regula.lt/en/Pages/default.aspx",
+    "notes": "Regulator: established in 1997 (https://erranet.org/member/nerc-lithuania/) \"National Commission for Energy Control and Prices (NCC) is an independent national regulatory authority (in the European Union law's sense) regulating activities of entities in the field of energy and carrying out the supervision of state energy sector. On February 10, 1997 the President of the Republic of Lithuania appointed the first members of the NCC. The NCC was established under the Law on Energy. Since November 2008 the members of the NCC are appointed by the Parliament of the Republic of Lithuania on the nomination of the President of the Republic of Lithuania.\" (https://www.regula.lt/en/Pages/default.aspx)"
+  },
+  "Luxembourg": {
+    "name": "Luxembourg Regulatory Institute was created in 1997 to regulate the telecommunication sector. In 2007 its mandate was extended to cover energy.",
+    "yearEstablished": "2007",
+    "website": "https://web.ilr.lu/FR/ILR",
+    "notes": "Regulator: Luxembourg Regulatory Institute was created in 1997 to regulate the telecommunication sector. In 2007 its mandate was extended to cover energy."
+  },
+  "Macau": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "\"Electricity sector in Macau is regulated by its electric power utility company Companhia de Electricidade de Macau (CEM), established in 1972\" (https://en.wikipedia.org/wiki/Electricity_sector_in_Macau)"
+  },
+  "Madagascar": {
+    "name": "\"The Organisme Régulateur du Secteur de l’Electricité",
+    "yearEstablished": "1998",
+    "website": "http://www.ore.mg/",
+    "notes": "Regulator: \"The Organisme Régulateur du Secteur de l’Electricité (ORE–the electricity sector regulator), created in 1998 by law 98-032. ORE is responsible for: i. Setting tariffs; ii. Monitoring of technical standards; and iii. Ensuring competition in the sector.\" (https://documents1.worldbank.org/curated/en/781221498152348689/pdf/116643-WP-PUBLIC-P150241-52p-Detailed-Case-Study-Madagascar.pdf)"
+  },
+  "Malawi": {
+    "name": "\"The Malawi Energy Regulatory Authority",
+    "yearEstablished": "2007",
+    "website": "https://mera.mw/",
+    "notes": "Regulator: \"The Malawi Energy Regulatory Authority (MERA) was established in 2007 as an independent electricity regulator whose mandate is set out in the Energy Regulation Act (2004, with subsequent amendments). The role of MERA includes inter alia (i) reviewing tariff applications from ESCOM and recommending tariff changes to GoM, (ii) granting licenses for generation and distribution operators and (iii) arbitrating commercial disputes that arise under the 2004 energy legislation\" (https://documents1.worldbank.org/curated/en/313871549533419539/pdf/Concept-Project-Information-Document-Integrated-Safeguards-Data-Sheet-Malawi-Electricity-Access-Project-P164331.pdf)"
+  },
+  "Malaysia": {
+    "name": "\"A statutory body established under the Energy Commission Act 2001, Suruhanjaya Tenaga",
+    "yearEstablished": "2002",
+    "website": "https://www.st.gov.my/en/details/aboutus/1",
+    "notes": "Regulator: \"A statutory body established under the Energy Commission Act 2001, Suruhanjaya Tenaga (ST) or the Energy Commission is responsible for regulating the energy sector, specifically the electricity and piped gas supply industries, in Peninsular Malaysia and Sabah. Taking over the role of the Department of Electricity and Gas Supply, the Energy Commission started its operation on January 1, 2002. The main focus of the commission are reliable electricity and gas supply, reasonable costs and safety.\" (https://www.st.gov.my/en/details/aboutus/1)"
+  },
+  "Maldives": {
+    "name": "\"The Maldives Energy Authority",
+    "yearEstablished": "2006",
+    "website": "https://www.ura.gov.mv/about-us/#:~:text=In%202006%2C%20the%20Maldives%20Energy,as%20a%20public%20utility%20service.",
+    "notes": "Regulator: \"The Maldives Energy Authority (MEA) is an independent regulatory organization affiliated with the Ministry of Environment and Energy: Operates under the guidance of a governing board, Mandated to regulate the energy sector through the implementation of the relevant regulations, MEA is delegated authority under the public utilities law 4/96 and by presidential decrees\" (https://www.saarcenergy.org/wp-content/uploads/2016/03/Maldives_Colombo_0415.pdf)"
+  },
+  "Mali": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "From the information I was able to find there is no independent regulator but there is a commission within the ministry. \"The Prime Minister Cabinet is directly involved through the supervision of the Commission for Electricity and Water Regulations and a number of departments and agencies. The National Energy Directorate (DNE) formulates national energy policies and ensures the coordination and technical supervision of regional and sub-regional departments.\" (https://www.afdb.org/fileadmin/uploads/afdb/Documents/Generic-Documents/Profil_ER_Mal_Web_light.pdf)"
+  },
+  "Malta": {
+    "name": "\"The Malta Resources Authority",
+    "yearEstablished": "2002",
+    "website": "https://mra.mt/",
+    "notes": "Regulator: \"The Malta Resources Authority (MRA) was established in 2002 and is responsible for the regulation of energy, mineral and water resources. MRA is composed of seven Board members and 39 employees within the organisation. The 2012 budget for MRA was approximately EUR 2 million\" (https://energy.ec.europa.eu/system/files/2014-10/2014_countryreport_malta_0.pdf)"
+  },
+  "Marshall Islands": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Martinique": {
+    "name": "Martinique is regulated by the Commission for Regulation of Energy",
+    "yearEstablished": "2000",
+    "website": "https://www.cre.fr/en",
+    "notes": "Regulator: Martinique is regulated by the Commission for Regulation of Energy (CRE) of France since this is a French overseas territory. CRE, the French Energy Regulatory Commission, was created on 24 March 2000. Its role is to ensure that the electricity and gas markets in France function smoothly, for the benefit of end consumers and in line with energy policy objectives."
+  },
+  "Mauritania": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator. Ministry of Petroleum, Energy and Mines is responsible for the sector. (https://petrole-mines-energies.gov.mr/)"
+  },
+  "Mauritius": {
+    "name": "The Utility Regulatory Authority",
+    "yearEstablished": "2016",
+    "website": "https://www.uramauritius.mu",
+    "notes": "Regulator: The Utility Regulatory Authority (URA) has been set up in 2016 in accordance with the Utility Regulatory Authority Act 2004 to regulate utility services, namely electricity, water and wastewater. (https://publicutilities.govmu.org/Pages/Energy%20Sector/EnergySector.aspx)"
+  },
+  "Mayotte": {
+    "name": "Mayotte is regulated by the Commission for Regulation of Energy",
+    "yearEstablished": "2000 (overseas French regulator)",
+    "website": "https://www.cre.fr/en",
+    "notes": "Regulator: Mayotte is regulated by the Commission for Regulation of Energy (CRE) of France since this is a French overseas territory. CRE, the French Energy Regulatory Commission, was created on 24 March 2000. Its role is to ensure that the electricity and gas markets in France function smoothly, for the benefit of end consumers and in line with energy policy objectives."
+  },
+  "Mexico": {
+    "name": "\"The National Center for Energy Control",
+    "yearEstablished": "1995",
+    "website": "https://www.gob.mx/cre",
+    "notes": "Regulator: \"The National Center for Energy Control (CENACE) is a decentralized public body whose purpose is to exercise the Operational Control of the National Electric System; the Operation of the Wholesale Electricity Market and guarantee impartiality in the access to the National Transmission Network and the General Distribution Networks.\" (https://www.cenace.gob.mx/paginas/publicas/cenace/quienessomos.aspx)"
+  },
+  "Federated States of Micronesia": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator: \"The Division of Energy operates under the FSM Department of Resources and Development. The responsibilities of the Division include policy development for an energy sector in the country, promotion of energy efficiency and the development of renewable and indigenous sources of energy, coordination with the state governments on sustainable use of fuel energy and working with regional and international counterparts to seek funding and technical assistance to support energy development in the country. The Division of Energy is the implementing centre of the FSM National Energy Policy.\" (https://prdrse4all.spc.int/system/files/fs-micronesia.pdf)"
+  },
+  "Moldova": {
+    "name": "\"The National Agency for Energy Regulation",
+    "yearEstablished": "1997",
+    "website": "https://anre.md/en",
+    "notes": "Regulator: \"The National Agency for Energy Regulation (ANRE), which was established in 1997, regulates electricity, natural gas, petroleum products, and district heating. ANRE is an independent institution and  not  subordinated  directly  to  any  central  public authority  but  reports  to  the Parliament.\" (https://documents1.worldbank.org/curated/en/713911557626447656/pdf/Moldova-Power-System-Development-Project.pdf)"
+  },
+  "Monaco": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Mongolia": {
+    "name": "In 2001, the power sector was unbundled and the Energy Regulatory Commission",
+    "yearEstablished": "2001",
+    "website": "https://erc.gov.mn/web/en/",
+    "notes": "Regulator:  In 2001, the power sector was unbundled and the Energy Regulatory Commission (ERC) was established to regulate generation, transmission, distribution, dispatch and supply of energy. ERC oversees a single-buyer model in which the National Dispatch Center (NDC) is managing a zero-balance account as it buys electricity at a regulated tariff from six generators and sells it to 12 distribution companies"
+  },
+  "Montenegro": {
+    "name": "The Energy and Water Regulatory Agency of Montenegro",
+    "yearEstablished": "2004",
+    "website": "https://regagen.co.me/en/pocetna-english/",
+    "notes": "Regulator: The Energy and Water Regulatory Agency of Montenegro (REGAGEN) REGAGEN has been established in 2004"
+  },
+  "Montserrat": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Morocco": {
+    "name": "Moroccan Energy Authority",
+    "yearEstablished": "2020",
+    "website": "https://anre.ma/en/home-page/",
+    "notes": "Regulator: Moroccan Energy Authority (ANRE). \"The ANRE monitors the free market in electricity generated from renewable sources and regulates self-producers' access to the national electricity transmission grid....The ANRE's members were appointed in August 2020, and the ANRE is scheduled to start its activities by the end of 2020.\" (https://uk.practicallaw.thomsonreuters.com/w-019-3058?transitionType=Default&contextData=(sc.Default)&firstPage=true#:~:text=Moroccan%20Energy%20Authority%20(ANRE).,the%20national%20electricity%20transmission%20grid.)"
+  },
+  "Mozambique": {
+    "name": "2017 creation of a new independent energy regulator, the Energy Regulatory Authority",
+    "yearEstablished": "2017",
+    "website": "https://arene.org.mz/",
+    "notes": "Regulator: 2017 creation of a new independent energy regulator, the Energy Regulatory Authority (Portuguese acronym ARENE). In 2017, when Parliament approved the law creating ARENE. The law was formally published on September 8, 2017 and went into effect three months later on December 9, 2017. (https://medium.com/power-africa/mozambique-gets-new-energy-regulator-c67b8b95d516) \"ARENE is an energy regulatory body with powers to regulate and supervise the subsectors of electricity, natural gas and liquid fuels, thus ensuring the alignment of the energy sector with the best international practices.\" (https://arene.org.mz/sobre-nos/quem-somos/)"
+  },
+  "Myanmar": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently. The the Ministry of Electricity and Energy (MOEE) is in charge of the sector. MOEE was formed in March 2016 following the merger of two ministries, the Ministry of Electric Power and the Ministry of Energy."
+  },
+  "Namibia": {
+    "name": "\"The Electricity Control Board",
+    "yearEstablished": "2000",
+    "website": "https://www.ecb.org.na/",
+    "notes": "Regulator: \"The Electricity Control Board (ECB) is a statutory regulatory authority established in 2000 under the Electricity Act 2 of 2000; which has subsequently been repealed by the Electricity Act, 4 of 2007; the latter Act having expanded the ECB mandate and core responsibilities. The core mandate of the ECB is to exercise control over the electricity supply industry with the main responsibility of regulating electricity generation, transmission, distribution, supply, import and export in Namibia through setting tariffs and issuance of licenses. The ECB executes its statutory functions through the Technical Secretariat headed by the Chief Executive Officer.\" (https://www.ecb.org.na/about-us/)"
+  },
+  "Nauru": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Nepal": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator, Ministry of Energy, Water Resources and Irrigation is responsible for the sector."
+  },
+  "Netherlands": {
+    "name": "\"The Netherlands Authority for Consumers and Markets",
+    "yearEstablished": "2013",
+    "website": "https://www.acm.nl/en/about-acm/collaboration/international-cooperation---energy",
+    "notes": "Regulator: \"The Netherlands Authority for Consumers and Markets (ACM) makes sure there is competition on the energy market. Competition delivers benefits to consumers. Because of competition, many energy companies seek to be the best and the most affordable….The Netherlands Authority for Consumers and Markets (ACM) is an independent regulator that champions the rights of consumers and businesses. ACM is charged with competition oversight, sector-specific regulation of several sectors, and enforcement of consumer protection laws. The ultimate goal is to create a level playing field , where all businesses play by the rules, and where well-informed consumers exercise their rights.\" (https://www.acm.nl/en/about-acm/our-organization/the-netherlands-authority-for-consumers-and-markets)"
+  },
+  "New Caledonia": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "New Zealand": {
+    "name": "in mid-2003 the government announced the establishment of the Electricity Commission",
+    "yearEstablished": "2003",
+    "website": "https://www.ea.govt.nz/",
+    "notes": "Regulator: in mid-2003 the government announced the establishment of the Electricity Commission (EC), which took over governance of the electricity sector at the end of the year. In 2009 Electricity Authority replaced the Electricity Commission."
+  },
+  "Nicaragua": {
+    "name": "INE",
+    "yearEstablished": "1998",
+    "website": "https://www.ine.gob.ni/",
+    "notes": "Regulator: INE (Instituto Nicaragüense de Energía) is the national regulatory authority for the power and hydrocarbon sub sectors. In the power sector INE approves tariffs, adopts technical norms, and undertakes planning functions. The mission to issue concessions and licenses to operators has currently been transferred to the MEM. \"In 1998, Decree No. 87 was reformed by means of Law No. 271, Reform Law to the Organic Law of the Nicaraguan Energy Institute, which was published in La Gaceta, Official Gazette No. 63 of April 1. of the year 1998 where the functions of regulation, supervision and control of the energy sector and the hydrocarbon sector were assigned, with the promulgation of the Legal Digest of the Energy Sector, this reform was incorporated into it.\" (https://www.ine.gob.ni/?page_id=108014)"
+  },
+  "Niger": {
+    "name": "Niger created a regulatory body, Autorité de Regulation du Secteur de l’Energie",
+    "yearEstablished": "2015",
+    "website": "https://www.arse.ne/",
+    "notes": "Regulator: Niger created a regulatory body, Autorité de Regulation du Secteur de l’Energie (ARSE), to increase transparency and fair competition among the energy actors. The Government also created Agence Nigérienne de Promotion de l’Electrification en milieu Rural (ANPER), which is mandated to design, implement, and monitor rural electrification programs throughout the country."
+  },
+  "Nigeria": {
+    "name": "\"The Nigerian Electricity Regulatory Commission",
+    "yearEstablished": "2005",
+    "website": "https://nerc.gov.ng/",
+    "notes": "Regulator: \"The Nigerian Electricity Regulatory Commission (NERC) is an independent regulatory agency which was inuagurated on 31st October 2005 as provided in the Electric Power Sector Reform Act 2005.\""
+  },
+  "Niue": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Republic of North Macedonia": {
+    "name": "\"One of the most important reforms that the Republic of North Macedonia has introduced in the energy sector was the establishment of the Energy Regulatory Commission. The Energy Regulatory Commission of the Republic of North Macedonia was set up in 2002 pursuant to the Law amending the Law on Energy promulgated in the Official Gazette of the Republic of Macedonia No. 94/02. The Energy Regulatory Commission commenced its operation on 23 July 2003 when the Parliament of the Republic of North Macedonia adopted a Decision nominating the President and the members of the Commission.\"",
+    "yearEstablished": "2003",
+    "website": "https://www.erc.org.mk/Default_en.aspx",
+    "notes": "Regulator: \"One of the most important reforms that the Republic of North Macedonia has introduced in the energy sector was the establishment of the Energy Regulatory Commission. The Energy Regulatory Commission of the Republic of North Macedonia was set up in 2002 pursuant to the Law amending the Law on Energy promulgated in the Official Gazette of the Republic of Macedonia No. 94/02. The Energy Regulatory Commission commenced its operation on 23 July 2003 when the Parliament of the Republic of North Macedonia adopted a Decision nominating the President and the members of the Commission.\" (https://www.erc.org.mk/page_en.aspx?id=265)"
+  },
+  "Northern Mariana Islands": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator.  The Commonwealth Public Utilities Commission,  in accordance with Article III, Section 15 of the Commonwealth Constitution is the regulatory agency of the Commonwealth Utilities Corporation. But this is also the utility company."
+  },
+  "Norway": {
+    "name": "\"The Norwegian electricity market formally opened for competition when the Energy Act came into force 1 January 1991. The regulatory activities are ensured by the Norwegian Water Resources and Energy Directorate",
+    "yearEstablished": "1991",
+    "website": "https://www.nve.no/norwegian-energy-regulatory-authority/",
+    "notes": "Regulator: \"The Norwegian electricity market formally opened for competition when the Energy Act came into force 1 January 1991. The regulatory activities are ensured by the Norwegian Water Resources and Energy Directorate (NVE).\" (https://www.ceer.eu/documents/104400/5988265/C17_NR_Norway-EN.pdf/#:~:text=The%20Norwegian%20electricity%20market%20formally,and%20Energy%20Directorate%20(NVE).)"
+  },
+  "Oman": {
+    "name": "\"The Authority for Electricity Regulation is responsible for regulating the electricity sector and some aspects of the water sector. It was established by Article",
+    "yearEstablished": "2004",
+    "website": "http://www.apsr.om/en/home",
+    "notes": "Regulator: \"The Authority for Electricity Regulation is responsible for regulating the electricity sector and some aspects of the water sector. It was established by Article (19) of The Law for the Regulation and Privatisation of the Electricity and Related Water Sector promulgated by Royal Decree 78/2004 on 1 August 2004 and Amended by Royal Decree 59/2009 and 47/2013 (”'the Sector Law\"). The Authority is a financially and administratively independent organisation. Thus, the budget is independently financed from the Government, and reporting is directly to the Council of Ministers.\""
+  },
+  "Pakistan": {
+    "name": "In 1997, the government \"unbundled the Power Wing of the Water and Power Development Authority",
+    "yearEstablished": "1997",
+    "website": "https://www.nepra.org.pk/",
+    "notes": "Regulator: In 1997, the government \"unbundled the Power Wing of the Water and Power Development Authority (WAPDA) into four thermal generation companies (GENCOs), one National Transmission & Despatch Company (NTDC), and 10 DISCOs, for subsequent privatization of the unbundled GENCOs and DISCOs. Hydropower assets remained with WAPDA. The National Electric Power Regulatory Authority (NEPRA) was also set up in 1997 with the responsibility for licensing, determining tariffs, creating standards, and monitoring sector performance. Electricity distribution licenses were issued to the DISCOs by NEPRA in 2002 for a 20-year period and first DISCO-wise tariffs were notified in 2007. In 2015, the single buyer function was separated from NTDC and is now the responsibility of the CPPA-G. CPPA-G’s core functions include billing and settlement, power procurement on behalf of DISCOs, and market development. The institutional architecture for a modern power sector is in place, but challenges remain that prevent Pakistan from benefitting from these institutional reforms.\" (https://documents1.worldbank.org/curated/en/732811641932397707/pdf/Pakistan-Electricity-Distribution-Efficiency-Improvement-Project.pdf)"
+  },
+  "Palau": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Panama": {
+    "name": "The SNE is responsible for the regulatory framework for energy policy. The ASEP",
+    "yearEstablished": "1999",
+    "website": "https://www.asep.gob.pa/",
+    "notes": "Regulator: The SNE is responsible for the regulatory framework for energy policy. The ASEP (Autoridad Nacional de los Servicios Públicos) is responsible for regulation of the electricity sector in Panama. \"The National Public Service Authority (Autoridad Nacional de los Servicios Publicos (ASEP)) is the national regulator supervising all entities, public or private, providing public services in the Republic of Panama. ASEP was created in February 2006 by means of Decree-Law 10, whereby Law 26 of 1996 (which created ASEP’s predecessor, Ente Regulador de los Servicios Publicos), was amended. The sectors regulated by ASEP are electric, water supply and sanitation, telecommunications, radio and television, and transmission and distribution of natural gas.\" (https://latinlawyer.com/insight/ll-regulators/regulators/organization-profile/national-public-service-authority-panama#:~:text=ASEP%20was%20created%20in%20February,Servicios%20Publicos)%2C%20was%20amended.)"
+  },
+  "Papua New Guinea": {
+    "name": "\"The National Energy Authority",
+    "yearEstablished": "2021",
+    "website": "https://nea.gov.pg/",
+    "notes": "Regulator: \"The National Energy Authority (NEA) was established in 2021 with the enforcement of the National Energy Authority Act 2020 (NEA Act), and has assumed the licensing and economic regulatory functions of the Independent Consumer and Competition Commission (ICCC).[2] As the designated economic and technical energy regulator in PNG, it oversees all energy sector licensees, including PNG Power Limited (PPL), a state-owned utility responsible for the generation, transmission, distribution, and retailing of electricity.[3]\" (https://www.naruc.org/international/where-we-work/asia/papua-new-guinea/)"
+  },
+  "Paraguay": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No energy regulator. The Mines and Energy department of Paraguay's Ministry of Public Works and Communications is a government agency responsible for policymaking (https://www.bnamericas.com/en/company-profile/viceministerio-de-minas-y-energia-mopc-de-paraguay) (https://www.evwind.es/2023/07/03/paraguays-energy-market-overcoming-barriers-to-renewable-energy-adoption/92592)"
+  },
+  "Peru": {
+    "name": "Supervisory Agency for Investment in Energy and Mining \"in charge of rate regulation and supervision of companies that operate in the electricity, hydrocarbons and mining sectors , with the aim that they comply with the legal provisions of the activities they develop.\"",
+    "yearEstablished": "1996",
+    "website": "https://www.gob.pe/osinergmin",
+    "notes": "Regulator: Supervisory Agency for Investment in Energy and Mining \"in charge of rate regulation and supervision of companies that operate in the electricity, hydrocarbons and mining sectors , with the aim that they comply with the legal provisions of the activities they develop.\"(https://www.gob.pe/institucion/osinergmin/organizacion)"
+  },
+  "Philippines": {
+    "name": "\"June 8, 2001 – enactment of Republic Act No. 9136, otherwise known as the Electric Power Industry Reform Act",
+    "yearEstablished": "2001",
+    "website": "https://www.erc.gov.ph/",
+    "notes": "Regulator: \"June 8, 2001 – enactment of Republic Act No. 9136, otherwise known as the Electric Power Industry Reform Act (EPIRA) of 2001. The Act abolished the ERB and created in its place the Energy Regulatory Commission (ERC) which is a purely independent regulatory body performing the combined quasi-judicial, quasi-legislative and administrative functions in the electric industry.\" (https://www.erc.gov.ph/ContentPage/13)"
+  },
+  "Poland": {
+    "name": "Created by  law in 1997, begins operations in 1998  \"The President of Energy Regulatory Office is a central government body, set up under the terms of the Energy Law Act of 10 April 1997.\"",
+    "yearEstablished": "1998",
+    "website": "https://www.ure.gov.pl/en",
+    "notes": "Regulator: Created by  law in 1997, begins operations in 1998  \"The President of Energy Regulatory Office is a central government body, set up under the terms of the Energy Law Act of 10 April 1997.\" (https://www.ure.gov.pl/download.php?s=2&id=343#:~:text=The%20President%20of%20Energy%20Regulatory,Act%20of%2010%20April%201997.)  \"Energy Regulatory Authority (URE) in charge of tariffs, regulation and ensuring competition. (The URE, in fact, was the first ever independent industry regulator in Poland.11) The Law also implemented some key intermediate reforms, including allowing employees of utilities to enter private property to check meters. The Energy Law gave the President of the URE the responsibility to approve tariff levels proposed by suppliers of heat, gaseous fuels, and electricity. \"(https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/poland_ipp.pdf)"
+  },
+  "Portugal": {
+    "name": "\"ERSE's",
+    "yearEstablished": "1995",
+    "website": "https://www.erse.pt/en/home/",
+    "notes": "Regulator: \"ERSE's (Energy Services Regulatory Authority) purpose is to regulate, throughout the national territory, the electricity, natural gas, liquefied petroleum gas (LPG) in all categories, petroleum-derived fuels and biofuels sectors, and the management of the electric mobility network operations.  \""
+  },
+  "Puerto Rico": {
+    "name": "\"The Puerto Rico Energy Bureau",
+    "yearEstablished": "2014",
+    "website": "https://energia.pr.gov/en/",
+    "notes": "Regulator: \"The Puerto Rico Energy Bureau (PREB) is the independent and specialized body created by Act 57-2014, as amended, to serve as key component for the full and transparent implementation of the Energy Reform.Specifically, the PREB has the responsibility to regulate, monitor and enforce the energy public policy of the Government of Puerto Rico. To achieve a reliable, efficient and transparent electric system, which provides power services at reasonable prices.\" (https://energia.pr.gov/en/about-the-commission/#:~:text=Specifically%2C%20the%20PREB%20has%20the,the%20Government%20of%20Puerto%20Rico.&text=To%20achieve%20a%20reliable%2C%20efficient,power%20services%20at%20reasonable%20prices.)"
+  },
+  "Qatar": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "The power sector was reformed in 2000 by separating power generation and water production from transmission and distribution. Currently, power generation and water production are carried out by Qatar Electricity and Water Company (QEWC) and some independent power and water producers. The transmission and distribution of electricity and water are the sole responsibility of the government corporation: Qatar General Electricity and Water Corporation (QGEWC), which is also known as KAHRAMAA. (August 2017: Transitioning to Liberalized Energy Markets)"
+  },
+  "Réunion": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Romania": {
+    "name": "The Romanian Electricity and Heat Regulatory Authority",
+    "yearEstablished": "1998",
+    "website": "https://anre.ro",
+    "notes": "Regulator: The Romanian Electricity and Heat Regulatory Authority (ANRE) was setup by Emergency Ordinance in October 1998. (https://www.transelectrica.ro/web/tel/istoric-1998)"
+  },
+  "Russia": {
+    "name": "\"The Federal Energy Commission",
+    "yearEstablished": "1995",
+    "website": "https://rosenergo.gov.ru/",
+    "notes": "Regulator: \"The Federal Energy Commission (FEC) was established in 1995.26 In 2001 the FEC assumed other anti-monopoly control functions in infrastructure sectors (transport etc.) and government regulation of tariffs. Regional Energy Commissions were formed to support the FEC activities with the role of regulating local tariffs for electricity and heat. In 2004 the FTS was formed to take over the FEC’s functions. Responsibilities of the FTS include developing pricing and tariff methodologies and setting maximum and minimum price caps and tariffs (Box 16.1). Regional tariffs are set jointly with the Regional Energy Commissions (RECs).\" (https://www.apec.org/docs/default-source/Publications/2011/1/The-Impacts-and-Benefits-of-Structural-Reforms-in-Transport-Energy-and-Telecommunications-Sectors/TOC/Electricity-in-Russia.pdf)"
+  },
+  "Rwanda": {
+    "name": "\"Rwanda Utilities Regulatory Authority",
+    "yearEstablished": "2001",
+    "website": "https://rura.rw/index.php?id=23",
+    "notes": "Regulator: \"Rwanda Utilities Regulatory Authority(RURA) was initially created by the Law n° 39/2001 of 13 September 2001 with the mission to regulate certain public Utilities, namely: telecommunications network and/or Telecommunications services, electricity, water, removal of waste products from residential or business premises, extraction and distribution of gas and transport of goods and persons.\"  (https://rura.rw/index.php?id=44)"
+  },
+  "Samoa": {
+    "name": "\"The Office of the Regulator is Samoa’s Regulator for the telecommunications, broadcasting, postal and electricity sectors.",
+    "yearEstablished": "2010",
+    "website": "https://www.regulator.gov.ws/",
+    "notes": "Regulator: \"The Office of the Regulator is Samoa’s Regulator for the telecommunications, broadcasting, postal and electricity sectors."
+  },
+  "San Marino": {
+    "name": "Regulatory Authority for Public Services and Energy",
+    "yearEstablished": "2001",
+    "website": "https://www.autoritaenergia.sm/on-line/home.html",
+    "notes": "Regulator: Regulatory Authority for Public Services and Energy (ARSPE). \" The distribution and sale of electricity and gas in San Marino fall under the Regulatory Authority for Public Services and Energy, guided by the principles of ensuring access to all the population at affordable prices pursuant to Law No. 120 of 20 November 2001\""
+  },
+  "São Tomé and Príncipe": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Saudi Arabia": {
+    "name": "\"The Water and Electricity Regulatory Authority regulates the electricity and water desalination sector within the Kingdom. It also guarantees providing the best international standard services in terms of quality, efficiency, reliability, and comprehensiveness. It also preserves these services from economic fluctuations to maintain financial growth and the prosperity of the national economy.\"",
+    "yearEstablished": "2002",
+    "website": "https://wera.gov.sa/",
+    "notes": "Regulator: \"The Water and Electricity Regulatory Authority regulates the electricity and water desalination sector within the Kingdom. It also guarantees providing the best international standard services in terms of quality, efficiency, reliability, and comprehensiveness. It also preserves these services from economic fluctuations to maintain financial growth and the prosperity of the national economy.\" (https://wera.gov.sa/?_ts=1656331128636) established in 2002 (https://erranet.org/member/wera-saudi-arabia/)"
+  },
+  "Senegal": {
+    "name": "Commission de Régulation du Secteur de l’Electricité",
+    "yearEstablished": "1998",
+    "website": "https://www.crse.sn/",
+    "notes": "Regulator: Commission de Régulation du Secteur de l’Electricité (CRSE) \"Established in 1998, the CRSE’s responsibilities include regulating the production, transmission, distribution, and sale of electrical energy to the entire extent of the national territory.\" (https://www.naruc.org/international/where-we-work/africa-middle-east/senegal/)"
+  },
+  "Serbia": {
+    "name": "\"The Agency was established by the Energy Law as a regulatory body with competences covering electricity, natural gas, oil and oil product, and CHP heat energy sectors. By executing tasks assigned to it by the Energy Law, the Agency contributes to creation of a stable regulatory framework for the development of an efficient and sustainable energy sector that will be a strong backbone of the country’s economic development. The Agency is a legal entity that is functionally independent of any state body, energy entity or user of its products and services, and of any other legal or physical entity. The Agency commenced its operation on June 16, 2005 at the day of its registration at the Trade Court.\"",
+    "yearEstablished": "2005",
+    "website": "http://www.aers.rs/Index.asp?l=2",
+    "notes": "Regulator: \"The Agency was established by the Energy Law as a regulatory body with competences covering electricity, natural gas, oil and oil product, and CHP heat energy sectors. By executing tasks assigned to it by the Energy Law, the Agency contributes to creation of a stable regulatory framework for the development of an efficient and sustainable energy sector that will be a strong backbone of the country’s economic development. The Agency is a legal entity that is functionally independent of any state body, energy entity or user of its products and services, and of any other legal or physical entity. The Agency commenced its operation on June 16, 2005 at the day of its registration at the Trade Court.\" (http://www.aers.rs/Index.asp?l=2&a=1)"
+  },
+  "Seychelles": {
+    "name": "\"The Seychelles Energy Commission",
+    "yearEstablished": "2009",
+    "website": "https://www.sec.sc/",
+    "notes": "Regulator: \"The Seychelles Energy Commission (SEC) was set up in July 2009 under the Ministry of Environment, Natural Resources and Transport with the responsibility for the oversight and planning of the Government’s approach on energy issues. The SEC is responsible for the National Energy Policy and Implementation Plan, and for overseeing and coordinating their implementation in the country. As part of its role, the SEC ensures that energy issues are included in all relevant development strategies (such as economic development), coordinates all projects and expressions of interest concerning energy, and seeks funding to implement projects identified according to the National Energy Implementation Plan. The SEC would also work closely with regional organisations, and would ensure close liaison between all climate change and energy initiatives. The portfolio responsibility for the SEC rests with the Ministry of Environment and Energy. The Commission is assisted by a Board in the performance of its functions.\" (https://www.iea.org/policies/5360-seychelles-energy-commission-established)"
+  },
+  "Sierra Leone": {
+    "name": "Regulator Electricity and Water Regulatory Commission",
+    "yearEstablished": "2014",
+    "website": "https://ewrc.gov.sl/",
+    "notes": "Regulator: Regulator Electricity and Water Regulatory Commission (EWRC) established by 2011 law becomes functional in 2014 \"The Electricity and Water Regulatory Commission (EWRC) was established by an Act of Parliament in 2011, with the following objectives:"
+  },
+  "Singapore": {
+    "name": "The Energy Markets Authority",
+    "yearEstablished": "2001",
+    "website": "https://www.ema.gov.sg/index.aspx",
+    "notes": "Regulator: The Energy Markets Authority (EMA) was created in April 2001. \"Energy Market Authority (EMA) and Energy Market Company (EMC) set up as industry regulator and wholesale market operator respectively. First phase of retail competition for large industrial and commercial consumers begins.\" https://www.businesstimes.com.sg/sites/default/files/attachment/2019/06/08/BT_20190608_AGBRUNCH4IFN_3802124.pdf"
+  },
+  "Sint Maarten": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Slovakia": {
+    "name": "Regulatory Office for Network Industries",
+    "yearEstablished": "2001",
+    "website": "www.urso.gov.sk",
+    "notes": "Regulator: Regulatory Office for Network Industries (ÚRSO) Electricity, natural gas, dictrict heating, water management: URSO is responsible for tariff regulation (approval of tariffs (prices)) and non-tariff regulation (licensing, approvals of infrastructure planning, market rules, grid codes, etc.) and monitoring of regulated companies´ activities incl. performing onsite/offsite inspections, developing and approving secondary legislation (decrees), handling customer complaints, cooperation with ACER, the European Commission, CEER, etc."
+  },
+  "Slovenia": {
+    "name": "\"The Energy Agency - Agencija za energijo",
+    "yearEstablished": "2001",
+    "website": "https://www.agen-rs.si/web/en/about-the-agency",
+    "notes": "Regulator: \"The Energy Agency - Agencija za energijo (AGEN-RS) has been the Slovenian regulatory authority for the energy market since 2001.\" (http://www.interrface.eu/agen)"
+  },
+  "Solomon Islands": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator, Ministry of Mines, Energy and Rural Electrification is in charge of the sector. (https://www.mmere.gov.sb/index.php/about-us.html)"
+  },
+  "Somalia": {
+    "name": "Established by Presidential Decree in July 2020, the Mandate of SEC is to establish a Regulatory Framework for the Energy Sector in Somaliland.",
+    "yearEstablished": "2020",
+    "website": "https://serc.govsomaliland.org/article/about-us-serc",
+    "notes": "Regulator: Established by Presidential Decree in July 2020, the Mandate of SEC is to establish a Regulatory Framework for the Energy Sector in Somaliland."
+  },
+  "South Africa": {
+    "name": "\"The National Energy Regulator of South Africa",
+    "yearEstablished": "2005",
+    "website": "https://www.nersa.org.za/",
+    "notes": "Regulator: \"The National Energy Regulator of South Africa (NERSA) is a regulatory authority established as a juristic person in terms of Section 3 of the National Energy Regulator Act, 2004 (Act No. 40 of 2004). NERSA’s mandate is to regulate the electricity, piped-gas and petroleum pipelines industries in terms of the Electricity Regulation Act, 2006 (Act No. 4 of 2006), Gas Act, 2001 (Act No. 48 of 2001) and Petroleum Pipelines Act, 2003 (Act No. 60 of 2003).\""
+  },
+  "South Sudan": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Spain": {
+    "name": "\"The Spanish National Markets and Competition Commission",
+    "yearEstablished": "2013",
+    "website": "https://www.cnmc.es/en/ambitos-de-actuacion/energia/consumidores-energia",
+    "notes": "Regulator: \"The Spanish National Markets and Competition Commission (CNMC) is the body that promotes and ensures the proper operation of all markets in the interest of consumers and corporations.  It is a public body with its own legal personality. It is independent from the Government and subject to parliamentary oversight. It went into operation on 7 October 2013.\" (https://www.cnmc.es/en/sobre-la-cnmc/que-es-la-cnmc?page_manager_page_variant_weight=0&overridden_route_name=entity.node.canonical&base_route_name=entity.node.canonical&page_manager_page=node_view&page_manager_page_variant=panel_transparencia)"
+  },
+  "Sri Lanka": {
+    "name": "\"The Public Utilities Commission of Sri Lanka",
+    "yearEstablished": "2009",
+    "website": "https://www.pucsl.gov.lk/",
+    "notes": "Regulator: \"The Public Utilities Commission of Sri Lanka (PUCSL) is the economic,technical and safety regulator of the electricity industry in Sri Lanka and the and the designated regulator for petroleum and water services industries. PUCSL also has been assigned as the shadow regulator for the lubricant market in Sri Lanka.  PUCSL was established by The Public Utilities Commission of Sri Lanka Act No. 35 of 2002. With the powers given by the Sri Lanka Electricity Act No. 20 of 2009, PUCSL commenced to regulate as the economic ,technical and safety  regulator of the electricity industry. \" (https://www.pucsl.gov.lk/about-us/)"
+  },
+  "Saint Kitts and Nevis": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Saint Lucia": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Collectivity of Saint Martin": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Saint Vincent and the Grenadines": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Sudan": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator \"In Sudan, the Ministry of Water Resources, Irrigation, and Electricity (MoWRIE) is the main government body responsible for overseeing the electric power sector. The Sudan Electricity Holding Company (SEHC) is the main entity that oversees the four subsidiaries responsible for different segments within the electric power sector\" (https://www.eia.gov/international/analysis/country/SDN)"
+  },
+  "Suriname": {
+    "name": null,
+    "yearEstablished": "2020",
+    "website": "http://www.eas.sr",
+    "notes": "No regulator, Ministry of Natural Resources of Suriname is in control of the sector."
+  },
+  "Sweden": {
+    "name": "\"The Swedish regulator, Energy Market Inspectorate",
+    "yearEstablished": "2008",
+    "website": "https://www.elcom.admin.ch/elcom/en/home.html",
+    "notes": "Regulator: \"The Swedish regulator, Energy Market Inspectorate (Ei), has been in operation since 2008, employing 100 staff with an annual budget of around EUR 11 million502. Despite being an agency administratively attached to the Ministry of Enterprise, Energy and Communication, it is an independent regulatory authority.\" (https://energy.ec.europa.eu/system/files/2014-10/2014_countryreports_sweden_0.pdf)"
+  },
+  "Switzerland": {
+    "name": "ElCom is Switzerland's independent regulatory authority in the electricity sector. It is responsible for monitoring compliance with the Swiss Federal Electricity Act and the Swiss Federal Energy Act, taking all necessary related decisions and pronouncing rulings where required.",
+    "yearEstablished": "2006",
+    "website": "https://www.elcom.admin.ch/elcom/en/home.html",
+    "notes": "Regulator: ElCom is Switzerland's independent regulatory authority in the electricity sector. It is responsible for monitoring compliance with the Swiss Federal Electricity Act and the Swiss Federal Energy Act, taking all necessary related decisions and pronouncing rulings where required."
+  },
+  "Syria": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Taiwan": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent energy regulator. The Bureau of Energy, Ministry of Economic Affairs is Taiwan's major government authority for energy issues."
+  },
+  "Tajikistan": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent energy regulator. The Ministry of Energy and Water Resources of Tajikistan is responsible for implementing the national energy policy, including licensing and regulation of renewable energy sources."
+  },
+  "Tanzania": {
+    "name": "\"The Energy and Water Utilities Regulatory Authority",
+    "yearEstablished": "2006",
+    "website": "https://www.ewura.go.tz/",
+    "notes": "Regulator: \"The Energy and Water Utilities Regulatory Authority (EWURA) is an autonomous multi-sectoral regulatory authority established by the EWURA Act Cap 414 of the laws of Tanzania. It is responsible for technical and economic regulation of the electricity, petroleum, natural gas and water sectors in Tanzania pursuant to Cap 414 and sector legislation. The Energy and Water Utilities Regulatory Authority (EWURA) is an autonomous multi-sectoral regulatory authority established by the EWURA Act Cap 414-2006 of the laws of Tanzania and its amendments EWURA Act – R.E 2006, Amendment Act No. 16 of 2007, Amendment Act No.\" (https://www.ewura.go.tz/#:~:text=The%20Energy%20and%20Water%20Utilities,of%202007%2C%20Amendment%20Act%20No.)"
+  },
+  "Thailand": {
+    "name": "\"Under the Act, the Energy Regulatory Commission",
+    "yearEstablished": "2008",
+    "website": "https://www.erc.or.th/en",
+    "notes": "Regulator: \"Under the Act, the Energy Regulatory Commission (ERC) of Thailand is established, comprising one Chairman and six other Commissioners graciously appointed by His Majesty the King, to regulate energy industry operation, which means the electricity industry, the natural gas industry and the energy network industry, to ensure compliance with the objectives of the Act, under the policy framework of the government. The Office of the Energy Regulatory Commission (OERC) is also established under the Act as a state agency to function as the Secretariat to support the work of the ERC. The first set of ERC was graciously appointed by His Majesty the King on 1 February 2008.\" (https://www.erc.or.th/en/history-page)"
+  },
+  "Timor-Leste": {
+    "name": "The National Authority for Electricity Public Institute",
+    "yearEstablished": "2021",
+    "website": "No website found",
+    "notes": "Regulator: The National Authority for Electricity Public Institute (ANE I.P.) was established in 2021. ANE I.P. is responsible for supervising and regulating the national electricity sector. (https://www.iec.ch/blog/timor-leste-joins-iec-community)"
+  },
+  "Togo": {
+    "name": "Regulatory Authority for Electricity Sector",
+    "yearEstablished": "2000",
+    "website": "No website found",
+    "notes": "Regulator: Regulatory Authority for Electricity Sector (ARSE) \"The Regulatory Authority for Electricity Sector ( ARSE ), established in July 2000 to regulate the sub-sector of electricity : (i) defining and enforcement of the sub-sector (ii ) reviewing and overseeing procurement mechanisms (iii) advising on proposals and decisions regarding tariff , (iv) providing advice on the development of energy infrastructure (v) providing advice on issuances of expropriation for public utility (vi) monitoring and certifying electrical installations , and (vii) managing potential conflicts between distributors and consumers. It should be noted that CEB, is not regulated by the ARSE yet.\" (https://www.cif.org/sites/default/files/meeting-documents/togo_eoi_0.pdf)"
+  },
+  "Tonga": {
+    "name": "\"The Electricity Commission was established through the Electricity Act of 2007 with functions which include the licensing of electricians and establishing standards for electrical safety. The Commission is also tasked to enforce actions under this Act or any regulations made under the Act.\"",
+    "yearEstablished": "2007",
+    "website": "http://electricitycommission.to/",
+    "notes": "Regulator: \"The Electricity Commission was established through the Electricity Act of 2007 with functions which include the licensing of electricians and establishing standards for electrical safety. The Commission is also tasked to enforce actions under this Act or any regulations made under the Act.\" (https://www.pcreee.org/article/tonga-electricity-commission-and-pacific-centre-renewable-energy-and-energy-efficiency#:~:text=About%20TEC%20and%20the%20PCREEE,establishing%20standards%20for%20electrical%20safety.)"
+  },
+  "Trinidad and Tobago": {
+    "name": "The Ministry of Energy and Energy Affairs",
+    "yearEstablished": "2001",
+    "website": "https://www.ric.org.tt/",
+    "notes": "Regulator: The Ministry of Energy and Energy Affairs (MEEA) monitors, controls and regulates the energy and mineral sector. \"The Regulated Industries Commission (RIC) is a statutory body established under the Regulated Industries Commission Act, No. 26 of 1998, and came into effect on June 01, 2000. The RIC’s inaugural Board was appointed in April 2001.\" (https://www.ric.org.tt/about-us/) Service Providers under the purview of the RIC"
+  },
+  "Tunisia": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Regulator in progress of being created: \"the creation of an independent regulatory authority has been announced for 2022…Tunisia has yet to set up an independent regulatory authority to regulate the sector. An empowered and trusted authority would increase transparency and predictability, which are essential to deliver increased renewable generation and cost-effective tariffs. The new Authority would regulate generation through IPPs and electricity consumption and transport tariffs independently from STEG and the Ministry.\" (https://www.afdb.org/sites/default/files/2021/11/22/tunisia.pdf)"
+  },
+  "Turkiye": {
+    "name": "EMRA was established with the Electricity Market Law numbered 4628-2001 \"The Authority was established under the name of \"Electricity Market Regulatory Authority\" with the old \"Electricity Market Law\" numbered 4628 published in the Official Gazette dated 03/03/2001 and numbered 24335",
+    "yearEstablished": "2001",
+    "website": "https://www.epdk.gov.tr/Home/En",
+    "notes": "Regulator: EMRA was established with the Electricity Market Law numbered 4628-2001 \"The Authority was established under the name of \"Electricity Market Regulatory Authority\" with the old \"Electricity Market Law\" numbered 4628 published in the Official Gazette dated 03/03/2001 and numbered 24335 (repeated), and was published in the Official Gazette dated 02/05/2001 and numbered 4646. It was renamed as “Energy Market Regulatory Authority” (EMRA) with the “Natural Gas Market Law (Law on the Amendment of the Electricity Market Law and the Natural Gas Market”). The name of the Law No. 4628 was changed to “Law on the Organization and Duties of the Energy Market Regulatory Authority” with Article 30 of the Electricity Market Law No. 6446 published in the Official Gazette dated 30/03/2013 and numbered 28603. The institution has a public legal personality and has administrative and financial autonomy. The Ministry to which it is related is the Ministry of Energy and Natural Resources (Ministry).\"(https://www.epdk.gov.tr/Detay/Icerik/1-1051/kurumumuztarihce)"
+  },
+  "Turkmenistan": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Turks and Caicos Islands": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Tuvalu": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Uganda": {
+    "name": "\"Electricity Regulatory Authority",
+    "yearEstablished": "2000",
+    "website": "https://www.era.go.ug/",
+    "notes": "Regulator: \"Electricity Regulatory Authority (ERA) ERA's main responsibility is setting cost-reflective electricity tariffs. ERA also defines and monitors technical standards within the sector and enforces adherence to the National Grid Code. It issues and monitors the licenses required to generate, transmit, and distribute power. ERA also sets and reviews feed-in tariffs for renewable energy (REFiT) generation projects between 1 and 20 MW. In its capacity as a tendering authority under the Electricity Act, ERA conducted Uganda's first competitive tender for 20 MW of grid-connected solar concessions in 2014.\" (https://www.gsb.uct.ac.za/files/UgandasPowerSectorReform.pdf)"
+  },
+  "Ukraine": {
+    "name": "National Energy and Utilities Regulatory Commission",
+    "yearEstablished": "1994",
+    "website": "www.nerc.gov.ua",
+    "notes": "Regulator: National Energy and Utilities Regulatory Commission (NEURC) \"Decree of the President of Ukraine of 08.12.1994 №738 „On the National Electricity Regulatory Commission of Ukraine”; Decree of the President of Ukraine of 14.03.1995 №213 “On measure for ensuring activity of the National Electricity Regulatory Commission of Ukraine”; Decree of the President of Ukraine of 30.10.2000 № 1167/2000 „Issues on the National Electricity Regulatory Commission of Ukraine”; Law of Ukraine „On Electricity”; Law of Ukraine „On Natural Monopolies”; Law of Ukraine „On Heat Supply”; Law of Ukraine „On licensing of certain kinds of economic activities”; Law of Ukraine “On Combined Generation of Heat and Power (Cogeneration) and Use of Waste Energy Potential”; Law of Ukraine “On principles of natural gas market operation”; Law of Ukraine “On the main principles of state control in the sphere of economic activity”; NERC Regulation approved by NERC Decree of 29.11.2007 №1662.\" (https://erranet.org/member/neurc-ukraine/)"
+  },
+  "United Arab Emirates": {
+    "name": "The RSB was established by Executive Council Resolution Number 2 of 2010. The RSB works under the auspices of the Dubai Supreme Council of Energy, developing regulatory frameworks to support Dubai’s economic growth through secure energy supply & efficient energy use while meeting environmental and sustainability objectives.",
+    "yearEstablished": "2010",
+    "website": "https://rsbdubai.gov.ae/",
+    "notes": "Regulator: The RSB was established by Executive Council Resolution Number 2 of 2010. The RSB works under the auspices of the Dubai Supreme Council of Energy, developing regulatory frameworks to support Dubai’s economic growth through secure energy supply & efficient energy use while meeting environmental and sustainability objectives. (https://rsbdubai.gov.ae/about-us/)"
+  },
+  "United Kingdom": {
+    "name": "Ofgem is Great Britain’s independent energy regulator. Ofgem was formed through the merger of Office of Electricity Regulation",
+    "yearEstablished": "1990 - offer",
+    "website": "https://www.ofgem.gov.uk/",
+    "notes": "Regulator: Ofgem is Great Britain’s independent energy regulator. Ofgem was formed through the merger of Office of Electricity Regulation (OFFER) and Office of Gas Supply (Ofgas) under the Utilities Act 2000."
+  },
+  "United States": {
+    "name": "The Federal Energy Regulatory Commission",
+    "yearEstablished": "1977",
+    "website": "https://www.ferc.gov/what-ferc",
+    "notes": "Regulator: The Federal Energy Regulatory Commission (FERC) is the United States federal agency that regulates the transmission and wholesale sale of electricity and natural gas in interstate commerce and regulates the transportation of oil by pipeline in interstate commerce. FERC also reviews proposals to build interstate natural gas pipelines, natural gas storage projects, and liquefied natural gas (LNG) terminals, in addition to licensing non-federal hydropower projects. It was created in 1977 (https://en.wikipedia.org/wiki/Federal_Energy_Regulatory_Commission)"
+  },
+  "Uruguay": {
+    "name": "Law N° 17.598 of 2002 established the objectives of Unidad Reguladora de Servicios de Energia y Agua",
+    "yearEstablished": "2002",
+    "website": "http://ursea.gub.uy/",
+    "notes": "Regulator: Law N° 17.598 of 2002 established the objectives of Unidad Reguladora de Servicios de Energia y Agua (URSEA) \"establishes that among its competences, URSEA must “permanently examine the rates and prices corresponding to the services included within its competence”. It is worth noting that URSEA is not tasked with setting the tariffs, which is the best international practice to reach efficiency.\" (https://ucu.edu.uy/sites/default/files/facultad/fit/Observatorio-energia/the_uruguayan_utility_and_energy_regulator_of_the_future_20201126_final.pdf) \"In 2002, due to the need to broaden regulatory competence, the Regulatory Unit for Energy and Water Services, Ursea, was created. \" (https://www.gub.uy/unidad-reguladora-servicios-energia-agua/institucional/creacion-evolucion-historica)"
+  },
+  "Uzbekistan": {
+    "name": null,
+    "yearEstablished": "2024",
+    "website": "https://gov.uz/en/emdra/",
+    "notes": "\"The Energy Market Development and Regulation Agency of the of the Republic of Uzbekistan (hereinafter referred to as the Agency) was established in accordance with the Decree of the President of the Republic of Uzbekistan (No. UP-166, dated September 28, 2023) “On measures to carry out the next stage of reform in the energy sector.” The activities and priority areas of the Agency are defined in the Resolution of the President of the Republic of Uzbekistan (No. PR-28, dated January 17, 2024) “On measures for organizing the activities of the Energy Market Development and Regulation Agency.... The Agency's priority guidelines are:"
+  },
+  "Vanuatu": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "No regulator. The Department of Energy (DoE) is responsible for the development of energy policies, legislations and regulations to guide the development of energy services in Vanuatu and improve service delivery. (https://doe.gov.vu/index.php/about-us/vision-mission-values)"
+  },
+  "Venezuela": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "Ministry of Electric Power is responsible for the sector. There is no independent regulator currently."
+  },
+  "Vietnam": {
+    "name": "The Electricity Regulatory Authority of Vietnam",
+    "yearEstablished": "2004",
+    "website": "http://moit.gov.vn/en/administrative-departments/directorate-agency/electricity-regulatory-authority-of-vietnam",
+    "notes": "Regulator: The Electricity Regulatory Authority of Vietnam (ERAV), which is responsible for establishing and supervising the power market, power planning, tariff regulation and licensing. \"In 2004, Vietnam enacted its electricity law, which created the Electricity Regulatory Authority of Vietnam (ERAV) and set the country's power sector on a long-term reform trajectory.\" (https://www.naruc.org/international/where-we-work/asia/vietnam/#:~:text=In%202004%2C%20Vietnam%20enacted%20its,a%20long%2Dterm%20reform%20trajectory.)"
+  },
+  "United States Virgin Islands": {
+    "name": "\"The VIEO was established under the Office of the Governor in 1974 under Executive Order 182-1974. The VIEO is the designated “state agency” charged with the planning, oversight, and coordination of energy programs according to Federal law. The VIEO also holds the special distinction as the sole agency charged with the implementation and coordination of energy policy from the Executive Branch to the Central Government and its instrumentalities.\"",
+    "yearEstablished": "1974",
+    "website": "https://energy.vi.gov/#:~:text=The%20VIEO%20was%20established%20under,programs%20according%20to%20Federal%20law.",
+    "notes": "Regulator: \"The VIEO was established under the Office of the Governor in 1974 under Executive Order 182-1974. The VIEO is the designated “state agency” charged with the planning, oversight, and coordination of energy programs according to Federal law. The VIEO also holds the special distinction as the sole agency charged with the implementation and coordination of energy policy from the Executive Branch to the Central Government and its instrumentalities.\" (https://energy.vi.gov/#:~:text=The%20VIEO%20was%20established%20under,programs%20according%20to%20Federal%20law.)"
+  },
+  "Wallis and Futuna": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Palestinian National Authority": {
+    "name": "Palestinian Electricity Regulatory Council",
+    "yearEstablished": "2010",
+    "website": "http://www.perc.ps/",
+    "notes": "Regulator: Palestinian Electricity Regulatory Council (PERC) - \"In line with the Law No. 13 (issued in 2009) of the General Electricity Law and upon the recommendation of the Council of Ministers, Mr. President of Palestine issued a decree (issued in February 2010) to appoint the members of the first Board of Directors of the Palestinian Electricity Regulatory Council announcing the start of reorganizing the electricity sector in Palestine.\" (https://erranet.org/member/perc-palestine/)"
+  },
+  "Yemen": {
+    "name": null,
+    "yearEstablished": null,
+    "website": null,
+    "notes": "There is no independent regulator currently."
+  },
+  "Zambia": {
+    "name": "\"It was during the National Energy Policy development initiative that extensive consultations with stakeholders indicated the need for an autonomous Energy Regulatory Authority for fruitful liberalisation and private sector participation in the energy sector. The Energy Regulation Board",
+    "yearEstablished": "1997",
+    "website": "https://www.erb.org.zm/",
+    "notes": "Regulator: \"It was during the National Energy Policy development initiative that extensive consultations with stakeholders indicated the need for an autonomous Energy Regulatory Authority for fruitful liberalisation and private sector participation in the energy sector. The Energy Regulation Board (ERB) was consequently created under the Energy Regulation Act of 1995 Chapter 436 of the Laws of Zambia following the issuance of Statutory Instrument number 6 of 1997, the Energy Regulation Act (Commencement Order) of 27th January 1997.\" (https://www.erb.org.zm/about)"
+  },
+  "Zimbabwe": {
+    "name": "\"In 2002, the Electricity Act [Chapter 13:19] of Zimbabwe provided for the establishment of the Zimbabwe Electricity Regulatory Commission",
+    "yearEstablished": "2003",
+    "website": "https://www.zera.co.zw/electricity3/",
+    "notes": "Regulator: \"In 2002, the Electricity Act [Chapter 13:19] of Zimbabwe provided for the establishment of the Zimbabwe Electricity Regulatory Commission (ZERC), as well as the generation, transmission and distribution companies which would fall under a company that would hold shares on behalf of government (Zimbabwe, 2002). Any other companies could be established in the electricity supply industry at the discretion of the minister and fall under the same holding company (Zimbabwe, 2002). The Electricity Act was implemented in 2003....In excess of twenty IPPs have been licensed since 2002. Only a few of these with small capacity - not exceeding 20MW - have been commissioned (ZERA, 2014)\" (https://open.uct.ac.za/bitstream/handle/11427/29084/thesis_com_2018_choga_howard.pdf?sequence=1&isAllowed=y)"
   }
 }

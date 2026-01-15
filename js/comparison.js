@@ -33,20 +33,24 @@ class ComparisonTool {
     }
 
     getSuggestedCountries() {
-        // Get countries with good data coverage - focusing on Eastern Europe and similar regions
-        const suggested = [
-            'Armenia', 'Georgia', 'Azerbaijan',
-            'Poland', 'Romania', 'Bulgaria',
+        // Get all available countries from data
+        const allCountries = dataLoader.getCountries();
+
+        // Prioritize certain countries for display
+        const priority = [
+            'Armenia', 'Georgia',
+            'Poland', 'Romania',
             'Germany', 'Spain', 'Denmark',
-            'Argentina', 'Chile', 'Brazil',
-            'Turkey', 'Greece'
+            'Argentina', 'Chile', 'Australia'
         ];
 
-        // Add any other available countries
-        const allCountries = dataLoader.getCountries();
-        const remaining = allCountries.filter(c => !suggested.includes(c));
+        // Filter priority list to only include countries that exist in data
+        const available = priority.filter(c => allCountries.includes(c));
 
-        return [...suggested, ...remaining.slice(0, 20)];
+        // Add remaining countries
+        const remaining = allCountries.filter(c => !available.includes(c));
+
+        return [...available, ...remaining];
     }
 
     setupEventListeners() {
