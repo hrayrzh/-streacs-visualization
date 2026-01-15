@@ -1,0 +1,62 @@
+{
+  "Armenia": {
+    "name": "Public Services Regulatory Commission (PSRC)",
+    "yearEstablished": "1997",
+    "website": "https://www.psrc.am/contents/page/history",
+    "notes": "Established on April 3, 1997 by decree of the President of the Republic of Armenia"
+  },
+  "Argentina": {
+    "name": "National Electricity Regulator (ENRE)",
+    "yearEstablished": "1991",
+    "website": "https://www.argentina.gob.ar/enre",
+    "notes": "Independent entity within the Energy Secretariat responsible for applying regulatory framework"
+  },
+  "Australia": {
+    "name": "Australian Energy Market Commission (AEMC)",
+    "yearEstablished": "2005",
+    "website": "https://www.aemc.gov.au/",
+    "notes": "AEMC was established in 2005. National Electricity Market was established in 1998"
+  },
+  "Germany": {
+    "name": "Federal Network Agency (BNetzA)",
+    "yearEstablished": "2005",
+    "website": "https://www.bundesnetzagentur.de",
+    "notes": "Regulates electricity, gas, telecommunications, post and railway markets"
+  },
+  "Spain": {
+    "name": "National Commission on Markets and Competition (CNMC)",
+    "yearEstablished": "1998",
+    "website": "https://www.cnmc.es",
+    "notes": "Originally established as CNE in 1998, merged to form CNMC in 2013"
+  },
+  "Poland": {
+    "name": "Energy Regulatory Office (URE)",
+    "yearEstablished": "1997",
+    "website": "https://www.ure.gov.pl",
+    "notes": "Established in 1997 to regulate energy sector"
+  },
+  "Romania": {
+    "name": "Romanian Energy Regulatory Authority (ANRE)",
+    "yearEstablished": "1999",
+    "website": "https://www.anre.ro",
+    "notes": "Established in 1999 as independent authority"
+  },
+  "Georgia": {
+    "name": "Georgian National Energy and Water Supply Regulatory Commission (GNERC)",
+    "yearEstablished": "1997",
+    "website": "https://www.gnerc.org",
+    "notes": "Established in 1997"
+  },
+  "Denmark": {
+    "name": "Danish Utility Regulator",
+    "yearEstablished": "2000",
+    "website": "https://forsyningstilsynet.dk",
+    "notes": "Established in 2000"
+  },
+  "Chile": {
+    "name": "National Energy Commission (CNE)",
+    "yearEstablished": "1978",
+    "website": "https://www.cne.cl",
+    "notes": "Established in 1978, one of the oldest energy regulators"
+  }
+}

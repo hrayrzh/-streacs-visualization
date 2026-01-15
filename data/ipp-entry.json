@@ -1,0 +1,62 @@
+{
+  "Armenia": {
+    "yearFirstIPP": "2003",
+    "yearFirstPrivateIPP": "2011",
+    "typeOperational": "4",
+    "notes": "Hrazdan Thermal Power Plant (gas fired) was acquired by Russian state-owned Rosneftegaz in 2003, then sold to Tashir Group in 2011"
+  },
+  "Argentina": {
+    "yearFirstIPP": "1992",
+    "yearFirstPrivateIPP": "1992",
+    "typeOperational": "1",
+    "notes": "Major privatizations occurred in 1992 when IPPs entered the country"
+  },
+  "Australia": {
+    "yearFirstIPP": "1880",
+    "yearFirstPrivateIPP": "1880",
+    "typeOperational": "5",
+    "notes": "Pre 1989 had IPPs operating in certain parts, Victoria had IPPs since 1880 - thermal coal plants"
+  },
+  "Germany": {
+    "yearFirstIPP": "1998",
+    "yearFirstPrivateIPP": "1998",
+    "typeOperational": "2",
+    "notes": "Market liberalization in 1998 enabled private generators, primarily wind"
+  },
+  "Spain": {
+    "yearFirstIPP": "1998",
+    "yearFirstPrivateIPP": "1998",
+    "typeOperational": "2",
+    "notes": "Market liberalization enabled IPPs, strong wind development"
+  },
+  "Poland": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2000",
+    "typeOperational": "5",
+    "notes": "IPPs entered after market reforms in 2000"
+  },
+  "Romania": {
+    "yearFirstIPP": "2000",
+    "yearFirstPrivateIPP": "2000",
+    "typeOperational": "1",
+    "notes": "IPPs entered after market reforms"
+  },
+  "Georgia": {
+    "yearFirstIPP": "1999",
+    "yearFirstPrivateIPP": "1999",
+    "typeOperational": "1",
+    "notes": "Hydro IPPs after privatization"
+  },
+  "Denmark": {
+    "yearFirstIPP": "1990",
+    "yearFirstPrivateIPP": "1990",
+    "typeOperational": "2",
+    "notes": "Early wind power development with private producers"
+  },
+  "Chile": {
+    "yearFirstIPP": "1982",
+    "yearFirstPrivateIPP": "1982",
+    "typeOperational": "1",
+    "notes": "Early market liberalization allowed IPPs since 1982"
+  }
+}

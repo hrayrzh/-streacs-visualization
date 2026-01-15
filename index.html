@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STREACS - Global Power Market Evolution & VRE Integration</title>
+
+    <!-- D3.js for map and interactive visualizations -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+
+    <!-- Chart.js for line and area charts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <h1>STREACS Project</h1>
+            <p class="subtitle">Global Power Market Liberalization & Variable Renewable Energy Integration</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Global Panel: Interactive Map & Timeline -->
+        <section id="global-panel" class="panel">
+            <h2>Global Power Market Evolution (1989-2024)</h2>
+
+            <!-- Timeline Slider -->
+            <div class="timeline-controls">
+                <label for="year-slider">Year: <span id="current-year">2024</span></label>
+                <input type="range" id="year-slider" min="1989" max="2024" value="2024" step="1">
+                <button id="play-btn">Play</button>
+            </div>
+
+            <!-- World Map -->
+            <div id="world-map"></div>
+
+            <!-- Legend -->
+            <div class="legend">
+                <h3>Market Structure Codes</h3>
+                <div id="market-legend"></div>
+            </div>
+        </section>
+
+        <!-- Country Profile Modal -->
+        <div id="country-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2 id="country-name">Country Name</h2>
+
+                <div class="country-details">
+                    <!-- Market Structure Evolution -->
+                    <div class="detail-section">
+                        <h3>Market Structure Evolution</h3>
+                        <div id="market-evolution"></div>
+                    </div>
+
+                    <!-- Regulator Information -->
+                    <div class="detail-section">
+                        <h3>Sector Regulator</h3>
+                        <div id="regulator-info"></div>
+                    </div>
+
+                    <!-- Unbundling -->
+                    <div class="detail-section">
+                        <h3>Unbundling Status</h3>
+                        <div id="unbundling-info"></div>
+                    </div>
+
+                    <!-- IPP Entry -->
+                    <div class="detail-section">
+                        <h3>Independent Power Producers (IPP)</h3>
+                        <div id="ipp-info"></div>
+                    </div>
+
+                    <!-- VRE Penetration -->
+                    <div class="detail-section">
+                        <h3>VRE Penetration (Solar & Wind)</h3>
+                        <canvas id="vre-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Armenia Case Study -->
+        <section id="armenia-focus" class="panel">
+            <h2>Armenia Case Study: VRE Integration & Market Liberalization</h2>
+
+            <div class="armenia-grid">
+                <!-- VRE Growth Chart -->
+                <div class="chart-container">
+                    <h3>Solar & Wind Energy Growth</h3>
+                    <canvas id="armenia-vre-chart"></canvas>
+                </div>
+
+                <!-- Market Liberalization Timeline -->
+                <div class="chart-container">
+                    <h3>Liberalization Milestones</h3>
+                    <div id="armenia-timeline"></div>
+                </div>
+
+                <!-- Combined Analysis -->
+                <div class="chart-container full-width">
+                    <h3>VRE Penetration vs. Market Liberalization</h3>
+                    <canvas id="armenia-combined-chart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benchmarking Tool -->
+        <section id="benchmarking" class="panel">
+            <h2>Country Comparison Tool</h2>
+
+            <div class="comparison-controls">
+                <div class="country-selector">
+                    <label>Select countries to compare (up to 10):</label>
+                    <div id="country-checkboxes"></div>
+                </div>
+                <button id="compare-btn" class="btn-primary">Compare Selected Countries</button>
+            </div>
+
+            <div class="comparison-charts">
+                <div class="chart-container">
+                    <h3>Market Liberalization Level (2024)</h3>
+                    <canvas id="comparison-liberalization"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>VRE Penetration (2024)</h3>
+                    <canvas id="comparison-vre"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Predictive Module -->
+        <section id="predictive" class="panel">
+            <h2>Future Scenarios: Armenia 2030-2040</h2>
+
+            <div class="scenario-grid">
+                <div class="chart-container">
+                    <h3>VRE Penetration Scenarios</h3>
+                    <canvas id="scenario-vre"></canvas>
+                    <div class="scenario-legend">
+                        <p><strong>Conservative:</strong> 50% VRE by 2030, 60% by 2040</p>
+                        <p><strong>Optimistic:</strong> 60% VRE by 2030, 75% by 2040</p>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <h3>Merit-Order Effect on Wholesale Prices</h3>
+                    <canvas id="scenario-prices"></canvas>
+                    <div class="scenario-info">
+                        <p>Based on merit-order effect: increased VRE penetration reduces wholesale electricity prices during high-production periods</p>
+                    </div>
+                </div>
+
+                <div class="metrics-box full-width">
+                    <h3>Model Accuracy Metrics</h3>
+                    <div class="metrics-grid">
+                        <div class="metric">
+                            <label>RMSE:</label>
+                            <span id="rmse-value">-</span>
+                        </div>
+                        <div class="metric">
+                            <label>MAE:</label>
+                            <span id="mae-value">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>STREACS Project - Power Market Liberalization & VRE Integration Analysis</p>
+            <p>Data sources: World Bank, National Energy Regulators, Our World in Data</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Modules -->
+    <script src="js/config.js"></script>
+    <script src="js/data-loader.js"></script>
+    <script src="js/world-map.js"></script>
+    <script src="js/country-modal.js"></script>
+    <script src="js/armenia-analysis.js"></script>
+    <script src="js/comparison.js"></script>
+    <script src="js/scenarios.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
