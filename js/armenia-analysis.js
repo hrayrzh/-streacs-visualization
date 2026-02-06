@@ -142,6 +142,54 @@ class ArmeniaAnalysis {
             return HELPERS.getLiberalizationScore(code);
         });
 
+        // Helper function to get color based on score
+        const getLibScoreColor = (score) => {
+            if (score <= 2) {
+                return 'rgba(215, 48, 39, 0.25)'; // Red - Low liberalization
+            } else if (score <= 4) {
+                return 'rgba(255, 193, 7, 0.35)'; // Orange/Yellow - Medium
+            } else if (score <= 7) {
+                return 'rgba(33, 150, 243, 0.25)'; // Light Blue - High
+            } else {
+                return 'rgba(13, 71, 161, 0.30)'; // Dark Blue - Full
+            }
+        };
+
+        // Custom plugin to draw background zones
+        const backgroundZonesPlugin = {
+            id: 'liberalizationBackground',
+            beforeDraw: (chart, args, options) => {
+                const {ctx, chartArea, scales} = chart;
+
+                if (!chartArea || !scales.x || !scales.y) return;
+
+                ctx.save();
+
+                // Draw background zones for each year
+                years.forEach((year, index) => {
+                    const score = liberalizationScores[index];
+                    const color = getLibScoreColor(score);
+
+                    // Get x positions for this year zone
+                    const xStart = scales.x.getPixelForValue(index);
+                    const xEnd = index < years.length - 1
+                        ? scales.x.getPixelForValue(index + 1)
+                        : chartArea.right;
+
+                    // Draw rectangle
+                    ctx.fillStyle = color;
+                    ctx.fillRect(
+                        xStart,
+                        chartArea.top,
+                        xEnd - xStart,
+                        chartArea.bottom - chartArea.top
+                    );
+                });
+
+                ctx.restore();
+            }
+        };
+
         this.combinedChart = new Chart(ctx, {
             type: 'line',
             data: {
@@ -151,22 +199,15 @@ class ArmeniaAnalysis {
                         label: 'VRE Penetration (%)',
                         data: vreValues,
                         borderColor: CONFIG.chartColors.secondary,
-                        backgroundColor: CONFIG.chartColors.secondary + '20',
-                        borderWidth: 2,
-                        fill: true,
-                        yAxisID: 'y',
-                        tension: 0.3
-                    },
-                    {
-                        label: 'Market Liberalization Score',
-                        data: liberalizationScores,
-                        borderColor: CONFIG.chartColors.accent,
-                        backgroundColor: CONFIG.chartColors.accent + '20',
-                        borderWidth: 2,
+                        backgroundColor: 'transparent',
+                        borderWidth: 3,
                         fill: false,
-                        yAxisID: 'y1',
-                        tension: 0.1,
-                        stepped: true
+                        tension: 0.3,
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                        pointBackgroundColor: CONFIG.chartColors.secondary,
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2
                     }
                 ]
             },
@@ -180,12 +221,64 @@ class ArmeniaAnalysis {
                 plugins: {
                     legend: {
                         display: true,
-                        position: 'top'
+                        position: 'top',
+                        labels: {
+                            generateLabels: function(chart) {
+                                const original = Chart.defaults.plugins.legend.labels.generateLabels(chart);
+
+                                // Add custom legend items for background liberalization levels
+                                original.push(
+                                    {
+                                        text: 'Market Liberalization (background):',
+                                        fillStyle: 'transparent',
+                                        strokeStyle: 'transparent',
+                                        fontColor: '#666',
+                                        lineWidth: 0
+                                    },
+                                    {
+                                        text: 'Low (1-2)',
+                                        fillStyle: 'rgba(215, 48, 39, 0.5)',
+                                        strokeStyle: 'rgba(215, 48, 39, 1)',
+                                        lineWidth: 1
+                                    },
+                                    {
+                                        text: 'Medium (3-4)',
+                                        fillStyle: 'rgba(255, 193, 7, 0.6)',
+                                        strokeStyle: 'rgba(255, 193, 7, 1)',
+                                        lineWidth: 1
+                                    },
+                                    {
+                                        text: 'High (5-7)',
+                                        fillStyle: 'rgba(33, 150, 243, 0.5)',
+                                        strokeStyle: 'rgba(33, 150, 243, 1)',
+                                        lineWidth: 1
+                                    },
+                                    {
+                                        text: 'Full (8-9)',
+                                        fillStyle: 'rgba(13, 71, 161, 0.6)',
+                                        strokeStyle: 'rgba(13, 71, 161, 1)',
+                                        lineWidth: 1
+                                    }
+                                );
+
+                                return original;
+                            }
+                        }
                     },
                     title: {
                         display: true,
                         text: 'Armenia: VRE Growth vs. Market Liberalization',
                         font: { size: 16, weight: 'bold' }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            afterLabel: function(context) {
+                                const index = context.dataIndex;
+                                const score = liberalizationScores[index];
+                                const code = dataLoader.getMarketCode('Armenia', years[index]);
+                                return `Market: ${HELPERS.getMarketLabel(code)} (Score: ${score})`;
+                            }
+                        }
                     }
                 },
                 scales: {
@@ -197,35 +290,23 @@ class ArmeniaAnalysis {
                         title: {
                             display: true,
                             text: 'VRE Share (%)',
-                            color: CONFIG.chartColors.secondary
+                            color: CONFIG.chartColors.secondary,
+                            font: { weight: 'bold' }
                         },
                         grid: {
                             color: CONFIG.chartColors.grid
                         }
                     },
-                    y1: {
-                        type: 'linear',
-                        display: true,
-                        position: 'right',
-                        min: 0,
-                        max: 10,
-                        title: {
-                            display: true,
-                            text: 'Liberalization Score (1-9)',
-                            color: CONFIG.chartColors.accent
-                        },
-                        grid: {
-                            drawOnChartArea: false
-                        }
-                    },
                     x: {
                         title: {
                             display: true,
-                            text: 'Year'
+                            text: 'Year',
+                            font: { weight: 'bold' }
                         }
                     }
                 }
-            }
+            },
+            plugins: [backgroundZonesPlugin]
         });
     }
 
