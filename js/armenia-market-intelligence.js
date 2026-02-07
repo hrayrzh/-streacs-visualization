@@ -52,7 +52,7 @@ class ArmeniaMarketIntelligence {
                 this.isMobile = window.innerWidth <= 768;
                 this.isVerySmall = window.innerWidth <= 480;
 
-                // Recreate visualizations if mobile state changed
+                // Recreate visualizations if mobile state or orientation changed
                 if (wasMobile !== this.isMobile || wasVerySmall !== this.isVerySmall) {
                     if (this.initialized) {
                         this.createMCPChart(this.selectedDate);
@@ -60,6 +60,15 @@ class ArmeniaMarketIntelligence {
                     }
                 }
             }, 300);
+        });
+
+        // Orientation change handler
+        window.addEventListener('orientationchange', () => {
+            setTimeout(() => {
+                if (this.initialized) {
+                    this.createMCPChart(this.selectedDate);
+                }
+            }, 100);
         });
 
         // MCP Date Picker
@@ -177,7 +186,7 @@ class ArmeniaMarketIntelligence {
                 options: {
                     responsive: true,
                     maintainAspectRatio: true,
-                    aspectRatio: this.isMobile ? 1.5 : 3,
+                    aspectRatio: (this.isMobile && window.matchMedia('(orientation: portrait)').matches) ? 1 : (this.isMobile ? 2 : 3),
                     interaction: {
                         mode: 'index',
                         intersect: false

@@ -741,6 +741,67 @@ body {
     }
 }
 
+/* Country Search Styles */
+.country-search-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.country-search-input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+.country-search-input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.country-search-input::placeholder {
+    color: #999;
+}
+
+.search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+#country-checkboxes {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    background: #fafafa;
+}
+
+.country-checkbox-item {
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+    display: block;
+}
+
+.country-checkbox-item:hover {
+    background: #e3f2fd;
+}
+
+.country-checkbox-item.hidden {
+    display: none !important;
+}
+
 .navigation-buttons {
     margin-top: 30px;
     text-align: center;
@@ -786,20 +847,20 @@ body {
     }
 
     .main-header h1 {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
 
     .main-header .subtitle {
-        font-size: 0.85em;
+        font-size: 1em;
     }
 
     /* Containers */
     .container {
-        padding: 10px;
+        padding: 0 20px;
     }
 
     .panel {
-        padding: 15px;
+        padding: 20px;
         margin-bottom: 20px;
     }
 
@@ -987,7 +1048,7 @@ body {
     }
 
     .main-header h1 {
-        font-size: 1.3em;
+        font-size: 1.8em;
     }
 
     .panel h2 {
@@ -1000,11 +1061,11 @@ body {
 
     /* Reduce padding */
     .container {
-        padding: 5px;
+        padding: 0 15px;
     }
 
     .panel {
-        padding: 10px;
+        padding: 15px;
     }
 
     /* Chart adjustments */
@@ -1091,11 +1152,11 @@ body {
 /* Very small phones (360px and below) */
 @media (max-width: 360px) {
     .main-header h1 {
-        font-size: 1.1em;
+        font-size: 1.8em;
     }
 
     .main-header .subtitle {
-        font-size: 0.75em;
+        font-size: 1em;
     }
 
     .panel h2 {
@@ -1139,6 +1200,25 @@ body {
         overflow-y: auto !important;
         max-width: 100vw;
         padding-right: 10px;
+    }
+}
+
+/* Portrait orientation - taller MCP chart */
+@media (max-width: 768px) and (orientation: portrait) {
+    #aex-mcp-chart {
+        max-height: 400px !important;
+    }
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+    #aex-mcp-chart {
+        max-height: 450px !important;
+    }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+    #aex-mcp-chart {
+        max-height: 400px !important;
     }
 }
 

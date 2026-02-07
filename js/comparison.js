@@ -21,7 +21,7 @@ class ComparisonTool {
         countries.forEach(country => {
             const checked = this.selectedCountries.includes(country) ? 'checked' : '';
             html += `
-                <label class="country-checkbox">
+                <label class="country-checkbox country-checkbox-item" data-country-name="${country.toLowerCase()}">
                     <input type="checkbox" value="${country}" ${checked}
                            data-country="${country}">
                     <span>${country}</span>
@@ -56,6 +56,24 @@ class ComparisonTool {
     setupEventListeners() {
         const checkboxes = document.querySelectorAll('#country-checkboxes input[type="checkbox"]');
         const compareBtn = document.getElementById('compare-btn');
+        const searchInput = document.getElementById('country-search');
+
+        // Country search functionality
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const searchTerm = e.target.value.toLowerCase().trim();
+                const countryItems = document.querySelectorAll('.country-checkbox-item');
+
+                countryItems.forEach(item => {
+                    const countryName = item.getAttribute('data-country-name');
+                    if (countryName.includes(searchTerm)) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        }
 
         checkboxes.forEach(checkbox => {
             checkbox.addEventListener('change', (e) => {
