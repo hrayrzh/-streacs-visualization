@@ -111,6 +111,77 @@
                     <canvas id="armenia-combined-chart"></canvas>
                 </div>
             </div>
+
+            <!-- Navigation to Market Intelligence -->
+            <div class="navigation-buttons">
+                <button id="show-market-intelligence" class="btn-secondary">
+                    View Market Intelligence (AEX Data) →
+                </button>
+            </div>
+        </section>
+
+        <!-- Armenia Market Intelligence -->
+        <section id="armenia-market-intelligence" class="panel" style="display: none;">
+            <h2>Armenia Market Intelligence</h2>
+            <p class="section-subtitle">Deep analytics from Armenian Energy Exchange (AEX)</p>
+
+            <!-- MCP Chart -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h3>Market Clearing Price & Trading Volumes</h3>
+                    <div class="chart-controls">
+                        <label>Date:
+                            <input type="date" id="aex-mcp-date"
+                                   min="2023-01-01" max="2026-01-15"
+                                   value="2024-01-01">
+                        </label>
+                        <span class="timezone-note">UTC+4</span>
+                    </div>
+                </div>
+                <canvas id="aex-mcp-chart"></canvas>
+            </div>
+
+            <!-- DAM Surplus Heatmap -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h3>Market Participant Behavior (DAM Surplus)</h3>
+                    <div class="chart-controls">
+                        <select id="aex-surplus-year">
+                            <option value="2023">2023</option>
+                            <option value="2024" selected>2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+                        <select id="aex-surplus-type">
+                            <option value="bid" selected>Surplus Bid</option>
+                            <option value="offer">Surplus Offer</option>
+                        </select>
+                        <select id="aex-surplus-month">
+                            <option value="all">All Year</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="aex-surplus-heatmap" class="d3-container"></div>
+                <div id="aex-surplus-tooltip" class="heatmap-tooltip" style="display: none;"></div>
+            </div>
+
+            <!-- Navigation Back -->
+            <div class="navigation-buttons">
+                <button id="back-to-armenia-analysis" class="btn-secondary">
+                    ← Back to Armenia Analysis
+                </button>
+            </div>
         </section>
 
         <!-- Benchmarking Tool -->
@@ -191,6 +262,7 @@
     <script src="js/world-map.js"></script>
     <script src="js/country-modal.js"></script>
     <script src="js/armenia-analysis.js"></script>
+    <script src="js/armenia-market-intelligence.js"></script>
     <script src="js/comparison.js"></script>
     <script src="js/scenarios.js"></script>
     <script src="js/main.js"></script>

@@ -14,6 +14,7 @@ class DataLoader {
         };
         this.loading = false;
         this.loaded = false;
+        this.cache = new Map(); // Cache for AEX data files
     }
 
     // Load all data
@@ -301,6 +302,102 @@ class DataLoader {
         }
 
         return filtered.sort((a, b) => a.Year - b.Year);
+    }
+
+    // AEX Data Loading Methods
+    async loadAEXMCPData(year) {
+        const cacheKey = `aex_mcp_${year}`;
+        if (this.cache.has(cacheKey)) {
+            return this.cache.get(cacheKey);
+        }
+
+        let filename;
+        if (year === 2026) {
+            filename = 'aex_data/ALL/aex_2026_jan_1-15_data.json';
+        } else {
+            filename = `aex_data/ALL/aex_${year}_full_data.json`;
+        }
+
+        try {
+            const data = await this.loadJSON(filename);
+            this.cache.set(cacheKey, data);
+            return data;
+        } catch (error) {
+            console.error(`Error loading AEX MCP data for ${year}:`, error);
+            return null;
+        }
+    }
+
+    async loadAEXSurplusData(year) {
+        const cacheKey = `aex_surplus_${year}`;
+        if (this.cache.has(cacheKey)) {
+            return this.cache.get(cacheKey);
+        }
+
+        const filename = `aex_data/ALL/aex_surplus_${year}_filtered_data.json`;
+
+        try {
+            const data = await this.loadJSON(filename);
+            this.cache.set(cacheKey, data);
+            return data;
+        } catch (error) {
+            console.error(`Error loading AEX Surplus data for ${year}:`, error);
+            return null;
+        }
+    }
+
+    // Helper: Parse AEX table structure to extract data by column name
+    parseAEXTable(dayData, columnNames) {
+        if (!dayData || !dayData.tables || !dayData.tables[0]) {
+            return null;
+        }
+
+        const table = dayData.tables[0];
+        const columnMapping = {};
+
+        // Build column index map
+        table.columnGrouping.values.forEach((col, idx) => {
+            columnMapping[col.name] = idx;
+        });
+
+        const result = [];
+
+        table.rowGrouping.forEach(row => {
+            // Extract hour from time string like "00:00 - 01:00"
+            const hourMatch = row.rowCategories[0].name.match(/(\d{2}):(\d{2})/);
+            const hour = hourMatch ? parseInt(hourMatch[1]) : null;
+
+            const dataPoint = { hour };
+            columnNames.forEach(colName => {
+                const colIndex = columnMapping[colName];
+                dataPoint[colName] = colIndex !== undefined ? row.values[colIndex] : null;
+            });
+
+            result.push(dataPoint);
+        });
+
+        return result;
+    }
+
+    // Helper: Extract company names from surplus data
+    extractSurplusCompanies(yearData) {
+        const companiesSet = new Set();
+
+        Object.values(yearData).forEach(dayData => {
+            if (dayData.tables && dayData.tables[0] && dayData.tables[0].rowGrouping) {
+                dayData.tables[0].rowGrouping.forEach(row => {
+                    // Get first level category (company name)
+                    if (row.rowCategories.length > 0 && row.rowCategories[0].level0Index === 0) {
+                        const companyName = row.rowCategories[0].name;
+                        if (companyName && !companyName.match(/^\d{2}:/)) { // Filter out hour strings
+                            companiesSet.add(companyName);
+                        }
+                    }
+                });
+            }
+        });
+
+        return Array.from(companiesSet).sort();
     }
 }
 

@@ -35,6 +35,10 @@ class STREACSApp {
             window.scenariosModule.initialize();
             console.log('✓ Scenarios module initialized');
 
+            window.armeniaMarketIntelligence = new ArmeniaMarketIntelligence();
+            // Don't call initialize() yet - will be shown on demand
+            console.log('✓ Armenia Market Intelligence initialized');
+
             this.initialized = true;
             console.log('✓ STREACS Application ready!');
 
@@ -133,6 +137,21 @@ document.addEventListener('keydown', (event) => {
         if (playBtn) {
             playBtn.click();
         }
+    }
+});
+
+// Armenia section navigation
+document.addEventListener('DOMContentLoaded', () => {
+    const showMktIntelBtn = document.getElementById('show-market-intelligence');
+    if (showMktIntelBtn) {
+        showMktIntelBtn.addEventListener('click', () => {
+            document.getElementById('armenia-focus').style.display = 'none';
+            document.getElementById('armenia-market-intelligence').style.display = 'block';
+            // Scroll to top of new section
+            document.getElementById('armenia-market-intelligence').scrollIntoView({ behavior: 'smooth' });
+            // Initialize module
+            window.armeniaMarketIntelligence.initialize();
+        });
     }
 });
 

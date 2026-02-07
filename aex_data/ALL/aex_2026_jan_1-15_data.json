@@ -1,0 +1,7427 @@
+{
+  "2026-01-01": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              27.22,
+              71125,
+              109197,
+              71155
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              28.73,
+              70525,
+              105248,
+              70526
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              27.22,
+              70984,
+              101457,
+              71214
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              28.73,
+              62093,
+              96078,
+              62093
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              27.22,
+              64424,
+              90520,
+              64986
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              27.22,
+              58676,
+              86306,
+              59332
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              28.73,
+              51860,
+              83560,
+              51861
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29.5,
+              45854,
+              85000,
+              45855
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.01,
+              44025,
+              75882,
+              44026
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.6,
+              44826,
+              83039,
+              44827
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.42,
+              4263,
+              71222,
+              4263
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              30.11,
+              6948,
+              52686,
+              7405
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              30.11,
+              10089,
+              45477,
+              10779
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              29.8,
+              9310,
+              46604,
+              10086
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              30.11,
+              10554,
+              42552,
+              11282
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              22.22,
+              38326,
+              52578,
+              43622
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              22.22,
+              36872,
+              54992,
+              59057
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              79549,
+              119255,
+              99311
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              119567,
+              148786,
+              130060
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              118491,
+              147889,
+              132051
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              111149,
+              146570,
+              111149
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              108172,
+              145451,
+              108172
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              100466,
+              146662,
+              100466
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              95738,
+              148619,
+              95738
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-02": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              27.22,
+              54509,
+              84471,
+              54902
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              27.22,
+              54397,
+              78984,
+              54914
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              27,
+              55481,
+              76290,
+              56127
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              27,
+              52733,
+              73750,
+              53359
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              27,
+              52926,
+              71908,
+              54746
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              27,
+              48701,
+              67124,
+              50794
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              28.73,
+              43950,
+              65987,
+              43951
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29,
+              38511,
+              68371,
+              38512
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.01,
+              37620,
+              71588,
+              37621
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.5,
+              39357,
+              77147,
+              39408
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.13,
+              9431,
+              63543,
+              9816
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              28.73,
+              12398,
+              42555,
+              13044
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              28.73,
+              11814,
+              34645,
+              20546
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              28,
+              13918,
+              34172,
+              24623
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              28,
+              12591,
+              27296,
+              16635
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              20,
+              36665,
+              45737,
+              42431
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              26.56,
+              35454,
+              56881,
+              57109
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              76118,
+              125075,
+              95685
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              121591,
+              150818,
+              129221
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              116602,
+              146008,
+              129887
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              110769,
+              146532,
+              110769
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              106014,
+              143148,
+              106014
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              97836,
+              147228,
+              97836
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              93643,
+              155715,
+              93643
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-03": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.01,
+              55505,
+              101019,
+              55506
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              29,
+              55471,
+              94040,
+              55472
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              28.73,
+              56524,
+              93131,
+              56525
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              28.73,
+              52701,
+              88617,
+              52702
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              27.5,
+              53689,
+              86139,
+              53790
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              27.5,
+              49669,
+              81852,
+              49960
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              29,
+              44944,
+              84190,
+              44945
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29.5,
+              40365,
+              85961,
+              40366
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.5,
+              38825,
+              83793,
+              38826
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.01,
+              39827,
+              63253,
+              39828
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              29.5,
+              16675,
+              38159,
+              16676
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              19.5,
+              26979,
+              26981,
+              49684
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              19.5,
+              24273,
+              24275,
+              60267
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              19.5,
+              24581,
+              24583,
+              62466
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              19.5,
+              19648,
+              19650,
+              52112
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              19.2,
+              25907,
+              25908,
+              61060
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              23,
+              39438,
+              45514,
+              58122
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              77922,
+              123571,
+              95324
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              126860,
+              146880,
+              129024
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              133037,
+              180374,
+              133037
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              111387,
+              178895,
+              111387
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              107148,
+              145849,
+              107148
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              99444,
+              148062,
+              99444
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              94720,
+              150455,
+              94720
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-04": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29,
+              58158,
+              85908,
+              58159
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              28.73,
+              58196,
+              83697,
+              58197
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              27,
+              58090,
+              72635,
+              61021
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              27,
+              55958,
+              77606,
+              56618
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              27,
+              55049,
+              72450,
+              57567
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              27.22,
+              52810,
+              74418,
+              53802
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              28.73,
+              48653,
+              73352,
+              48654
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29,
+              44101,
+              78530,
+              44102
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.01,
+              42936,
+              77678,
+              42937
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              28.73,
+              43162,
+              69485,
+              43163
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30,
+              15792,
+              49272,
+              15792
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              18.5,
+              30485,
+              34485,
+              54857
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              18.5,
+              28678,
+              32678,
+              69487
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              17.5,
+              28474,
+              32474,
+              71336
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              17.01,
+              25416,
+              29416,
+              65977
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              15.9,
+              32225,
+              32425,
+              79788
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              20,
+              48621,
+              48821,
+              66211
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              79739,
+              117583,
+              97141
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              123962,
+              144375,
+              131942
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              135485,
+              166028,
+              135486
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              114065,
+              165426,
+              114065
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              110068,
+              142361,
+              110068
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              102365,
+              140807,
+              102365
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              97669,
+              155175,
+              97669
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-05": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.01,
+              60280,
+              111920,
+              60281
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              29.01,
+              60284,
+              106226,
+              60285
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              29,
+              63134,
+              104452,
+              63135
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              29,
+              58397,
+              98018,
+              58398
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              29,
+              59540,
+              95111,
+              59541
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              29,
+              56548,
+              93738,
+              56549
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              29,
+              50252,
+              93149,
+              50253
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29.01,
+              46841,
+              92973,
+              46842
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.5,
+              44227,
+              91515,
+              44228
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.01,
+              44652,
+              87483,
+              44652
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.09,
+              19274,
+              61759,
+              19274
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              20.22,
+              22870,
+              44192,
+              22870
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              26.56,
+              16751,
+              43072,
+              16751
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              26.56,
+              16659,
+              46728,
+              16659
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              28.73,
+              14038,
+              53695,
+              14738
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              20,
+              47954,
+              60481,
+              48654
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              27,
+              48792,
+              89249,
+              58203
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              80535,
+              147010,
+              97937
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              132001,
+              189105,
+              132001
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              133040,
+              188424,
+              133040
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              113109,
+              187768,
+              113109
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              108136,
+              186604,
+              108136
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              100435,
+              185064,
+              100435
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              97711,
+              195406,
+              97711
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-06": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.02,
+              56222,
+              106737,
+              56222
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              29.01,
+              56894,
+              98247,
+              56894
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              29.01,
+              56807,
+              99662,
+              56807
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              29.01,
+              53875,
+              96120,
+              53875
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              29.01,
+              55291,
+              93630,
+              55291
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              29.01,
+              51629,
+              89193,
+              51629
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              29.01,
+              43967,
+              78930,
+              43967
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29.01,
+              42521,
+              70037,
+              42521
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.5,
+              36320,
+              76358,
+              36320
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.5,
+              39166,
+              70935,
+              39166
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              29.6,
+              26089,
+              67478,
+              26089
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              20,
+              34566,
+              57708,
+              35266
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              20,
+              43987,
+              58529,
+              44487
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              20,
+              44439,
+              55978,
+              44939
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              20,
+              40419,
+              52819,
+              41019
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              19.2,
+              51729,
+              52015,
+              60408
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              25.18,
+              37301,
+              62096,
+              38178
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              72496,
+              133582,
+              72496
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              122351,
+              189709,
+              122351
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              126030,
+              189874,
+              126030
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              107132,
+              188840,
+              107132
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              106158,
+              188135,
+              106158
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              99998,
+              184197,
+              99998
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              95390,
+              177795,
+              95390
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-07": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.01,
+              65390,
+              105942,
+              65390
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              29.02,
+              65047,
+              103790,
+              65048
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              29.01,
+              66163,
+              100445,
+              66164
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              29.01,
+              63857,
+              99807,
+              63858
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              29.01,
+              63829,
+              97028,
+              63830
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              29.01,
+              62449,
+              98447,
+              62450
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              29.01,
+              52411,
+              94258,
+              52412
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29.02,
+              48415,
+              101257,
+              48415
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.6,
+              46972,
+              114162,
+              46972
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.8,
+              46560,
+              115264,
+              46560
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.09,
+              15529,
+              83422,
+              15529
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              20.22,
+              30289,
+              65714,
+              30789
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              20,
+              44189,
+              63035,
+              44789
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              20,
+              50173,
+              56613,
+              50593
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              20,
+              45098,
+              57506,
+              45548
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              19.2,
+              56242,
+              56442,
+              56885
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              25.2,
+              43476,
+              69131,
+              43477
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              80936,
+              152290,
+              80936
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              123361,
+              185580,
+              123361
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              129009,
+              188227,
+              129009
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              108115,
+              185728,
+              108115
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              104145,
+              187691,
+              104145
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              97988,
+              183496,
+              97988
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              95380,
+              163680,
+              95380
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-08": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.02,
+              61613,
+              104033,
+              61613
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              29.01,
+              61230,
+              96243,
+              61230
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              29.01,
+              60718,
+              96949,
+              60718
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              28.53,
+              60101,
+              91991,
+              60101
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              28.53,
+              61892,
+              88860,
+              61892
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              28.53,
+              58223,
+              88292,
+              58223
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              29.01,
+              50604,
+              81276,
+              50604
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29.02,
+              47269,
+              87986,
+              47269
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.01,
+              54456,
+              93418,
+              54456
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.01,
+              56220,
+              96769,
+              56220
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              29.5,
+              32762,
+              82098,
+              32762
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              20.22,
+              54294,
+              66333,
+              54494
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              19,
+              43714,
+              64197,
+              69451
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              19,
+              43970,
+              63400,
+              72807
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              19.5,
+              38990,
+              67159,
+              65523
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              19.2,
+              63615,
+              71995,
+              77833
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              25.2,
+              54971,
+              80879,
+              54971
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              91261,
+              129150,
+              111498
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              125540,
+              186827,
+              125540
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              126266,
+              188483,
+              126266
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              109817,
+              187349,
+              109817
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              105793,
+              186605,
+              105793
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              100903,
+              182707,
+              100903
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              115529,
+              143252,
+              115529
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-09": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              27,
+              71591,
+              87245,
+              71591
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              27,
+              71446,
+              84043,
+              71780
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              27,
+              65644,
+              82824,
+              66298
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              27,
+              61469,
+              81736,
+              62162
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              27,
+              63011,
+              79364,
+              63965
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              27,
+              63274,
+              79792,
+              64067
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              27,
+              61594,
+              81836,
+              61930
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              28.7,
+              56970,
+              86788,
+              56970
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.02,
+              46490,
+              95433,
+              46490
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.02,
+              47586,
+              104629,
+              47586
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.09,
+              18464,
+              95739,
+              18464
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              26.56,
+              18622,
+              86436,
+              18622
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              25,
+              25784,
+              86245,
+              25784
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              22,
+              26159,
+              84360,
+              26959
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              25.11,
+              22156,
+              81334,
+              22156
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              19.5,
+              38615,
+              84465,
+              43065
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              27,
+              29142,
+              83524,
+              29142
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              81989,
+              127854,
+              82689
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              121265,
+              186866,
+              121265
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              124920,
+              184754,
+              124920
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              124927,
+              185073,
+              124927
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              101049,
+              185195,
+              101049
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              97975,
+              180881,
+              97975
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              106666,
+              169049,
+              106666
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-10": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              27,
+              59292,
+              86021,
+              59292
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              27,
+              61241,
+              86243,
+              61241
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              27,
+              61182,
+              83889,
+              61337
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              27,
+              56881,
+              79940,
+              56881
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              27,
+              57059,
+              106058,
+              58050
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              27,
+              54093,
+              103575,
+              58877
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              27,
+              51992,
+              104227,
+              51992
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              27.22,
+              51893,
+              106816,
+              51893
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              28.53,
+              44046,
+              108562,
+              44046
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.03,
+              40306,
+              126410,
+              40306
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.5,
+              1501,
+              128121,
+              1501
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              30.31,
+              1779,
+              134266,
+              1779
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              30.31,
+              3310,
+              122623,
+              3310
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              30.31,
+              1974,
+              107731,
+              1974
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              30.2,
+              7054,
+              83870,
+              7054
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              27,
+              32015,
+              95763,
+              32015
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              28.53,
+              29963,
+              96684,
+              29963
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              75929,
+              146641,
+              76629
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              122164,
+              184848,
+              122164
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              126547,
+              185287,
+              126547
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              105086,
+              183343,
+              105086
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              100863,
+              182792,
+              100863
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              99632,
+              178853,
+              99632
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              94107,
+              169044,
+              94107
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-11": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.01,
+              59972,
+              120100,
+              59972
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              28.53,
+              61209,
+              118763,
+              61209
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              28.02,
+              63406,
+              116550,
+              63406
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              28.02,
+              61062,
+              113547,
+              61062
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              27.5,
+              59849,
+              108924,
+              59849
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              27.22,
+              61881,
+              106338,
+              61881
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              28.02,
+              55923,
+              105507,
+              55923
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              28.53,
+              54190,
+              108133,
+              54190
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              29.1,
+              44045,
+              109068,
+              44045
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.1,
+              41259,
+              104305,
+              41259
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.3,
+              6874,
+              95457,
+              6874
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              29.6,
+              11218,
+              73487,
+              11218
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              29.5,
+              13498,
+              87458,
+              13498
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              29.5,
+              14937,
+              88585,
+              14937
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              30.11,
+              13016,
+              98496,
+              13016
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              28.53,
+              37196,
+              102953,
+              37196
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              29.5,
+              34545,
+              102534,
+              34545
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              77270,
+              147635,
+              77970
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              122441,
+              196924,
+              122441
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              126685,
+              199793,
+              126685
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              107772,
+              198594,
+              107772
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              106232,
+              197549,
+              106232
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              102271,
+              193677,
+              102271
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              97622,
+              170010,
+              97622
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-12": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.02,
+              56190,
+              121568,
+              56190
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              29.01,
+              58490,
+              115213,
+              58490
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              28.6,
+              60982,
+              109147,
+              60982
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              28.6,
+              60419,
+              107523,
+              60419
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              28.53,
+              63000,
+              104692,
+              63000
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              28.53,
+              60621,
+              103555,
+              60621
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              28.6,
+              53401,
+              104848,
+              53401
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29.01,
+              52198,
+              114470,
+              52198
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              30.01,
+              41031,
+              128938,
+              41031
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              29.8,
+              39669,
+              133372,
+              39669
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.33,
+              11340,
+              103636,
+              11340
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              29.6,
+              21844,
+              83167,
+              21844
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              28.53,
+              33674,
+              82098,
+              33674
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              29.5,
+              24579,
+              76693,
+              24579
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              30.1,
+              14928,
+              78890,
+              14928
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              26.56,
+              40471,
+              80106,
+              40771
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              29.6,
+              30224,
+              103927,
+              30224
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              76424,
+              169421,
+              77124
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              120265,
+              213812,
+              120265
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              123667,
+              210470,
+              123667
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              103721,
+              209029,
+              103721
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              100894,
+              207522,
+              100894
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              98991,
+              205482,
+              98991
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              94897,
+              193374,
+              94897
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-13": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.1,
+              58527,
+              133054,
+              58527
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              29.02,
+              57590,
+              127633,
+              57590
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              29.02,
+              59123,
+              125742,
+              59123
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              29.02,
+              57174,
+              115866,
+              57174
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              29.02,
+              57517,
+              116644,
+              57517
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              29.02,
+              55171,
+              117930,
+              55171
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              29.02,
+              54587,
+              120006,
+              54587
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              29.5,
+              44632,
+              126117,
+              44632
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              30,
+              40934,
+              128761,
+              40934
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              30.01,
+              39351,
+              143038,
+              39351
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.51,
+              3562,
+              140935,
+              3562
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              30.51,
+              5498,
+              130184,
+              5498
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              30.44,
+              5276,
+              130516,
+              5276
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              30.43,
+              4433,
+              125558,
+              4433
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              30.47,
+              3811,
+              125342,
+              3811
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              30,
+              32195,
+              130397,
+              32195
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              30,
+              31253,
+              130331,
+              31253
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              77104,
+              184100,
+              77804
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              123040,
+              213115,
+              123040
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              126687,
+              208797,
+              126687
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              107938,
+              207999,
+              107938
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              102809,
+              205336,
+              102809
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              99913,
+              200607,
+              99913
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              95234,
+              184728,
+              95234
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-14": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.1,
+              55163,
+              124861,
+              55163
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              29.1,
+              54695,
+              122704,
+              54695
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              29.1,
+              54653,
+              117940,
+              54653
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              29.1,
+              50788,
+              116315,
+              50788
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              29.1,
+              52447,
+              111824,
+              52447
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              29.1,
+              47675,
+              113930,
+              47675
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              29.1,
+              47153,
+              115982,
+              47153
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              30,
+              39514,
+              120982,
+              39514
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              30.01,
+              34178,
+              131815,
+              34178
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              30.09,
+              32972,
+              146381,
+              32972
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.51,
+              1925,
+              141241,
+              1925
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              30.51,
+              3737,
+              127603,
+              3737
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              30.33,
+              9586,
+              98417,
+              9586
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              30.33,
+              10159,
+              98212,
+              10159
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              30.47,
+              6749,
+              96046,
+              6749
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              30,
+              28190,
+              112931,
+              28190
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              30,
+              26917,
+              124195,
+              26917
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              71960,
+              191847,
+              72460
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              118262,
+              229993,
+              118262
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              122912,
+              226515,
+              122912
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              103017,
+              225465,
+              103017
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              100382,
+              225584,
+              100382
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              97308,
+              222518,
+              97308
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              93029,
+              221703,
+              93029
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2026-01-15": {
+    "tables": [
+      {
+        "columnGrouping": {
+          "values": [
+            {
+              "id": null,
+              "branchIndex": "0",
+              "name": "MCP (AMD/kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "1",
+              "name": "Total Cleared Quantity"
+            },
+            {
+              "id": null,
+              "branchIndex": "2",
+              "name": "Bid Quantity (kWh)"
+            },
+            {
+              "id": null,
+              "branchIndex": "3",
+              "name": "Offer Quantity (kWh)"
+            }
+          ]
+        },
+        "columnIndexes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tableGrouping": [],
+        "rowGrouping": [
+          {
+            "rowCategories": [
+              {
+                "id": 1,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "00:00 - 01:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "00:00 - 01:00"
+              }
+            ],
+            "values": [
+              29.3,
+              57737,
+              125896,
+              57737
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 2,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "01:00 - 02:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "01:00 - 02:00"
+              }
+            ],
+            "values": [
+              29.1,
+              56414,
+              121183,
+              56414
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 3,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "02:00 - 03:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "02:00 - 03:00"
+              }
+            ],
+            "values": [
+              29.1,
+              56866,
+              115180,
+              56866
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 4,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "03:00 - 04:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "03:00 - 04:00"
+              }
+            ],
+            "values": [
+              29.1,
+              56937,
+              113638,
+              56937
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 5,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "04:00 - 05:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "04:00 - 05:00"
+              }
+            ],
+            "values": [
+              29.1,
+              56132,
+              109614,
+              56132
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 6,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "05:00 - 06:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "05:00 - 06:00"
+              }
+            ],
+            "values": [
+              29.1,
+              54274,
+              109864,
+              54274
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 7,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "06:00 - 07:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "06:00 - 07:00"
+              }
+            ],
+            "values": [
+              29.1,
+              52519,
+              113003,
+              52519
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 8,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "07:00 - 08:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "07:00 - 08:00"
+              }
+            ],
+            "values": [
+              30,
+              45241,
+              118949,
+              45241
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 9,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "08:00 - 09:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "08:00 - 09:00"
+              }
+            ],
+            "values": [
+              30.01,
+              39226,
+              130560,
+              39226
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 10,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "09:00 - 10:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "09:00 - 10:00"
+              }
+            ],
+            "values": [
+              30.01,
+              40166,
+              144584,
+              40166
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 11,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "10:00 - 11:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "10:00 - 11:00"
+              }
+            ],
+            "values": [
+              30.51,
+              3380,
+              131851,
+              3380
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 12,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "11:00 - 12:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "11:00 - 12:00"
+              }
+            ],
+            "values": [
+              30.3,
+              16677,
+              102705,
+              16677
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 13,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "12:00 - 13:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "12:00 - 13:00"
+              }
+            ],
+            "values": [
+              30,
+              25376,
+              95532,
+              25376
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 14,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "13:00 - 14:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "13:00 - 14:00"
+              }
+            ],
+            "values": [
+              29.8,
+              26435,
+              91091,
+              26435
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 15,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "14:00 - 15:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "14:00 - 15:00"
+              }
+            ],
+            "values": [
+              30,
+              19493,
+              88211,
+              19493
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 16,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "15:00 - 16:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "15:00 - 16:00"
+              }
+            ],
+            "values": [
+              29.5,
+              41032,
+              100438,
+              41032
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 17,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "16:00 - 17:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "16:00 - 17:00"
+              }
+            ],
+            "values": [
+              30,
+              35677,
+              120413,
+              35677
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 18,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "17:00 - 18:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "17:00 - 18:00"
+              }
+            ],
+            "values": [
+              25,
+              80697,
+              194935,
+              81197
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 19,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "18:00 - 19:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "18:00 - 19:00"
+              }
+            ],
+            "values": [
+              25,
+              127723,
+              235012,
+              127723
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 20,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "19:00 - 20:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "19:00 - 20:00"
+              }
+            ],
+            "values": [
+              25,
+              131370,
+              234007,
+              131370
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 21,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "20:00 - 21:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "20:00 - 21:00"
+              }
+            ],
+            "values": [
+              25,
+              111478,
+              231709,
+              111478
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 22,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "21:00 - 22:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "21:00 - 22:00"
+              }
+            ],
+            "values": [
+              25,
+              107504,
+              231082,
+              107504
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 23,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "22:00 - 23:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "22:00 - 23:00"
+              }
+            ],
+            "values": [
+              25,
+              104426,
+              234747,
+              104426
+            ]
+          },
+          {
+            "rowCategories": [
+              {
+                "id": 24,
+                "branchIndex": 0,
+                "level0Index": 0,
+                "name": "23:00 - 24:00",
+                "isTotal": false,
+                "totalType": "NONE",
+                "orderId": "23:00 - 24:00"
+              }
+            ],
+            "values": [
+              25,
+              100119,
+              201745,
+              100119
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

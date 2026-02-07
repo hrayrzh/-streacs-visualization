@@ -517,3 +517,110 @@ body {
     40% { content: '..'; }
     60%, 100% { content: '...'; }
 }
+
+/* Armenia Market Intelligence Styles */
+.section-subtitle {
+    color: #666;
+    font-size: 0.95rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.chart-controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.chart-controls label {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.chart-controls select,
+.chart-controls input[type="date"] {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.timezone-note {
+    font-size: 0.85rem;
+    color: #999;
+    margin-left: 10px;
+}
+
+#aex-mcp-chart {
+    max-height: 300px;
+}
+
+.d3-container {
+    min-height: 600px;
+    overflow: auto;
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.heatmap-tooltip {
+    position: absolute;
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.95), rgba(20, 20, 20, 0.98));
+    color: white;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    pointer-events: none;
+    z-index: 1000;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 0 1px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    min-width: 200px;
+}
+
+.heatmap-cell {
+    transition: opacity 0.2s ease, stroke-width 0.2s ease, stroke 0.2s ease;
+}
+
+.heatmap-cell:hover {
+    filter: brightness(1.1);
+}
+
+.navigation-buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-secondary {
+    padding: 12px 24px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: #2980b9;
+}
+
+/* Responsive adjustments for Market Intelligence */
+@media (max-width: 1024px) {
+    .chart-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .chart-controls {
+        flex-wrap: wrap;
+    }
+}
