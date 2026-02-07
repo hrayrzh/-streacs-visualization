@@ -286,13 +286,6 @@ class ArmeniaMarketIntelligence {
                 });
             });
 
-            // Filter out Electric Networks of Armenia
-            const excludedCompanies = [
-                '"Electric Networks of Armenia" CJSC',
-                'Electric Networks of Armenia CJSC',
-                '"Electric Networks of Armenia"CJSC'
-            ];
-
             // Sort companies by total activity and take top 20
             const companyTotals = new Map();
             heatmapData.forEach(d => {
@@ -301,11 +294,8 @@ class ArmeniaMarketIntelligence {
             });
 
             const companies = Array.from(companiesSet)
-                .filter(company => !excludedCompanies.some(excluded =>
-                    company.toLowerCase().includes('electric networks of armenia')
-                ))
                 .sort((a, b) => (companyTotals.get(b) || 0) - (companyTotals.get(a) || 0))
-                .slice(0, 20); // Top 20 most active companies (excluding Electric Networks)
+                .slice(0, 20); // Top 20 most active companies
 
             const hours = Array.from({length: 24}, (_, i) => i);
 
