@@ -9,6 +9,8 @@ class ArmeniaMarketIntelligence {
         this.selectedSurplusType = 'bid';
         this.selectedMonth = 'all';
         this.initialized = false;
+        this.isMobile = window.innerWidth <= 768;
+        this.isVerySmall = window.innerWidth <= 480;
     }
 
     async initialize() {
@@ -40,6 +42,26 @@ class ArmeniaMarketIntelligence {
     }
 
     setupEventListeners() {
+        // Window resize handler for mobile orientation changes
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                const wasMobile = this.isMobile;
+                const wasVerySmall = this.isVerySmall;
+                this.isMobile = window.innerWidth <= 768;
+                this.isVerySmall = window.innerWidth <= 480;
+
+                // Recreate visualizations if mobile state changed
+                if (wasMobile !== this.isMobile || wasVerySmall !== this.isVerySmall) {
+                    if (this.initialized) {
+                        this.createMCPChart(this.selectedDate);
+                        this.createSurplusHeatmap(this.selectedYear, this.selectedSurplusType, this.selectedMonth);
+                    }
+                }
+            }, 300);
+        });
+
         // MCP Date Picker
         const mcpDatePicker = document.getElementById('aex-mcp-date');
         if (mcpDatePicker) {
@@ -155,7 +177,7 @@ class ArmeniaMarketIntelligence {
                 options: {
                     responsive: true,
                     maintainAspectRatio: true,
-                    aspectRatio: 3,
+                    aspectRatio: this.isMobile ? 1.5 : 3,
                     interaction: {
                         mode: 'index',
                         intersect: false
@@ -165,9 +187,12 @@ class ArmeniaMarketIntelligence {
                             type: 'linear',
                             position: 'left',
                             title: {
-                                display: true,
+                                display: !this.isVerySmall,
                                 text: 'Price (AMD/kWh)',
-                                font: { weight: 'bold' }
+                                font: { weight: 'bold', size: this.isMobile ? 10 : 12 }
+                            },
+                            ticks: {
+                                font: { size: this.isMobile ? 9 : 11 }
                             },
                             grid: {
                                 drawOnChartArea: true
@@ -177,9 +202,19 @@ class ArmeniaMarketIntelligence {
                             type: 'linear',
                             position: 'right',
                             title: {
-                                display: true,
+                                display: !this.isVerySmall,
                                 text: 'Volume (kWh)',
-                                font: { weight: 'bold' }
+                                font: { weight: 'bold', size: this.isMobile ? 10 : 12 }
+                            },
+                            ticks: {
+                                font: { size: this.isMobile ? 9 : 11 },
+                                callback: function(value) {
+                                    // Shorten large numbers on mobile
+                                    if (window.innerWidth <= 480) {
+                                        if (value >= 1000) return (value / 1000).toFixed(0) + 'k';
+                                    }
+                                    return value;
+                                }
                             },
                             grid: {
                                 drawOnChartArea: false
@@ -187,14 +222,22 @@ class ArmeniaMarketIntelligence {
                         },
                         x: {
                             title: {
-                                display: true,
+                                display: !this.isVerySmall,
                                 text: 'Hour (UTC+4)',
-                                font: { weight: 'bold' }
+                                font: { weight: 'bold', size: this.isMobile ? 10 : 12 }
+                            },
+                            ticks: {
+                                font: { size: this.isMobile ? 9 : 11 },
+                                maxRotation: this.isMobile ? 45 : 0,
+                                minRotation: this.isMobile ? 45 : 0
                             }
                         }
                     },
                     plugins: {
                         tooltip: {
+                            enabled: true,
+                            titleFont: { size: this.isMobile ? 11 : 13 },
+                            bodyFont: { size: this.isMobile ? 10 : 12 },
                             callbacks: {
                                 label: function(context) {
                                     let label = context.dataset.label || '';
@@ -210,9 +253,12 @@ class ArmeniaMarketIntelligence {
                             }
                         },
                         legend: {
-                            position: 'top',
+                            display: !this.isVerySmall,
+                            position: this.isMobile ? 'bottom' : 'top',
                             labels: {
-                                font: { size: 12 }
+                                font: { size: this.isMobile ? 9 : 12 },
+                                boxWidth: this.isMobile ? 12 : 40,
+                                padding: this.isMobile ? 8 : 10
                             }
                         }
                     }
@@ -293,9 +339,12 @@ class ArmeniaMarketIntelligence {
                 companyTotals.set(d.company, current + Math.abs(d.value));
             });
 
+            // Adjust number of companies based on screen size
+            const maxCompanies = this.isVerySmall ? 10 : (this.isMobile ? 15 : 20);
+
             const companies = Array.from(companiesSet)
                 .sort((a, b) => (companyTotals.get(b) || 0) - (companyTotals.get(a) || 0))
-                .slice(0, 20); // Top 20 most active companies
+                .slice(0, maxCompanies); // Top companies (adaptive)
 
             const hours = Array.from({length: 24}, (_, i) => i);
 
@@ -325,10 +374,16 @@ class ArmeniaMarketIntelligence {
             // Clear existing SVG
             d3.select('#aex-surplus-heatmap').selectAll('*').remove();
 
-            // Set dimensions - swap axes for better readability
-            const margin = {top: 100, right: 150, bottom: 60, left: 250};
-            const cellWidth = 35;
-            const cellHeight = 20;
+            // Responsive dimensions for different screen sizes
+            const isMobile = this.isMobile;
+            const isVerySmall = this.isVerySmall;
+
+            const margin = isVerySmall
+                ? {top: 60, right: 80, bottom: 40, left: 120}
+                : (isMobile ? {top: 80, right: 100, bottom: 50, left: 180} : {top: 100, right: 150, bottom: 60, left: 250});
+
+            const cellWidth = isVerySmall ? 25 : (isMobile ? 30 : 35);
+            const cellHeight = isVerySmall ? 15 : (isMobile ? 18 : 20);
             const width = 24 * cellWidth; // 24 hours
             const height = companies.length * cellHeight; // companies
 
@@ -445,58 +500,73 @@ class ArmeniaMarketIntelligence {
                     document.getElementById('aex-surplus-tooltip').style.display = 'none';
                 });
 
+            // Responsive font sizes
+            const xAxisFontSize = isVerySmall ? '7px' : (isMobile ? '8px' : '10px');
+            const yAxisFontSize = isVerySmall ? '7px' : (isMobile ? '8px' : '9px');
+            const titleFontSize = isVerySmall ? '11px' : (isMobile ? '12px' : '14px');
+
             // X axis (hours) - at bottom
             svg.append('g')
                 .attr('transform', `translate(0,${height})`)
                 .call(d3.axisBottom(xScale).tickFormat(d => `${String(d).padStart(2, '0')}:00`))
                 .selectAll('text')
                 .style('text-anchor', 'middle')
-                .style('font-size', '10px');
+                .style('font-size', xAxisFontSize);
 
             // Y axis (companies) - at left
+            const maxNameLength = isVerySmall ? 15 : (isMobile ? 25 : 35);
             svg.append('g')
                 .call(d3.axisLeft(yScale))
                 .selectAll('text')
-                .style('font-size', '9px')
+                .style('font-size', yAxisFontSize)
                 .text(function(d) {
-                    // Truncate long company names
-                    return d.length > 35 ? d.substring(0, 35) + '...' : d;
+                    // Truncate long company names based on screen size
+                    return d.length > maxNameLength ? d.substring(0, maxNameLength) + '...' : d;
                 });
 
             // Title
+            const titleYPos = isVerySmall ? -40 : (isMobile ? -50 : -60);
             svg.append('text')
                 .attr('x', width / 2)
-                .attr('y', -60)
+                .attr('y', titleYPos)
                 .attr('text-anchor', 'middle')
-                .style('font-size', '14px')
+                .style('font-size', titleFontSize)
                 .style('font-weight', 'bold')
-                .text(`${type === 'bid' ? 'Surplus Bid' : 'Surplus Offer'} - ${year} ${month !== 'all' ? `(Month ${month})` : '(Full Year)'}`);
+                .text(`${type === 'bid' ? 'Surplus Bid' : 'Surplus Offer'} - ${year} ${month !== 'all' ? `(M${month})` : '(Full Year)'}`);
 
             // X axis label
-            svg.append('text')
-                .attr('x', width / 2)
-                .attr('y', height + 45)
-                .attr('text-anchor', 'middle')
-                .style('font-size', '11px')
-                .style('font-weight', 'bold')
-                .text('Hour (UTC+4)');
+            if (!isVerySmall) {
+                const xLabelFontSize = isMobile ? '9px' : '11px';
+                svg.append('text')
+                    .attr('x', width / 2)
+                    .attr('y', height + (isMobile ? 35 : 45))
+                    .attr('text-anchor', 'middle')
+                    .style('font-size', xLabelFontSize)
+                    .style('font-weight', 'bold')
+                    .text('Hour (UTC+4)');
+            }
 
             // Y axis label
-            svg.append('text')
-                .attr('transform', 'rotate(-90)')
-                .attr('x', -height / 2)
-                .attr('y', -230)
-                .attr('text-anchor', 'middle')
-                .style('font-size', '11px')
-                .style('font-weight', 'bold')
-                .text('Market Participants');
+            if (!isVerySmall) {
+                const yLabelFontSize = isMobile ? '9px' : '11px';
+                const yLabelPos = isVerySmall ? -100 : (isMobile ? -150 : -230);
+                svg.append('text')
+                    .attr('transform', 'rotate(-90)')
+                    .attr('x', -height / 2)
+                    .attr('y', yLabelPos)
+                    .attr('text-anchor', 'middle')
+                    .style('font-size', yLabelFontSize)
+                    .style('font-weight', 'bold')
+                    .text('Market Participants');
+            }
 
-            // Color legend - logarithmic scale for wide range display
-            const legendWidth = 300;
-            const legendHeight = 15;
+            // Color legend - responsive size
+            const legendWidth = isVerySmall ? 150 : (isMobile ? 200 : 300);
+            const legendHeight = isVerySmall ? 10 : (isMobile ? 12 : 15);
+            const legendYPos = isVerySmall ? -30 : (isMobile ? -35 : -40);
 
             const legend = svg.append('g')
-                .attr('transform', `translate(${width - legendWidth - 50}, -40)`);
+                .attr('transform', `translate(${width - legendWidth - (isMobile ? 20 : 50)}, ${legendYPos})`);
 
             // Logarithmic scale for legend
             const legendLogScale = d3.scaleLog()
@@ -539,20 +609,24 @@ class ArmeniaMarketIntelligence {
                     return d.toFixed(1);
                 });
 
+            const legendAxisFontSize = isVerySmall ? '7px' : (isMobile ? '8px' : '10px');
+            const legendTitleFontSize = isVerySmall ? '8px' : (isMobile ? '9px' : '11px');
+
             legend.append('g')
                 .attr('transform', `translate(0,${legendHeight})`)
                 .call(legendAxis)
                 .selectAll('text')
-                .style('font-size', '10px');
+                .style('font-size', legendAxisFontSize);
 
             // Legend title with note about log scale
+            const legendTitle = isVerySmall ? 'kWh (log)' : (isMobile ? 'Volume (kWh) - log' : 'Surplus Volume (kWh) - log scale');
             legend.append('text')
                 .attr('x', legendWidth / 2)
-                .attr('y', -8)
+                .attr('y', -5)
                 .attr('text-anchor', 'middle')
-                .style('font-size', '11px')
+                .style('font-size', legendTitleFontSize)
                 .style('font-weight', 'bold')
-                .text('Surplus Volume (kWh) - log scale');
+                .text(legendTitle);
 
             console.log('✓ Surplus heatmap created');
         } catch (error) {

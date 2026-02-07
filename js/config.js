@@ -140,5 +140,94 @@ const HELPERS = {
         if (actual.length !== predicted.length) return null;
         const absoluteErrors = actual.map((a, i) => Math.abs(a - predicted[i]));
         return absoluteErrors.reduce((sum, val) => sum + val, 0) / actual.length;
+    },
+
+    // Mobile detection
+    isMobile() {
+        return window.innerWidth <= 768;
+    },
+
+    isVerySmall() {
+        return window.innerWidth <= 480;
+    },
+
+    // Get responsive Chart.js options
+    getResponsiveChartOptions(baseOptions = {}) {
+        const isMobile = this.isMobile();
+        const isVerySmall = this.isVerySmall();
+
+        return {
+            responsive: true,
+            maintainAspectRatio: true,
+            ...baseOptions,
+            plugins: {
+                ...baseOptions.plugins,
+                legend: {
+                    display: !isVerySmall,
+                    position: isMobile ? 'bottom' : 'top',
+                    labels: {
+                        font: { size: isMobile ? 9 : 12 },
+                        boxWidth: isMobile ? 12 : 40,
+                        padding: isMobile ? 5 : 10,
+                        ...(baseOptions.plugins?.legend?.labels || {})
+                    },
+                    ...(baseOptions.plugins?.legend || {})
+                },
+                title: {
+                    display: baseOptions.plugins?.title?.display !== false,
+                    font: {
+                        size: isVerySmall ? 12 : (isMobile ? 14 : 16),
+                        weight: 'bold'
+                    },
+                    ...(baseOptions.plugins?.title || {})
+                },
+                tooltip: {
+                    enabled: true,
+                    titleFont: { size: isMobile ? 11 : 13 },
+                    bodyFont: { size: isMobile ? 10 : 12 },
+                    ...(baseOptions.plugins?.tooltip || {})
+                }
+            },
+            scales: this.getResponsiveScales(baseOptions.scales)
+        };
+    },
+
+    // Get responsive scales for Chart.js
+    getResponsiveScales(baseScales = {}) {
+        const isMobile = this.isMobile();
+        const isVerySmall = this.isVerySmall();
+
+        const responsiveScales = {};
+
+        for (const [key, scale] of Object.entries(baseScales)) {
+            responsiveScales[key] = {
+                ...scale,
+                title: {
+                    display: scale.title?.display !== false && !isVerySmall,
+                    font: {
+                        size: isMobile ? 10 : 12,
+                        weight: 'bold'
+                    },
+                    ...(scale.title || {})
+                },
+                ticks: {
+                    font: { size: isMobile ? 9 : 11 },
+                    maxRotation: isMobile ? 45 : (scale.ticks?.maxRotation || 0),
+                    minRotation: isMobile ? 45 : (scale.ticks?.minRotation || 0),
+                    ...(scale.ticks || {})
+                }
+            };
+        }
+
+        return responsiveScales;
+    },
+
+    // Format large numbers for mobile
+    formatNumberForMobile(value) {
+        if (this.isVerySmall()) {
+            if (value >= 1000000) return (value / 1000000).toFixed(1) + 'M';
+            if (value >= 1000) return (value / 1000).toFixed(0) + 'k';
+        }
+        return value;
     }
 };

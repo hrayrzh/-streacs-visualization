@@ -153,6 +153,22 @@ document.addEventListener('DOMContentLoaded', () => {
             window.armeniaMarketIntelligence.initialize();
         });
     }
+
+    // Rotate banner persistence
+    const rotateBanner = document.querySelector('.rotate-banner');
+    const rotateBannerClose = document.querySelector('.rotate-banner-close');
+
+    if (rotateBanner && rotateBannerClose) {
+        // Check if user previously closed the banner
+        if (localStorage.getItem('rotateBannerClosed') === 'true') {
+            rotateBanner.style.display = 'none';
+        }
+
+        rotateBannerClose.addEventListener('click', () => {
+            rotateBanner.style.display = 'none';
+            localStorage.setItem('rotateBannerClosed', 'true');
+        });
+    }
 });
 
 console.log('STREACS main.js loaded - waiting for DOM...');

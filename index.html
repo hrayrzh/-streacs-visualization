@@ -24,6 +24,13 @@
         </div>
     </header>
 
+    <!-- Rotate suggestion banner for mobile portrait -->
+    <div class="rotate-banner">
+        <span class="rotate-banner-icon">📱</span>
+        <span class="rotate-banner-text">For better viewing, please rotate your device to landscape mode</span>
+        <button class="rotate-banner-close">&times;</button>
+    </div>
+
     <!-- Main Content -->
     <main class="container">
 
@@ -174,6 +181,15 @@
                 </div>
                 <div id="aex-surplus-heatmap" class="d3-container"></div>
                 <div id="aex-surplus-tooltip" class="heatmap-tooltip" style="display: none;"></div>
+
+                <!-- Rotate device suggestion -->
+                <div class="rotate-device-overlay">
+                    <div class="rotate-device-message">
+                        <div class="rotate-icon">📱 ⟳</div>
+                        <p>Please Rotate Device</p>
+                        <p class="rotate-subtitle">Use landscape orientation for better viewing experience</p>
+                    </div>
+                </div>
             </div>
 
             <!-- Navigation Back -->

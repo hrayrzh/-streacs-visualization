@@ -568,6 +568,15 @@ body {
     background: #fafafa;
     border-radius: 8px;
     padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#aex-surplus-heatmap {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .heatmap-tooltip {
@@ -590,6 +599,146 @@ body {
 
 .heatmap-cell:hover {
     filter: brightness(1.1);
+}
+
+/* Rotate Device Overlay */
+.rotate-device-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5px);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.rotate-device-message {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    max-width: 280px;
+}
+
+.rotate-icon {
+    font-size: 4em;
+    margin-bottom: 15px;
+    animation: rotateAnimation 2s ease-in-out infinite;
+}
+
+@keyframes rotateAnimation {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-15deg); }
+    75% { transform: rotate(15deg); }
+}
+
+.rotate-device-message p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.rotate-subtitle {
+    font-size: 0.9em !important;
+    font-weight: normal !important;
+    opacity: 0.9;
+    line-height: 1.4;
+}
+
+/* Show overlay only on mobile portrait mode */
+@media (max-width: 768px) and (orientation: portrait) {
+    .chart-container:has(#aex-surplus-heatmap) {
+        position: relative;
+    }
+
+    #aex-surplus-heatmap {
+        position: relative;
+    }
+
+    .rotate-device-overlay {
+        display: flex !important;
+    }
+}
+
+/* Hide overlay in landscape mode */
+@media (orientation: landscape) {
+    .rotate-device-overlay {
+        display: none !important;
+    }
+}
+
+/* Rotate Banner - less intrusive */
+.rotate-banner {
+    display: none;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    font-size: 0.85em;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rotate-banner-icon {
+    font-size: 1.2em;
+    animation: wiggle 1s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
+}
+
+.rotate-banner-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.rotate-banner-close {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+    transition: background 0.3s ease;
+}
+
+.rotate-banner-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Show banner only on mobile portrait */
+@media (max-width: 768px) and (orientation: portrait) {
+    .rotate-banner {
+        display: flex !important;
+    }
+}
+
+/* Hide banner in landscape */
+@media (orientation: landscape) {
+    .rotate-banner {
+        display: none !important;
+    }
 }
 
 .navigation-buttons {
@@ -622,5 +771,424 @@ body {
 
     .chart-controls {
         flex-wrap: wrap;
+    }
+}
+
+/* ============================================
+   MOBILE OPTIMIZATION (All Modules)
+   ============================================ */
+
+/* Tablet and below (768px) */
+@media (max-width: 768px) {
+    /* Typography */
+    body {
+        font-size: 14px;
+    }
+
+    .main-header h1 {
+        font-size: 1.5em;
+    }
+
+    .main-header .subtitle {
+        font-size: 0.85em;
+    }
+
+    /* Containers */
+    .container {
+        padding: 10px;
+    }
+
+    .panel {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .panel h2 {
+        font-size: 1.3em;
+    }
+
+    .panel h3 {
+        font-size: 1.1em;
+    }
+
+    /* Chart containers */
+    .chart-container {
+        margin-bottom: 25px;
+    }
+
+    #aex-mcp-chart {
+        max-height: 250px;
+    }
+
+    /* D3 heatmap - make scrollable horizontally */
+    .d3-container {
+        min-height: 400px;
+        max-height: 600px;
+        padding: 10px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        display: block;
+        width: 100%;
+    }
+
+    .d3-container svg {
+        display: block;
+        max-width: none !important;
+    }
+
+    /* Scenario grid - ensure single column on mobile */
+    .scenario-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+
+    .comparison-charts {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+
+    .armenia-grid {
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+    }
+
+    /* Controls - stack vertically on mobile */
+    .chart-controls {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .chart-controls select,
+    .chart-controls input[type="date"] {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .chart-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    /* Timeline controls */
+    .timeline-controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .timeline-controls input[type="range"] {
+        width: 100%;
+    }
+
+    /* Country modal */
+    .modal-content {
+        width: 95%;
+        margin: 5% auto;
+        padding: 15px;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .modal-content h2 {
+        font-size: 1.3em;
+    }
+
+    .close-btn {
+        font-size: 1.8em;
+        top: 5px;
+        right: 10px;
+    }
+
+    /* Legend - make scrollable */
+    .legend {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #market-legend {
+        flex-wrap: nowrap;
+        min-width: max-content;
+    }
+
+    /* Comparison controls */
+    .comparison-controls {
+        padding: 15px;
+    }
+
+    #country-checkboxes {
+        max-height: 200px;
+        overflow-y: auto;
+    }
+
+    /* Buttons */
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .navigation-buttons {
+        margin-top: 20px;
+    }
+
+    /* Armenia timeline */
+    .armenia-milestones {
+        padding: 10px;
+    }
+
+    .timeline-event {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Tooltips */
+    .heatmap-tooltip {
+        font-size: 0.75rem;
+        padding: 8px 12px;
+        min-width: 150px;
+    }
+
+    /* Metrics */
+    .forecast-metrics,
+    .metrics-grid {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .metric-value {
+        font-size: 1.1rem;
+    }
+
+    /* Forecast grid */
+    .forecast-grid {
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+    }
+
+    /* Scenario specific fixes */
+    .scenario-grid .chart-container {
+        width: 100%;
+    }
+
+    .scenario-grid canvas {
+        max-width: 100%;
+    }
+}
+
+/* Mobile phones (480px and below) */
+@media (max-width: 480px) {
+    /* Even smaller typography */
+    body {
+        font-size: 13px;
+    }
+
+    .main-header h1 {
+        font-size: 1.3em;
+    }
+
+    .panel h2 {
+        font-size: 1.2em;
+    }
+
+    .panel h3 {
+        font-size: 1em;
+    }
+
+    /* Reduce padding */
+    .container {
+        padding: 5px;
+    }
+
+    .panel {
+        padding: 10px;
+    }
+
+    /* Chart adjustments */
+    #aex-mcp-chart {
+        max-height: 200px;
+    }
+
+    .d3-container {
+        min-height: 300px;
+        max-height: 500px;
+        padding: 5px;
+        overflow: auto;
+        width: 100%;
+    }
+
+    /* Heatmap - ensure scrollable */
+    .d3-container svg {
+        max-width: none !important;
+        height: auto;
+        display: block;
+    }
+
+    /* Ensure grids are single column */
+    .scenario-grid,
+    .comparison-charts,
+    .armenia-grid {
+        display: flex !important;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .chart-container {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Hide some chart elements on very small screens */
+    .chart-legend {
+        font-size: 0.7em;
+    }
+
+    /* Smaller buttons */
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    /* Timeline */
+    .timeline-year {
+        font-size: 1em;
+    }
+
+    .timeline-description {
+        font-size: 0.85em;
+    }
+
+    /* Modal adjustments */
+    .modal-content {
+        width: 98%;
+        margin: 2% auto;
+        padding: 10px;
+    }
+
+    /* Comparison checkboxes */
+    .country-selector label {
+        font-size: 0.85em;
+        padding: 6px;
+    }
+
+    /* Scenario info boxes */
+    .scenario-legend p,
+    .scenario-info p {
+        font-size: 0.85em;
+    }
+
+    /* Footer */
+    .main-footer {
+        padding: 15px 10px;
+        font-size: 0.85em;
+    }
+}
+
+/* Very small phones (360px and below) */
+@media (max-width: 360px) {
+    .main-header h1 {
+        font-size: 1.1em;
+    }
+
+    .main-header .subtitle {
+        font-size: 0.75em;
+    }
+
+    .panel h2 {
+        font-size: 1.1em;
+    }
+
+    #aex-mcp-chart {
+        max-height: 180px;
+    }
+
+    .chart-controls select,
+    .chart-controls input {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .heatmap-tooltip {
+        font-size: 0.7rem;
+        padding: 6px 10px;
+    }
+
+    /* Force single column layout */
+    .scenario-grid,
+    .comparison-charts,
+    .armenia-grid,
+    .forecast-grid {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+
+    .chart-container,
+    .forecast-item {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* Ensure heatmap scrolls properly */
+    #aex-surplus-heatmap {
+        overflow-x: auto !important;
+        overflow-y: auto !important;
+        max-width: 100vw;
+        padding-right: 10px;
+    }
+}
+
+/* Landscape orientation optimization */
+@media (max-height: 500px) and (orientation: landscape) {
+    .modal-content {
+        max-height: 95vh;
+        overflow-y: auto;
+    }
+
+    .panel {
+        padding: 10px;
+    }
+
+    #aex-mcp-chart {
+        max-height: 150px;
+    }
+
+    .d3-container {
+        min-height: 250px;
+    }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+    /* Increase tap targets */
+    button,
+    select,
+    input,
+    a {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    .close-btn {
+        padding: 10px;
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    /* Remove hover effects on touch devices */
+    .country:hover,
+    .btn-primary:hover,
+    .btn-secondary:hover {
+        transform: none;
+    }
+
+    /* Larger checkboxes */
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
     }
 }
