@@ -13851,42 +13851,48 @@
     "Entity":"Armenia",
     "Code":"ARM",
     "Year":2018,
-    "Solar and wind - % electricity":0.2635046
+    "Solar and wind - % electricity":0.10
   },
   {
     "Entity":"Armenia",
     "Code":"ARM",
     "Year":2019,
-    "Solar and wind - % electricity":0.8010681
+    "Solar and wind - % electricity":0.35
   },
   {
     "Entity":"Armenia",
     "Code":"ARM",
     "Year":2020,
-    "Solar and wind - % electricity":1.8324608
+    "Solar and wind - % electricity":0.76
   },
   {
     "Entity":"Armenia",
     "Code":"ARM",
     "Year":2021,
-    "Solar and wind - % electricity":3.7564766
+    "Solar and wind - % electricity":2.15
   },
   {
     "Entity":"Armenia",
     "Code":"ARM",
     "Year":2022,
-    "Solar and wind - % electricity":5.263158
+    "Solar and wind - % electricity":4.11
   },
   {
     "Entity":"Armenia",
     "Code":"ARM",
     "Year":2023,
-    "Solar and wind - % electricity":8.901734
+    "Solar and wind - % electricity":6.75
   },
   {
     "Entity":"Armenia",
     "Code":"ARM",
     "Year":2024,
-    "Solar and wind - % electricity":9.954751
+    "Solar and wind - % electricity":8.47
+  },
+  {
+    "Entity":"Armenia",
+    "Code":"ARM",
+    "Year":2025,
+    "Solar and wind - % electricity":14.98
   }
 ]
