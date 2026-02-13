@@ -9,9 +9,23 @@ Interactive web application visualizing global electricity market evolution and 
 ## Features
 
 ✅ **Interactive World Map** - Track market structures across 10+ countries
-✅ **Armenia Case Study** - VRE growth from 0.07% (2018) to 10.1% (2024)
+✅ **Armenia Case Study** - VRE growth from 0.10% (2018) to 14.98% (2025)
+✅ **Armenia Market Intelligence** - Real-time AEX market data visualization
 ✅ **Country Comparison** - Compare up to 10 countries
 ✅ **Future Scenarios** - Projections for 2030-2040
+✅ **Mobile Optimized** - Responsive design for all devices
+
+---
+
+## Recent Updates
+
+**February 2026**
+- ✨ Update Armenia solar & wind data with PSRC official statistics (2018-2025)
+- 🔧 Fix mobile UX: header padding, country search, portrait MCP height
+- 📱 Add comprehensive mobile optimization for all modules
+- 🏢 Add Armenia Market Intelligence module with AEX data visualization
+- 🎨 Add Market Liberalization background colors to country modal VRE charts
+- 🌍 Restore Electric Networks of Armenia CJSC in heatmap
 
 ---
 
