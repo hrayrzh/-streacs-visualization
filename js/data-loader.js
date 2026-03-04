@@ -4,6 +4,7 @@ class DataLoader {
     constructor() {
         this.data = {
             marketStructure: null,
+            marketStructurePrimary: null,
             regulators: null,
             ipp: null,
             unbundling: null,
@@ -44,10 +45,19 @@ class DataLoader {
             // Try to load market structure JSON, fallback to inline
             try {
                 this.data.marketStructure = await this.loadJSON('data/power-market-structure-wholesale.json');
-                console.log('✓ Market structure loaded from JSON');
+                console.log('✓ Market structure (wholesale) loaded from JSON');
             } catch {
                 this.data.marketStructure = this.createMarketStructureData();
                 console.log('✓ Market structure created inline');
+            }
+
+            // Load primary market structure JSON
+            try {
+                this.data.marketStructurePrimary = await this.loadJSON('data/power-market-structure-primary.json');
+                console.log('✓ Market structure (primary) loaded from JSON');
+            } catch {
+                this.data.marketStructurePrimary = null;
+                console.warn('Primary market structure JSON not found');
             }
 
             // Try to load regulators JSON, fallback to inline
@@ -275,9 +285,16 @@ class DataLoader {
         ];
     }
 
-    // Get market code for country and year
+    // Get market code for country and year (wholesale)
     getMarketCode(country, year) {
         const countryData = this.data.marketStructure?.[country];
+        if (!countryData) return null;
+        return countryData.years?.[String(year)] || null;
+    }
+
+    // Get primary market code for country and year
+    getMarketCodePrimary(country, year) {
+        const countryData = this.data.marketStructurePrimary?.[country];
         if (!countryData) return null;
         return countryData.years?.[String(year)] || null;
     }

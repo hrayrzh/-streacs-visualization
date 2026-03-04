@@ -72,7 +72,10 @@ class CountryModal {
 
     displayMarketEvolution(countryName) {
         const container = document.getElementById('market-evolution');
-        const countryData = dataLoader.data.marketStructure?.[countryName];
+        const isPrimary = window.worldMap?.dataMode === 'primary';
+        const countryData = isPrimary
+            ? dataLoader.data.marketStructurePrimary?.[countryName]
+            : dataLoader.data.marketStructure?.[countryName];
 
         if (!countryData) {
             container.innerHTML = '<p>No market structure data available</p>';
@@ -230,8 +233,13 @@ class CountryModal {
         const values = vreData.map(d => d['Solar and wind - % electricity']);
 
         // Get liberalization scores for each year
+        const isPrimary = window.worldMap?.dataMode === 'primary';
+        const getCode = (year) => isPrimary
+            ? dataLoader.getMarketCodePrimary(countryName, year)
+            : dataLoader.getMarketCode(countryName, year);
+
         const liberalizationScores = years.map(year => {
-            const code = dataLoader.getMarketCode(countryName, year);
+            const code = getCode(year);
             return HELPERS.getLiberalizationScore(code);
         });
 
@@ -358,7 +366,7 @@ class CountryModal {
                             afterLabel: function(context) {
                                 const index = context.dataIndex;
                                 const score = liberalizationScores[index];
-                                const code = dataLoader.getMarketCode(countryName, years[index]);
+                                const code = getCode(years[index]);
                                 return `Market: ${HELPERS.getMarketLabel(code)} (Score: ${score})`;
                             }
                         }

@@ -9,6 +9,8 @@ class WorldMap {
         this.currentYear = 2024;
         this.playing = false;
         this.playInterval = null;
+        this.dataMode = 'wholesale'; // 'wholesale' or 'primary'
+        this.highlightedCode = null; // active legend filter
 
         // Map TopoJSON country names to our data names
         this.nameMapping = {
@@ -127,9 +129,14 @@ class WorldMap {
     getCountryColor(countryName, year) {
         const normalizedName = this.normalizeName(countryName);
         if (!normalizedName) {
-            return CONFIG.marketColors['none']; // Gray for territories without data
+            return CONFIG.marketColors['none'];
         }
-        const code = dataLoader.getMarketCode(normalizedName, year);
+        const code = this.dataMode === 'primary'
+            ? dataLoader.getMarketCodePrimary(normalizedName, year)
+            : dataLoader.getMarketCode(normalizedName, year);
+        if (this.highlightedCode && code !== this.highlightedCode) {
+            return 'rgba(200,200,200,0.3)';
+        }
         return HELPERS.getMarketColor(code);
     }
 
@@ -138,7 +145,9 @@ class WorldMap {
         if (!normalizedName) {
             return `${countryName}\nNo data available`;
         }
-        const code = dataLoader.getMarketCode(normalizedName, year);
+        const code = this.dataMode === 'primary'
+            ? dataLoader.getMarketCodePrimary(normalizedName, year)
+            : dataLoader.getMarketCode(normalizedName, year);
         const label = HELPERS.getMarketLabel(code);
         return `${countryName}\n${year}: ${label}`;
     }
@@ -182,6 +191,7 @@ class WorldMap {
     updateYear(year) {
         this.currentYear = parseInt(year);
         document.getElementById('current-year').textContent = this.currentYear;
+        if (this.highlightedCode) this.showCountryList(this.highlightedCode);
 
         // Update country colors
         this.svg.selectAll('path.country')
@@ -209,6 +219,26 @@ class WorldMap {
                 playBtn.textContent = 'Pause';
             }
         });
+
+        // Mode toggle buttons
+        const modeWholesale = document.getElementById('mode-wholesale');
+        const modePrimary = document.getElementById('mode-primary');
+
+        if (modeWholesale && modePrimary) {
+            modeWholesale.addEventListener('click', () => {
+                this.dataMode = 'wholesale';
+                modeWholesale.classList.add('active');
+                modePrimary.classList.remove('active');
+                this.updateYear(this.currentYear);
+            });
+
+            modePrimary.addEventListener('click', () => {
+                this.dataMode = 'primary';
+                modePrimary.classList.add('active');
+                modeWholesale.classList.remove('active');
+                this.updateYear(this.currentYear);
+            });
+        }
     }
 
     startAnimation() {
@@ -244,6 +274,8 @@ class WorldMap {
         codes.forEach(codeData => {
             const item = document.createElement('div');
             item.className = 'legend-item';
+            item.dataset.code = codeData.code;
+            item.title = 'Click to highlight countries';
 
             const colorBox = document.createElement('div');
             colorBox.className = 'legend-color';
@@ -256,7 +288,71 @@ class WorldMap {
             item.appendChild(colorBox);
             item.appendChild(label);
             legendContainer.appendChild(item);
+
+            item.addEventListener('click', () => this.onLegendClick(codeData.code));
         });
+    }
+
+    onLegendClick(code) {
+        if (this.highlightedCode === code) {
+            // Deselect
+            this.highlightedCode = null;
+            document.querySelectorAll('.legend-item').forEach(el => el.classList.remove('active', 'dimmed'));
+            this.hideCountryList();
+        } else {
+            // Select
+            this.highlightedCode = code;
+            document.querySelectorAll('.legend-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.code === code);
+                el.classList.toggle('dimmed', el.dataset.code !== code);
+            });
+            this.showCountryList(code);
+        }
+        this.updateYear(this.currentYear);
+    }
+
+    showCountryList(code) {
+        const structure = this.dataMode === 'primary'
+            ? dataLoader.data.marketStructurePrimary
+            : dataLoader.data.marketStructure;
+
+        const countries = Object.keys(structure || {})
+            .filter(c => structure[c].years?.[String(this.currentYear)] === code)
+            .sort();
+
+        let panel = document.getElementById('legend-country-list');
+        if (!panel) {
+            panel = document.createElement('div');
+            panel.id = 'legend-country-list';
+            document.querySelector('.legend').appendChild(panel);
+        }
+
+        const label = HELPERS.getMarketLabel(code);
+        panel.innerHTML = `
+            <div class="country-list-header">
+                <span class="country-list-code" style="background:${HELPERS.getMarketColor(code)}">${code}</span>
+                <strong>${label}</strong>
+                <span class="country-list-count">${countries.length} countries in ${this.currentYear}</span>
+                <button class="country-list-close">&times;</button>
+            </div>
+            <div class="country-list-names">${countries.map(c => `<span class="country-list-name" data-country="${c}">${c}</span>`).join('')}</div>
+        `;
+        panel.style.display = 'block';
+
+        panel.querySelector('.country-list-close').addEventListener('click', () => {
+            this.onLegendClick(this.highlightedCode);
+        });
+
+        panel.querySelectorAll('.country-list-name').forEach(el => {
+            el.addEventListener('click', () => {
+                if (window.countryModal) window.countryModal.show(el.dataset.country);
+            });
+        });
+    }
+
+    hideCountryList() {
+        const panel = document.getElementById('legend-country-list');
+        if (panel) panel.style.display = 'none';
     }
 }
 

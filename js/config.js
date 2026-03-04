@@ -5,14 +5,14 @@ const CONFIG = {
     marketColors: {
         '1a': '#d73027', // VIU State-owned - Dark Red
         '1b': '#fc8d59', // VIU Private - Orange
-        '2a': '#fee090', // SBM with generation - Light Yellow
-        '2b': '#e0f3f8', // SBM without generation - Light Blue
-        '3a': '#91bfdb', // Wholesale bilateral - Medium Blue
-        '3b': '#4575b4', // Wholesale pool - Dark Blue
-        '3c': '#74add1', // Wholesale cost-based - Light Blue
-        '3d': '#313695', // Wholesale bid-based - Navy
-        '4a': '#abd9e9', // Retail partial - Cyan
-        '4b': '#2c7bb6', // Retail full - Deep Blue
+        '2a': '#ffe566', // SBM with Generation - Light Yellow
+        '2b': '#d4a800', // SBM without Generation - Dark Yellow
+        '3a': '#a8c8f0', // Bilateral Trading - Light Blue
+        '3b': '#5b9bd5', // Bid-based Power Exchange - Medium Blue
+        '3c': '#2e6db4', // Cost-based Pool - Medium-Dark Blue
+        '3d': '#1a3a6b', // Bid-based Pool - Dark Blue
+        '4a': '#7dc97d', // Partial Retail - Light Green
+        '4b': '#2d7a2d', // Full Retail - Dark Green
         'none': '#cccccc' // No data - Gray
     },
 
