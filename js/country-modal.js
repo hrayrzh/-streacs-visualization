@@ -238,25 +238,18 @@ class CountryModal {
             ? dataLoader.getMarketCodePrimary(countryName, year)
             : dataLoader.getMarketCode(countryName, year);
 
-        const liberalizationScores = years.map(year => {
-            const code = getCode(year);
-            return HELPERS.getLiberalizationScore(code);
-        });
+        const yearCodes = years.map(year => getCode(year));
+        const liberalizationScores = yearCodes.map(code => HELPERS.getLiberalizationScore(code));
 
-        // Helper function to get color based on score
-        const getLibScoreColor = (score) => {
-            if (score <= 2) {
-                return 'rgba(215, 48, 39, 0.25)'; // Red - Low liberalization
-            } else if (score <= 4) {
-                return 'rgba(255, 193, 7, 0.35)'; // Orange/Yellow - Medium
-            } else if (score <= 7) {
-                return 'rgba(33, 150, 243, 0.25)'; // Light Blue - High
-            } else {
-                return 'rgba(13, 71, 161, 0.30)'; // Dark Blue - Full
-            }
+        // Helper: hex color → rgba with opacity
+        const hexToRgba = (hex, alpha) => {
+            const r = parseInt(hex.slice(1,3), 16);
+            const g = parseInt(hex.slice(3,5), 16);
+            const b = parseInt(hex.slice(5,7), 16);
+            return `rgba(${r},${g},${b},${alpha})`;
         };
 
-        // Custom plugin to draw background zones
+        // Custom plugin to draw background zones using map colors
         const backgroundZonesPlugin = {
             id: 'liberalizationBackground',
             beforeDraw: (chart, args, options) => {
@@ -266,25 +259,16 @@ class CountryModal {
 
                 ctx.save();
 
-                // Draw background zones for each year
                 years.forEach((year, index) => {
-                    const score = liberalizationScores[index];
-                    const color = getLibScoreColor(score);
+                    const hex = HELPERS.getMarketColor(yearCodes[index]);
+                    ctx.fillStyle = hexToRgba(hex, 0.35);
 
-                    // Get x positions for this year zone
                     const xStart = scales.x.getPixelForValue(index);
                     const xEnd = index < years.length - 1
                         ? scales.x.getPixelForValue(index + 1)
                         : chartArea.right;
 
-                    // Draw rectangle
-                    ctx.fillStyle = color;
-                    ctx.fillRect(
-                        xStart,
-                        chartArea.top,
-                        xEnd - xStart,
-                        chartArea.bottom - chartArea.top
-                    );
+                    ctx.fillRect(xStart, chartArea.top, xEnd - xStart, chartArea.bottom - chartArea.top);
                 });
 
                 ctx.restore();
@@ -320,40 +304,19 @@ class CountryModal {
                             generateLabels: function(chart) {
                                 const original = Chart.defaults.plugins.legend.labels.generateLabels(chart);
 
-                                // Add custom legend items for background liberalization levels
-                                original.push(
-                                    {
-                                        text: 'Market Liberalization (background):',
-                                        fillStyle: 'transparent',
-                                        strokeStyle: 'transparent',
-                                        fontColor: '#666',
-                                        lineWidth: 0
-                                    },
-                                    {
-                                        text: 'Low (1-2)',
-                                        fillStyle: 'rgba(215, 48, 39, 0.5)',
-                                        strokeStyle: 'rgba(215, 48, 39, 1)',
+                                // Add unique market codes for this country
+                                const seen = new Set();
+                                yearCodes.forEach((code, i) => {
+                                    if (!code || seen.has(code)) return;
+                                    seen.add(code);
+                                    const hex = HELPERS.getMarketColor(code);
+                                    original.push({
+                                        text: `${code}: ${HELPERS.getMarketLabel(code)}`,
+                                        fillStyle: hexToRgba(hex, 0.6),
+                                        strokeStyle: hex,
                                         lineWidth: 1
-                                    },
-                                    {
-                                        text: 'Medium (3-4)',
-                                        fillStyle: 'rgba(255, 193, 7, 0.6)',
-                                        strokeStyle: 'rgba(255, 193, 7, 1)',
-                                        lineWidth: 1
-                                    },
-                                    {
-                                        text: 'High (5-7)',
-                                        fillStyle: 'rgba(33, 150, 243, 0.5)',
-                                        strokeStyle: 'rgba(33, 150, 243, 1)',
-                                        lineWidth: 1
-                                    },
-                                    {
-                                        text: 'Full (8-9)',
-                                        fillStyle: 'rgba(13, 71, 161, 0.6)',
-                                        strokeStyle: 'rgba(13, 71, 161, 1)',
-                                        lineWidth: 1
-                                    }
-                                );
+                                    });
+                                });
 
                                 return original;
                             }
@@ -365,9 +328,9 @@ class CountryModal {
                         callbacks: {
                             afterLabel: function(context) {
                                 const index = context.dataIndex;
+                                const code = yearCodes[index];
                                 const score = liberalizationScores[index];
-                                const code = getCode(years[index]);
-                                return `Market: ${HELPERS.getMarketLabel(code)} (Score: ${score})`;
+                                return `Market: ${code} - ${HELPERS.getMarketLabel(code)} (Score: ${score})`;
                             }
                         }
                     }
