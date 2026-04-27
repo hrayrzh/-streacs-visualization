@@ -1156,6 +1156,24 @@ body {
         width: 100%;
     }
 
+    /* Mode toggle — full width, buttons share space equally */
+    .map-mode-toggle {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .mode-btn {
+        flex: 1;
+        padding: 10px 6px;
+        font-size: 0.85em;
+    }
+
+    /* Liberalization info badge stacks on mobile */
+    .lib-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     /* Country modal */
     .modal-content {
         width: 95%;
@@ -1261,6 +1279,11 @@ body {
 
     .main-header h1 {
         font-size: 1.8em;
+    }
+
+    .mode-btn {
+        padding: 8px 4px;
+        font-size: 0.78em;
     }
 
     .panel h2 {
