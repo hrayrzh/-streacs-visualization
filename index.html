@@ -46,6 +46,7 @@
                 <div class="map-mode-toggle">
                     <button id="mode-wholesale" class="mode-btn active">Wholesale</button>
                     <button id="mode-primary" class="mode-btn">Primary</button>
+                    <button id="mode-liberalization" class="mode-btn mode-btn--lib">Liberalization</button>
                 </div>
             </div>
 
@@ -56,6 +57,46 @@
             <div class="legend">
                 <h3>Market Structure Codes</h3>
                 <div id="market-legend"></div>
+            </div>
+
+            <!-- Liberalization Legend -->
+            <div id="lib-legend" class="lib-legend" style="display:none">
+                <h3 class="lib-legend__title">Year of Market Liberalization</h3>
+                <div class="lib-legend__scale">
+                    <div class="lib-legend__item">
+                        <span class="lib-legend__swatch" style="background:#053061"></span>
+                        <span>≤ 1990</span>
+                    </div>
+                    <div class="lib-legend__item">
+                        <span class="lib-legend__swatch" style="background:#2166ac"></span>
+                        <span>1991–1995</span>
+                    </div>
+                    <div class="lib-legend__item">
+                        <span class="lib-legend__swatch" style="background:#4393c3"></span>
+                        <span>1996–2000</span>
+                    </div>
+                    <div class="lib-legend__item">
+                        <span class="lib-legend__swatch" style="background:#74add1"></span>
+                        <span>2001–2005</span>
+                    </div>
+                    <div class="lib-legend__item">
+                        <span class="lib-legend__swatch" style="background:#f4a442"></span>
+                        <span>2006–2010</span>
+                    </div>
+                    <div class="lib-legend__item">
+                        <span class="lib-legend__swatch" style="background:#f46d43"></span>
+                        <span>2011–2015</span>
+                    </div>
+                    <div class="lib-legend__item">
+                        <span class="lib-legend__swatch" style="background:#d73027"></span>
+                        <span>2016–2024</span>
+                    </div>
+                    <div class="lib-legend__item">
+                        <span class="lib-legend__swatch" style="background:#d0d0d0; border: 1px solid #bbb;"></span>
+                        <span>Not liberalized / no data</span>
+                    </div>
+                </div>
+                <p class="lib-legend__note">70 countries have recorded liberalization year data</p>
             </div>
         </section>
 
@@ -88,6 +129,12 @@
                     <div class="detail-section">
                         <h3>Independent Power Producers (IPP)</h3>
                         <div id="ipp-info"></div>
+                    </div>
+
+                    <!-- Liberalization -->
+                    <div class="detail-section">
+                        <h3>Market Liberalization</h3>
+                        <div id="liberalization-info"></div>
                     </div>
 
                     <!-- VRE Penetration -->

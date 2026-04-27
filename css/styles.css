@@ -572,6 +572,102 @@ body {
     font-weight: bold;
 }
 
+/* Liberalization Mode Button */
+.mode-btn--lib {
+    border-left: 2px solid var(--secondary-color);
+}
+
+.mode-btn--lib.active {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Liberalization Legend */
+.lib-legend {
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--background);
+    border-radius: 8px;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.lib-legend__title {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--primary-color);
+    letter-spacing: 0.03em;
+    margin: 0;
+}
+
+.lib-legend__scale {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.lib-legend__item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 500;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    color: var(--text-color);
+    transition: box-shadow 0.2s;
+}
+
+.lib-legend__item:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.lib-legend__swatch {
+    width: 22px;
+    height: 14px;
+    border-radius: 3px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+/* Liberalization info block in modal */
+.lib-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.lib-info__badge {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.lib-info__details p {
+    margin: 4px 0;
+    font-size: 0.95em;
+}
+
+.lib-legend__note {
+    font-size: 0.8em;
+    color: #888;
+    margin: 0;
+    padding-top: 4px;
+    border-top: 1px solid var(--border-color);
+}
+
 /* Footer */
 .main-footer {
     background: var(--primary-color);

@@ -9,7 +9,7 @@ class WorldMap {
         this.currentYear = 2024;
         this.playing = false;
         this.playInterval = null;
-        this.dataMode = 'wholesale'; // 'wholesale' or 'primary'
+        this.dataMode = 'wholesale'; // 'wholesale', 'primary', or 'liberalization'
         this.highlightedCode = null; // active legend filter
 
         // Map TopoJSON country names to our data names
@@ -126,11 +126,26 @@ class WorldMap {
         return countryName;
     }
 
+    getLiberalizationColor(year) {
+        if (!year) return '#d0d0d0';
+        if (year <= 1990) return '#053061';
+        if (year <= 1995) return '#2166ac';
+        if (year <= 2000) return '#4393c3';
+        if (year <= 2005) return '#74add1';
+        if (year <= 2010) return '#f4a442';
+        if (year <= 2015) return '#f46d43';
+        return '#d73027';
+    }
+
     getCountryColor(countryName, year) {
         const normalizedName = this.normalizeName(countryName);
-        if (!normalizedName) {
-            return CONFIG.marketColors['none'];
+        if (!normalizedName) return CONFIG.marketColors['none'];
+
+        if (this.dataMode === 'liberalization') {
+            const libYear = dataLoader.getLiberalizationYear(normalizedName);
+            return this.getLiberalizationColor(libYear);
         }
+
         const code = this.dataMode === 'primary'
             ? dataLoader.getMarketCodePrimary(normalizedName, year)
             : dataLoader.getMarketCode(normalizedName, year);
@@ -142,9 +157,15 @@ class WorldMap {
 
     getCountryTooltip(countryName, year) {
         const normalizedName = this.normalizeName(countryName);
-        if (!normalizedName) {
-            return `${countryName}\nNo data available`;
+        if (!normalizedName) return `${countryName}\nNo data available`;
+
+        if (this.dataMode === 'liberalization') {
+            const libYear = dataLoader.getLiberalizationYear(normalizedName);
+            return libYear
+                ? `${countryName}\nLiberalized: ${libYear}`
+                : `${countryName}\nNot liberalized / no data`;
         }
+
         const code = this.dataMode === 'primary'
             ? dataLoader.getMarketCodePrimary(normalizedName, year)
             : dataLoader.getMarketCode(normalizedName, year);
@@ -163,11 +184,16 @@ class WorldMap {
             return;
         }
 
-        // Check if country has data
-        const hasData = dataLoader.getMarketCode(normalizedName, this.currentYear);
-        if (!hasData) {
-            console.log('No market data for:', normalizedName);
-            return;
+        // In liberalization mode allow click if lib data exists, else check market data
+        if (this.dataMode === 'liberalization') {
+            const libYear = dataLoader.getLiberalizationYear(normalizedName);
+            if (!libYear) return;
+        } else {
+            const hasData = dataLoader.getMarketCode(normalizedName, this.currentYear);
+            if (!hasData) {
+                console.log('No market data for:', normalizedName);
+                return;
+            }
         }
 
         // Open country modal
@@ -223,22 +249,34 @@ class WorldMap {
         // Mode toggle buttons
         const modeWholesale = document.getElementById('mode-wholesale');
         const modePrimary = document.getElementById('mode-primary');
+        const modeLib = document.getElementById('mode-liberalization');
+        const timelineControls = document.querySelector('.timeline-controls');
+        const marketLegend = document.querySelector('.legend');
 
-        if (modeWholesale && modePrimary) {
-            modeWholesale.addEventListener('click', () => {
-                this.dataMode = 'wholesale';
-                modeWholesale.classList.add('active');
-                modePrimary.classList.remove('active');
-                this.updateYear(this.currentYear);
-            });
+        const setMode = (mode) => {
+            this.dataMode = mode;
+            [modeWholesale, modePrimary, modeLib].forEach(btn => btn && btn.classList.remove('active'));
+            const activeBtn = { wholesale: modeWholesale, primary: modePrimary, liberalization: modeLib }[mode];
+            if (activeBtn) activeBtn.classList.add('active');
 
-            modePrimary.addEventListener('click', () => {
-                this.dataMode = 'primary';
-                modePrimary.classList.add('active');
-                modeWholesale.classList.remove('active');
-                this.updateYear(this.currentYear);
-            });
-        }
+            const isLib = mode === 'liberalization';
+            slider.style.visibility = isLib ? 'hidden' : '';
+            playBtn.style.visibility = isLib ? 'hidden' : '';
+            document.querySelector('.timeline-controls label').style.visibility = isLib ? 'hidden' : '';
+
+            marketLegend.style.display = isLib ? 'none' : '';
+            document.getElementById('lib-legend').style.display = isLib ? 'flex' : 'none';
+
+            if (isLib) {
+                this.stopAnimation();
+                playBtn.textContent = 'Play';
+            }
+            this.updateYear(this.currentYear);
+        };
+
+        if (modeWholesale) modeWholesale.addEventListener('click', () => setMode('wholesale'));
+        if (modePrimary) modePrimary.addEventListener('click', () => setMode('primary'));
+        if (modeLib) modeLib.addEventListener('click', () => setMode('liberalization'));
     }
 
     startAnimation() {

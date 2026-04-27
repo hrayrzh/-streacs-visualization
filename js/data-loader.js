@@ -9,6 +9,7 @@ class DataLoader {
             ipp: null,
             unbundling: null,
             vre: null,
+            liberalization: null,
             definitions: null,
             codes: null,
             worldMap: null
@@ -85,6 +86,15 @@ class DataLoader {
             } catch (error) {
                 console.warn('VRE data not found');
                 this.data.vre = [];
+            }
+
+            // Load liberalization data
+            try {
+                this.data.liberalization = await this.loadJSON('data/liberalization.json');
+                console.log('✓ Liberalization data loaded:', Object.keys(this.data.liberalization).length, 'countries');
+            } catch (error) {
+                console.warn('Liberalization data not found');
+                this.data.liberalization = {};
             }
 
             // Load world map
@@ -303,6 +313,12 @@ class DataLoader {
     getCountries() {
         if (!this.data.marketStructure) return [];
         return Object.keys(this.data.marketStructure).sort();
+    }
+
+    // Get liberalization year for country
+    getLiberalizationYear(country) {
+        if (!this.data.liberalization) return null;
+        return this.data.liberalization[country] || null;
     }
 
     // Get VRE data for country

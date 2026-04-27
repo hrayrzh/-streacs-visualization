@@ -57,6 +57,9 @@ class CountryModal {
         // Load market evolution
         this.displayMarketEvolution(countryName);
 
+        // Load liberalization info
+        this.displayLiberalizationInfo(countryName);
+
         // Load regulator info
         this.displayRegulatorInfo(countryName);
 
@@ -114,6 +117,45 @@ class CountryModal {
         container.innerHTML = html;
     }
 
+    displayLiberalizationInfo(countryName) {
+        const container = document.getElementById('liberalization-info');
+        const libYear = dataLoader.getLiberalizationYear(countryName);
+
+        if (!libYear) {
+            container.innerHTML = '<p>No liberalization data recorded for this country</p>';
+            return;
+        }
+
+        const vreAtLib = dataLoader.getVREData(countryName)
+            .find(d => d.Year === libYear);
+        const vrePct = vreAtLib
+            ? vreAtLib['Solar and wind - % electricity'].toFixed(1) + '%'
+            : 'No data';
+
+        const colorMap = { 1988:0, 1990:0, 1995:1, 2000:2, 2005:3, 2010:4, 2015:5, 9999:6 };
+        const colors = ['#053061','#2166ac','#4393c3','#74add1','#f4a442','#f46d43','#d73027'];
+        let idx = 6;
+        if (libYear <= 1990) idx = 0;
+        else if (libYear <= 1995) idx = 1;
+        else if (libYear <= 2000) idx = 2;
+        else if (libYear <= 2005) idx = 3;
+        else if (libYear <= 2010) idx = 4;
+        else if (libYear <= 2015) idx = 5;
+        const badgeColor = colors[idx];
+
+        container.innerHTML = `
+            <div class="lib-info">
+                <div class="lib-info__badge" style="background:${badgeColor}">
+                    ${libYear}
+                </div>
+                <div class="lib-info__details">
+                    <p><strong>Year of liberalization:</strong> ${libYear}</p>
+                    <p><strong>Solar &amp; Wind share at liberalization:</strong> ${vrePct}</p>
+                </div>
+            </div>
+        `;
+    }
+
     displayRegulatorInfo(countryName) {
         const container = document.getElementById('regulator-info');
         const regulatorData = dataLoader.data.regulators?.[countryName];
@@ -158,9 +200,10 @@ class CountryModal {
         const data = unbundlingInfo[countryName];
 
         if (!data) {
-            container.innerHTML = '<p>No unbundling data available</p>';
+            container.closest('.detail-section').style.display = 'none';
             return;
         }
+        container.closest('.detail-section').style.display = '';
 
         const html = `
             <p><strong>Transmission:</strong> ${data.transmission}</p>
